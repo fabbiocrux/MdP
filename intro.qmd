@@ -11,5 +11,6 @@ See @knuth84 for additional discussion of literate programming.
 Lecture Slides
 
 ```{=html}
-<iframe class="slide-deck" src="slides/01-Cinematique-du-point.html"></iframe>
+<iframe class="slide-deck" src="slides/01-Cinematique-du-point.html" width="100%"
+    height="500"></iframe>
 ```
