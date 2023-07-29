@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Mécanique du Point"
+  author: 
+    - "Fabio CRUZ"
+    - "Guillaume Pronots"
+  date: "7/29/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  # pdf:
+  #   documentclass: scrreprt
+
+
+
