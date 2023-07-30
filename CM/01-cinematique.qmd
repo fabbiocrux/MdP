@@ -1,0 +1,21 @@
+---
+title: "Cinematique de Point"
+---
+
+
+## Presentation
+
+
+```{=html}
+<iframe class="slide-deck" src="slides/chapter-1.html" width="100%"
+    height="500"></iframe>
+```
+
+
+
+ss
+
+## Lecture obligatoire
+
+
+## References aditionel

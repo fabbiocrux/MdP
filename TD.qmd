@@ -1,0 +1,9 @@
+---
+title: "Cours Magistraux"
+subtitle: "Mécanique du Point"
+#page-layout: full
+toc: true
+---
+
+## Presentations
+

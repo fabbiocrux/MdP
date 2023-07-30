@@ -1,0 +1,13 @@
+---
+title: "Cours Magistraux"
+subtitle: "Mécanique du Point"
+#page-layout: full
+toc: true
+---
+
+## Planning des Séances
+
+## Notes
+
+
+## Bibliographie

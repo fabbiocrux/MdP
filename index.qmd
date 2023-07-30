@@ -1,9 +1,33 @@
-# Preface {.unnumbered}
+---
+sidebar: false
+---
 
-This is a Quarto book.
+:::: {.hero-banner}
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
 
-```{r}
-1 + 1
-```
+::: {.content-block}
+
+::: {.hero-text}
+
+# Bienvenue au Cours de Mécanique du Point
+
+### Competences attendus à la fin de ce cours
+
+
+### Analyze. Share. Reproduce. You have a story to tell with data---tell it with Quarto.
+
+::: {.hero-buttons}
+[Cours Magistraux](CM/){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="button"}
+[Guide de Travaux Dirigés](TD/){#btn-guide .btn-action .btn .btn-info .btn-lg role="button"}
+::: 
+:::
+
+::: {.hero-animation}
+
+
+:::
+
+:::
+
+
+::::

@@ -2,16 +2,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Mécanique du Point",
+    "title": "Bienvenue au Cours de Mécanique du Point",
     "section": "",
-    "text": "Preface\nThis is a Quarto book.\nTo learn more about Quarto books visit https://quarto.org/docs/books.\n\n1 + 1\n\n[1] 2"
+    "text": "Bienvenue au Cours de Mécanique du Point\n\nCompetences attendus à la fin de ce cours\n\n\nAnalyze. Share. Reproduce. You have a story to tell with data—tell it with Quarto.\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "Revealjs",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\nLecture Slides\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "Introduction\nThis is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\nReferences\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
   },
   {
     "objectID": "summary.html",
@@ -26,5 +26,278 @@
     "title": "References",
     "section": "",
     "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+  },
+  {
+    "objectID": "slides/01-Cinematique/index.html#technology-readiness-maturity",
+    "href": "slides/01-Cinematique/index.html#technology-readiness-maturity",
+    "title": "Flash Course:Technological watch and prospective",
+    "section": "1.1 Technology Readiness → Maturity",
+    "text": "1.1 Technology Readiness → Maturity\nThe industrial emergence mapping framework.\n\nPhaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. https://doi.org/10.1016/j.techfore.2010.06.018"
+  },
+  {
+    "objectID": "CM/index.html",
+    "href": "CM/index.html",
+    "title": "Cours Magistraux",
+    "section": "",
+    "text": "Presentations"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html",
+    "href": "CM/01-Cinematique.html",
+    "title": "Cinematique de Point",
+    "section": "",
+    "text": "ss"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#bi",
+    "href": "CM/01-Cinematique.html#bi",
+    "title": "Cinematique de Point",
+    "section": "Bi",
+    "text": "Bi"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#biblio",
+    "href": "CM/01-Cinematique.html#biblio",
+    "title": "Cinematique de Point",
+    "section": "Biblio",
+    "text": "Biblio"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#lecture-obligatoire",
+    "href": "CM/01-Cinematique.html#lecture-obligatoire",
+    "title": "Cinematique de Point",
+    "section": "Lecture obligatoire",
+    "text": "Lecture obligatoire"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#add",
+    "href": "CM/01-Cinematique.html#add",
+    "title": "Cinematique de Point",
+    "section": "Add",
+    "text": "Add"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#references-a",
+    "href": "CM/01-Cinematique.html#references-a",
+    "title": "Cinematique de Point",
+    "section": "References a",
+    "text": "References a"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#references-aditionel",
+    "href": "CM/01-Cinematique.html#references-aditionel",
+    "title": "Cinematique de Point",
+    "section": "References aditionel",
+    "text": "References aditionel"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#presentation-de-la-journé",
+    "href": "CM/01-Cinematique.html#presentation-de-la-journé",
+    "title": "Cinematique de Point",
+    "section": "",
+    "text": "ss"
+  },
+  {
+    "objectID": "CM.html#planning-des-séances-1",
+    "href": "CM.html#planning-des-séances-1",
+    "title": "Cours Magistraux",
+    "section": "Planning des Séances",
+    "text": "Planning des Séances"
+  },
+  {
+    "objectID": "CM.html#notes",
+    "href": "CM.html#notes",
+    "title": "Cours Magistraux",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "CM.html#notes-1",
+    "href": "CM.html#notes-1",
+    "title": "Cours Magistraux",
+    "section": "Notes",
+    "text": "Notes"
+  },
+  {
+    "objectID": "CM.html#bibliography",
+    "href": "CM.html#bibliography",
+    "title": "Cours Magistraux",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "CM.html#bibliographie",
+    "href": "CM.html#bibliographie",
+    "title": "Cours Magistraux",
+    "section": "Bibliographie",
+    "text": "Bibliographie"
+  },
+  {
+    "objectID": "CM/01-Cinematique.html#presentation",
+    "href": "CM/01-Cinematique.html#presentation",
+    "title": "Cinematique de Point",
+    "section": "",
+    "text": "ss"
+  },
+  {
+    "objectID": "slides/01-Cinematique/index.html",
+    "href": "slides/01-Cinematique/index.html",
+    "title": "Mécanique du Point",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "CM/slides/chapter-1.html#technology-readiness-maturity",
+    "href": "CM/slides/chapter-1.html#technology-readiness-maturity",
+    "title": "Flash Course:Technological watch and prospective",
+    "section": "1.1 Technology Readiness → Maturity",
+    "text": "1.1 Technology Readiness → Maturity\nThe industrial emergence mapping framework.\n\nPhaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. https://doi.org/10.1016/j.techfore.2010.06.018"
+  },
+  {
+    "objectID": "CM/01-cinematique.html",
+    "href": "CM/01-cinematique.html",
+    "title": "Cinematique de Point",
+    "section": "",
+    "text": "ss"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#presentation",
+    "href": "CM/01-cinematique.html#presentation",
+    "title": "Cinematique de Point",
+    "section": "",
+    "text": "ss"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#lecture-obligatoire",
+    "href": "CM/01-cinematique.html#lecture-obligatoire",
+    "title": "Cinematique de Point",
+    "section": "Lecture obligatoire",
+    "text": "Lecture obligatoire"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#references-aditionel",
+    "href": "CM/01-cinematique.html#references-aditionel",
+    "title": "Cinematique de Point",
+    "section": "References aditionel",
+    "text": "References aditionel"
+  },
+  {
+    "objectID": "TD/01-TD.html",
+    "href": "TD/01-TD.html",
+    "title": "TD 1: Referentiel",
+    "section": "",
+    "text": "THis ies a presentations\n\nss"
+  },
+  {
+    "objectID": "TD/01-TD.html#presentation-de-la-journé",
+    "href": "TD/01-TD.html#presentation-de-la-journé",
+    "title": "TD 1: Referentiel",
+    "section": "",
+    "text": "THis ies a presentations\n\nss"
+  },
+  {
+    "objectID": "TD/01-TD.html#lecture-obligatoire",
+    "href": "TD/01-TD.html#lecture-obligatoire",
+    "title": "TD 1: Referentiel",
+    "section": "Lecture obligatoire",
+    "text": "Lecture obligatoire"
+  },
+  {
+    "objectID": "TD/01-TD.html#references-aditionel",
+    "href": "TD/01-TD.html#references-aditionel",
+    "title": "TD 1: Referentiel",
+    "section": "References aditionel",
+    "text": "References aditionel"
+  },
+  {
+    "objectID": "TD/02-TD.html",
+    "href": "TD/02-TD.html",
+    "title": "TD 2: XXX",
+    "section": "",
+    "text": "THis ies a presentations\n\nss"
+  },
+  {
+    "objectID": "TD/02-TD.html#presentation-de-la-journé",
+    "href": "TD/02-TD.html#presentation-de-la-journé",
+    "title": "TD 2: XXX",
+    "section": "",
+    "text": "THis ies a presentations\n\nss"
+  },
+  {
+    "objectID": "TD/02-TD.html#lecture-obligatoire",
+    "href": "TD/02-TD.html#lecture-obligatoire",
+    "title": "TD 2: XXX",
+    "section": "Lecture obligatoire",
+    "text": "Lecture obligatoire"
+  },
+  {
+    "objectID": "TD/02-TD.html#references-aditionel",
+    "href": "TD/02-TD.html#references-aditionel",
+    "title": "TD 2: XXX",
+    "section": "References aditionel",
+    "text": "References aditionel"
+  },
+  {
+    "objectID": "TD/03-TD.html",
+    "href": "TD/03-TD.html",
+    "title": "TD 3: YYYY",
+    "section": "",
+    "text": "THis ies a presentations\nss"
+  },
+  {
+    "objectID": "TD/03-TD.html#presentation-de-la-journé",
+    "href": "TD/03-TD.html#presentation-de-la-journé",
+    "title": "TD 3: YYYY",
+    "section": "",
+    "text": "THis ies a presentations\n\nss"
+  },
+  {
+    "objectID": "TD/03-TD.html#lecture-obligatoire",
+    "href": "TD/03-TD.html#lecture-obligatoire",
+    "title": "TD 3: YYYY",
+    "section": "Lecture obligatoire",
+    "text": "Lecture obligatoire"
+  },
+  {
+    "objectID": "TD/03-TD.html#references-aditionel",
+    "href": "TD/03-TD.html#references-aditionel",
+    "title": "TD 3: YYYY",
+    "section": "References aditionel",
+    "text": "References aditionel"
+  },
+  {
+    "objectID": "TD/03-TD.html#presentation",
+    "href": "TD/03-TD.html#presentation",
+    "title": "TD 3: YYYY",
+    "section": "",
+    "text": "THis ies a presentations\nss"
+  },
+  {
+    "objectID": "TD/01-TD.html#references-bibliographiquyesaditionel",
+    "href": "TD/01-TD.html#references-bibliographiquyesaditionel",
+    "title": "TD 1: Referentiel",
+    "section": "References bibliographiquyesaditionel",
+    "text": "References bibliographiquyesaditionel"
+  },
+  {
+    "objectID": "TD/01-TD.html#references-bibliographiques",
+    "href": "TD/01-TD.html#references-bibliographiques",
+    "title": "TD 1: Referentiel",
+    "section": "References bibliographiques",
+    "text": "References bibliographiques"
+  },
+  {
+    "objectID": "TD/02-TD.html#references-bibliographiques",
+    "href": "TD/02-TD.html#references-bibliographiques",
+    "title": "TD 2: XXX",
+    "section": "References bibliographiques",
+    "text": "References bibliographiques"
+  },
+  {
+    "objectID": "TD/03-TD.html#references-bibliographiques",
+    "href": "TD/03-TD.html#references-bibliographiques",
+    "title": "TD 3: YYYY",
+    "section": "References bibliographiques",
+    "text": "References bibliographiques"
   }
 ]
