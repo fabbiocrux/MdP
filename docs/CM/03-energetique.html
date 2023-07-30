@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mécanique du Point - Cours Magistraux</title>
+<title>Mécanique du Point - Dynamique</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<link href="../CM/04-mecanique.html" rel="next">
+<link href="../CM/02-dynamique.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,6 +63,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -70,8 +73,11 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../cover.png" alt="Quarto logo." class="navbar-logo">
+    </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">true</span>
+    <span class="navbar-title">Mécanique du Point</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -81,15 +87,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../CM/index.html" rel="" target="">
- <span class="menu-text">Cours Magistral</span></a>
+    <a class="nav-link active" href="../CM.html" rel="" target="" aria-current="page">
+ <span class="menu-text">Cours Magistraux</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../CM/index.html" rel="" target="">
+    <a class="nav-link" href="../TD.html" rel="" target="">
  <span class="menu-text">Travaux Dirigés</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -97,8 +103,8 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Aide</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-aide">    
-        <li class="dropdown-header">Report a Bug</li>
-        <li class="dropdown-header">Ask a Question</li>
+        <li class="dropdown-header">Report un Erreur</li>
+        <li class="dropdown-header">Demandez une Question</li>
         <li class="dropdown-header">FAQ</li>
     </ul>
   </li>
@@ -115,7 +121,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Cours Magistraux</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../CM/03-energetique.html">Dynamique</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -129,37 +135,48 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Bienvenue au Cours de Mécanique du Point</span></a>
+  <a href="../CM.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cours Magistraux</span></a>
   </div>
 </li>
         <li class="sidebar-item">
- <span class="menu-text">01-Cinematique.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../CM/01-cinematique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Cinematique de Point</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
- <span class="menu-text">02-Energetique.qmd</span>
-  </li>
+  <div class="sidebar-item-container"> 
+  <a href="../CM/02-dynamique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Dynamique</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CM/03-energetique.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Dynamique</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../CM/04-mecanique.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mécanique du Solide Indeformable</span></a>
+  </div>
+</li>
     </ul>
     </div>
 </nav>
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#presentations" id="toc-presentations" class="nav-link active" data-scroll-target="#presentations">Presentations</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Cours Magistraux</h1>
-<p class="subtitle lead">Mécanique du Point</p>
+<h1 class="title">Dynamique</h1>
 </div>
 
 
@@ -174,13 +191,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="presentations" class="level2">
-<h2 class="anchored" data-anchor-id="presentations">Presentations</h2>
 
 
-</section>
 
-</main> <!-- /main -->
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -414,6 +428,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="../CM/02-dynamique.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Dynamique</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="../CM/04-mecanique.html" class="pagination-link">
+        <span class="nav-page-text">Mécanique du Solide Indeformable</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
