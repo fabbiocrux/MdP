@@ -89,9 +89,11 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - litera
+      - assets/custom.scss
     toc: true
-    css: styles.css  
+    #css: assets/styles.css  
   # pdf:
   #   documentclass: scrreprt
 
