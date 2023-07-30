@@ -11,10 +11,6 @@ title: "Cinematique de Point"
     height="500"></iframe>
 ```
 
-
-
-ss
-
 ## Lecture obligatoire
 
 
