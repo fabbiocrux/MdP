@@ -1,24 +1,109 @@
 project:
-  type: book
+  type: website
   output-dir: docs
 
-book:
+website:
   title: "Mécanique du Point"
-  author: 
-    - "Fabio CRUZ"
-    - "Guillaume Pronots"
-  date: "7/29/2023"
-  chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+  site-url: ""
+  repo-url: https://github.com/fabbiocrux/MdP
+  page-navigation: true
+ # bread-crumbs: true
+  search:
+    type: overlay  
+  page-footer:
+    left: |
+      Développé par 
+      [![](https://raw.githubusercontent.com/fabbiocrux/Figures/main/Logos/ENSGSI/2022/Lorraine%20INP%20ENSGSI%20RS%20(couleur%2C%20CMJN).png){fig-alt="ENSGSI" width=65px}](https://www.ensgsi.univ-lorraine.fr/)
+    center:
+      - text: "About"
+#        href: about.qmd
+      - text: "FAQ"
+#        href: docs/faq/index.qmd
+      - text: "License"
+#        href: license.qmd
+      - text: "Trademark"
+#        href: trademark.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/fabbiocrux
+        aria-label: Quarto Twitter
+      - icon: github
+        href: https://github.com/quarto-dev/quarto-cli
+        aria-label: Quarto GitHub
+      - icon: rss
+        href: https://quarto.org/docs/blog/index.xml
+        aria-label: Quarto Blog RSS        
+  navbar:
+    background: light
+#    logo: quarto.png
+    logo-alt: "Quarto logo."
+    title: false
+    collapse-below: lg
+    left:
+      - text: "Syllabus du Cours"
+        href: index.qmd
+      - text: "Presentations"
+#        href: docs/get-started/index.qmd    
+      - text: "Travaux Dirigés"
+#        href: docs/get-started/index.qmd
+      - text: "Aide"
+        menu:
+          - text: "Report a Bug"
+            icon: "bug"
+#            href: "https://github.com/quarto-dev/quarto-cli/issues"
+          - text: "Ask a Question"
+            icon: "chat-right-text"
+#            href: "https://github.com/quarto-dev/quarto-cli/discussions"
+          - text: "FAQ"
+            icon: "question-circle"
+#            href: docs/faq/index.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com/fabbiocrux
+        text: Quarto Twitter
+      - icon: github
+        href: https://github.com/fabbiocrux/MdP
+        text: MdP GitHub
+      # - icon: rss
+      #   href: https://quarto.org/docs/blog/index.xml
+      #   text: Quarto Blog RSS        
+  sidebar:
+    - id: get-started
+      title: "Get Started"
+      style: "floating"
+      collapse-level: 2
+      align: left
+      contents:
+        - docs/get-started/index.qmd
+        - text: "Tutorial: Hello, Quarto"
+#          href: docs/get-started/hello/
+        - text: "Tutorial: Computations"
+#          href: docs/get-started/computations/
+        - text: "Tutorial: Authoring"
+#          href: docs/get-started/authoring/
+        
+  # chapters:
+  #   - index.qmd
+  #   - intro.qmd
+  #   - summary.qmd
+  #   - references.qmd
 
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    toc: true
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+#    include-after-body: js.html
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+
   # pdf:
   #   documentclass: scrreprt
 
