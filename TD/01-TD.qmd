@@ -1,23 +1,34 @@
 ---
 title: "TD 1: Referentiel de mouvement"
 subtitle: "Objectif: Comprendre les différences entre les notions de coordonnées de **base de  projection** et de **référentiel**"
+# format:
+#   html:
+#     number-sections: true
 format:
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
   html:
     number-sections: true
-# format:
-#   pdf:
-#     toc: true
-#     number-sections: true
-#     colorlinks: true
 ---
 
+::: {.hero-buttons}
+[Telechargez ce TD comme pdf](/01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
+::: 
 
-## Lecture obligatoire
-
-## Exercise 1: 
 
 
-## Exercise 3: Combinaison mouvement lineaire et mouvement 
+# Lecture obligatoire
+
+This is the lecture 
+
+
+
+# Exercise 1: 
+
+
+# Exercise 3: Combinaison mouvement lineaire et mouvement 
 
 Il est impératif de bien comprendre qu'on peut exprimer une vitesse relative à relative à un référentiel.
 Le mouvement d’un point est donc relatif à un observateur fixe dans un référentiel d’étude.
@@ -102,8 +113,7 @@ t <- seq(0, 4*pi, by = pi / 180)
 
 
 
-
-
+Entonces thi is the other
 
 
 ## References bibliographiques 
