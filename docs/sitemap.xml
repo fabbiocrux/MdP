@@ -1,47 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/TD/01-TD.html</loc>
-    <lastmod>2023-07-31T23:26:08.181Z</lastmod>
-  </url>
-  <url>
-    <loc>/TD/03-TD.html</loc>
-    <lastmod>2023-07-31T22:24:12.605Z</lastmod>
-  </url>
-  <url>
-    <loc>/TD/02-TD.html</loc>
-    <lastmod>2023-07-31T22:49:30.826Z</lastmod>
-  </url>
-  <url>
-    <loc>/CM/03-energetique.html</loc>
-    <lastmod>2023-07-31T22:24:13.482Z</lastmod>
-  </url>
-  <url>
-    <loc>/CM/04-mecanique.html</loc>
-    <lastmod>2023-07-31T22:24:13.932Z</lastmod>
-  </url>
-  <url>
-    <loc>/CM/slides/chapter-1/index.html</loc>
-    <lastmod>2023-07-31T22:24:14.546Z</lastmod>
-  </url>
-  <url>
-    <loc>/CM/02-dynamique.html</loc>
-    <lastmod>2023-07-31T22:24:15.007Z</lastmod>
-  </url>
-  <url>
-    <loc>/CM/01-cinematique.html</loc>
-    <lastmod>2023-07-31T22:24:15.569Z</lastmod>
-  </url>
-  <url>
-    <loc>/references.html</loc>
-    <lastmod>2023-07-31T22:24:16.022Z</lastmod>
+    <loc>/CM.html</loc>
+    <lastmod>2023-07-31T23:29:20.728Z</lastmod>
   </url>
   <url>
     <loc>/TD.html</loc>
-    <lastmod>2023-07-31T23:14:47.870Z</lastmod>
+    <lastmod>2023-07-31T23:29:21.148Z</lastmod>
+  </url>
+  <url>
+    <loc>/TD/01-TD.html</loc>
+    <lastmod>2023-07-31T23:29:53.307Z</lastmod>
+  </url>
+  <url>
+    <loc>/TD/03-TD.html</loc>
+    <lastmod>2023-07-31T23:29:25.383Z</lastmod>
+  </url>
+  <url>
+    <loc>/TD/02-TD.html</loc>
+    <lastmod>2023-07-31T23:29:25.794Z</lastmod>
   </url>
   <url>
     <loc>/index.html</loc>
-    <lastmod>2023-07-31T23:14:45.043Z</lastmod>
+    <lastmod>2023-07-31T23:29:26.340Z</lastmod>
+  </url>
+  <url>
+    <loc>/CM/03-energetique.html</loc>
+    <lastmod>2023-07-31T23:29:26.760Z</lastmod>
+  </url>
+  <url>
+    <loc>/CM/04-mecanique.html</loc>
+    <lastmod>2023-07-31T23:29:27.165Z</lastmod>
+  </url>
+  <url>
+    <loc>/CM/slides/chapter-1/index.html</loc>
+    <lastmod>2023-07-31T23:29:27.689Z</lastmod>
+  </url>
+  <url>
+    <loc>/CM/02-dynamique.html</loc>
+    <lastmod>2023-07-31T23:29:28.181Z</lastmod>
+  </url>
+  <url>
+    <loc>/CM/01-cinematique.html</loc>
+    <lastmod>2023-07-31T23:29:28.734Z</lastmod>
+  </url>
+  <url>
+    <loc>/references.html</loc>
+    <lastmod>2023-07-31T23:29:29.137Z</lastmod>
   </url>
 </urlset>

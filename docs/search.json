@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "TD/01-TD.html#exercise-1",
-    "href": "TD/01-TD.html#exercise-1",
-    "title": "TD 1: Referentiel de mouvement",
-    "section": "2 Exercise 1:",
-    "text": "2 Exercise 1:"
+    "objectID": "CM.html#notes",
+    "href": "CM.html#notes",
+    "title": "Cours Magistraux",
+    "section": "Notes",
+    "text": "Notes"
   },
   {
-    "objectID": "TD/01-TD.html#exercise-3-combinaison-mouvement-lineaire-et-mouvement",
-    "href": "TD/01-TD.html#exercise-3-combinaison-mouvement-lineaire-et-mouvement",
+    "objectID": "CM.html#bibliographie",
+    "href": "CM.html#bibliographie",
+    "title": "Cours Magistraux",
+    "section": "Bibliographie",
+    "text": "Bibliographie"
+  },
+  {
+    "objectID": "TD/01-TD.html",
+    "href": "TD/01-TD.html",
     "title": "TD 1: Referentiel de mouvement",
-    "section": "2.1 Exercise 3: Combinaison mouvement lineaire et mouvement",
-    "text": "2.1 Exercise 3: Combinaison mouvement lineaire et mouvement\nIl est impératif de bien comprendre qu’on peut exprimer une vitesse relative à relative à un référentiel. Le mouvement d’un point est donc relatif à un observateur fixe dans un référentiel d’étude.\n\n\n\n\n\n\nTip\n\n\n\nUn référentiel (ou solide de référence) est un ensemble de points tous fixes les uns par rapport aux autres. L’observateur qui étudie le mouvement d’un point est lui-même immobile dans ce référentiel.\n\n\nSi l’on considère une vitesse liée à un référentiel fixe, il faut comprendre qu’il est parfois plus simple d’exprimer celle-ci sur une base tournante.\n\nRappel: Un vecteur peut changer dans le termps en “tournant”, il faut toujours savoir dans quel réferentiel on dérive un vecteur\n\n\n2.1.1 Problème\n\n\n2.1.2 Analyse Cartesiène\nOn note \\(R_{C}\\) le référentiel associé aux coordonnées cartésiennes. La vitesse angulaire \\(\\omega\\), exprimé en \\(\\frac{rad}{s}\\), correspond à la vittese angulaire du disque par rapport au referentiel \\(R_{C}\\). Pendant un temp \\(dt\\), le disque tourne de \\(d\\theta\\), donc cela correspond à:\n\\[\n\\dfrac{d\\theta}{dt} = \\omega\n\\]\nen faisant l’integral, nous avons:\n\\[\n\\theta = \\omega t + \\text{const} \\quad\\rightarrow\\quad \\text{const} = 0 \\text{ car } \\theta = 0  \\text{ à } t=0\n\\]\nMaintenant, $v_{0}, exprimée en \\(\\dfrac{m}{s}\\) $ correspond à la vitesse de la fourmi par rapport au disque. Dans \\(R_{tournant}\\), le mouvement de la fourmi est rectiligne. Pendant \\(dt\\), la fourmi parcourt \\(dr\\) dans \\(R_{tournant}\\), donc:\n\\[\n\\dfrac{dr}{dt} = v_{0}\n\\]\nen faisant l’integral, nous avons:\n\\[\nr = v_{0} t + \\text{const} \\quad\\rightarrow\\quad \\text{const} = 0 \\text{ car } r = 0  \\text{ à } t = 0\n\\]\nEn fait, ce n’est pas rigoureaux car \\(\\theta\\) ne peut pas être définis à \\(t=0\\). Finalement\n\\[\nr = \\dfrac{v_{0}}{\\omega}\\theta\n\\]"
+    "section": "",
+    "text": "adding the TD"
   },
   {
     "objectID": "TD/01-TD.html#references-bibliographiques",
@@ -49,6 +56,13 @@
     "text": "References bibliographiques"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "\n             Mécanique du Point\n         ",
+    "section": "",
+    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             La vitesse n’a jamais tué personne. Se retrouver brusquement immobile, c’est ça qui vous tue. - Jeremy Clarkson, Top Gear Université de Lorraine\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\nInstructor\n\n   Guillaume Pronost\n   Dr. Fabio A Cruz\n   ENSGSI\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\nCourse details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
     "objectID": "CM/03-energetique.html",
     "href": "CM/03-energetique.html",
     "title": "Energetique",
@@ -63,18 +77,11 @@
     "text": "Back to top"
   },
   {
-    "objectID": "CM/slides/chapter-1/index.html",
-    "href": "CM/slides/chapter-1/index.html",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "",
-    "text": "The industrial emergence mapping framework.\n\nPhaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. https://doi.org/10.1016/j.techfore.2010.06.018"
-  },
-  {
     "objectID": "CM/slides/chapter-1/index.html#technology-readiness-maturity",
     "href": "CM/slides/chapter-1/index.html#technology-readiness-maturity",
     "title": "Flash Course:Technological watch and prospective",
-    "section": "",
-    "text": "The industrial emergence mapping framework.\n\nPhaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. https://doi.org/10.1016/j.techfore.2010.06.018"
+    "section": "1.1 Technology Readiness → Maturity",
+    "text": "1.1 Technology Readiness → Maturity\nThe industrial emergence mapping framework.\n\nPhaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. https://doi.org/10.1016/j.techfore.2010.06.018"
   },
   {
     "objectID": "CM/02-dynamique.html",
@@ -124,19 +131,5 @@
     "title": "References",
     "section": "",
     "text": "References\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "TD/01-TD.html",
-    "href": "TD/01-TD.html",
-    "title": "TD 1: Referentiel de mouvement",
-    "section": "",
-    "text": "Si vous"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n             Mécanique du Point\n         ",
-    "section": "",
-    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             La vitesse n’a jamais tué personne. Se retrouver brusquement immobile, c’est ça qui vous tue. - Jeremy Clarkson, Top Gear Université de Lorraine\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\nInstructor\n\n   Guillaume Pronost\n   Dr. Fabio A Cruz\n   ENSGSI\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\nCourse details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
   }
 ]
