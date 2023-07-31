@@ -62,6 +62,8 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -172,8 +174,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#presentation" id="toc-presentation" class="nav-link active" data-scroll-target="#presentation">Presentation</a></li>
-  <li><a href="#lecture-obligatoire" id="toc-lecture-obligatoire" class="nav-link" data-scroll-target="#lecture-obligatoire">Lecture obligatoire</a></li>
+  <li><a href="#lecture-obligatoire" id="toc-lecture-obligatoire" class="nav-link active" data-scroll-target="#lecture-obligatoire">Lecture obligatoire</a></li>
+  <li><a href="#quest-ce-que-cest-la-cinématique" id="toc-quest-ce-que-cest-la-cinématique" class="nav-link" data-scroll-target="#quest-ce-que-cest-la-cinématique">Qu’est ce que c’est la Cinématique?</a></li>
+  <li><a href="#rappels-sur-les-vecteurs-et-les-espaces-vectoriels" id="toc-rappels-sur-les-vecteurs-et-les-espaces-vectoriels" class="nav-link" data-scroll-target="#rappels-sur-les-vecteurs-et-les-espaces-vectoriels">Rappels sur les vecteurs et les espaces vectoriels</a>
+  <ul class="collapse">
+  <li><a href="#comparaison-des-vecteurs" id="toc-comparaison-des-vecteurs" class="nav-link" data-scroll-target="#comparaison-des-vecteurs">Comparaison des vecteurs</a></li>
+  </ul></li>
+  <li><a href="#slides-avec-des-idées-clés" id="toc-slides-avec-des-idées-clés" class="nav-link" data-scroll-target="#slides-avec-des-idées-clés">Slides avec des idées clés</a></li>
   <li><a href="#references-aditionel" id="toc-references-aditionel" class="nav-link" data-scroll-target="#references-aditionel">References aditionel</a></li>
   </ul>
 </nav>
@@ -198,12 +205,47 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="presentation" class="level2">
-<h2 class="anchored" data-anchor-id="presentation">Presentation</h2>
-<iframe class="slide-deck" src="slides/chapter-1/" width="100%" height="500"></iframe>
-</section>
 <section id="lecture-obligatoire" class="level2">
 <h2 class="anchored" data-anchor-id="lecture-obligatoire">Lecture obligatoire</h2>
+<ul>
+<li>Chapitre 1 de ..</li>
+</ul>
+</section>
+<section id="quest-ce-que-cest-la-cinématique" class="level2">
+<h2 class="anchored" data-anchor-id="quest-ce-que-cest-la-cinématique">Qu’est ce que c’est la Cinématique?</h2>
+<p>La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Point matériel
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Il arrive souvent que l’on puisse décrire et prédire le mouvement d’un objet par les lois de la dynamique, en associant l’objet à un unique point géométrique auquel on attribue la masse <span class="math inline">\(m\)</span> de l’objet. C’est ce qu’on appelle un <em>point matériel</em>.</p>
+<p>Ce point matériel constitue un <em>modèle</em> de l’objet étudié. Il s’agit donc d’une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l’objet sous la forme d’un point matériel constitue une approximation de son comportement réel.</p>
+</div>
+</div>
+</section>
+<section id="rappels-sur-les-vecteurs-et-les-espaces-vectoriels" class="level2">
+<h2 class="anchored" data-anchor-id="rappels-sur-les-vecteurs-et-les-espaces-vectoriels">Rappels sur les vecteurs et les espaces vectoriels</h2>
+<section id="comparaison-des-vecteurs" class="level3">
+<h3 class="anchored" data-anchor-id="comparaison-des-vecteurs">Comparaison des vecteurs</h3>
+<p>Deux vecteurs non nuls <span class="math inline">\(\vv u\)</span> et <span class="math inline">\(\vv v\)</span> sont <strong><em>colinéaires</em></strong> si et seulement si il existe un nombre réel <span class="math inline">\(k\)</span> tel que <span class="math inline">\(\vv v = k*\vv u\)</span>. Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.</p>
+<p>Le <strong><em>produit scalaire</em></strong> de deux vecteurs <span class="math inline">\(\vv u\)</span> et <span class="math inline">\(\vv v\)</span> peut être défini comme:</p>
+<p><span class="math display">\[
+\newcommand\mcy{{\mathcal{y}}}
+\vv u .\vv v = \left|\left|\vv u\right|\right| \left|\left|\vv v\right|\right| \cos{\theta}
+\]</span></p>
+<p>où <span class="math inline">\(\theta\)</span> est l’angle formé entre <span class="math inline">\(\vv u\)</span> et <span class="math inline">\(\vv v\)</span></p>
+<p>Deux vecteurs non nuls <span class="math inline">\(\vv u\)</span> et <span class="math inline">\(\vv v\)</span> sont si et seulement si leur produit scalaire est nul : <span class="math inline">\(\vv u .\vv v = 0\)</span> \end{boite}</p>
+</section>
+</section>
+<section id="slides-avec-des-idées-clés" class="level2">
+<h2 class="anchored" data-anchor-id="slides-avec-des-idées-clés">Slides avec des idées clés</h2>
+<iframe class="slide-deck" src="slides/chapter-1/" width="100%" height="500"></iframe>
 </section>
 <section id="references-aditionel" class="level2">
 <h2 class="anchored" data-anchor-id="references-aditionel">References aditionel</h2>

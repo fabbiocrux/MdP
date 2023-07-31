@@ -2,16 +2,67 @@
 title: "Cinematique de Point"
 ---
 
+## Lecture obligatoire
 
-## Presentation
+- Chapitre 1 de ..
 
 
+## Qu'est ce que c'est la Cinématique?
+
+La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps.
+La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.
+
+
+
+::: {.callout-note}
+### Point matériel
+
+Il arrive souvent que l'on puisse décrire et prédire le mouvement d'un objet par les lois de la dynamique, en associant l'objet à un unique point géométrique auquel on attribue la masse $m$ de l'objet. C'est ce qu'on appelle un *point matériel*.
+
+Ce point matériel constitue un *modèle* de l'objet étudié. Il s'agit donc d'une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l'objet sous la forme d'un point matériel constitue une approximation de son comportement réel.
+
+:::
+
+
+
+
+## Rappels sur les vecteurs et les espaces vectoriels
+
+### Comparaison des vecteurs
+
+
+Deux vecteurs non nuls $\vv u$ et $\vv v$ sont ***colinéaires*** si et seulement si il existe un nombre réel $k$ tel que $\vv v = k*\vv u$.
+Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre. 
+
+Le ***produit scalaire*** de deux vecteurs $\vv u$ et $\vv v$ peut être défini comme: 
+
+$$
+\newcommand\mcy{{\mathcal{y}}}
+\vv u .\vv v = \left|\left|\vv u\right|\right| \left|\left|\vv v\right|\right| \cos{\theta}
+$$
+
+où $\theta$ est l’angle formé entre $\vv u$ et $\vv v$
+
+Deux vecteurs non nuls $\vv u$ et $\vv v$ sont \emph{\textbf{orthogonaux}} si et seulement si leur produit scalaire est nul : $\vv u .\vv v = 0$
+\end{boite}
+
+
+Tests 
+
+
+```{r, engine = 'tikz'}
+\begin{tikzpicture}
+ \draw (0,0) circle (1cm);
+ % \draw (0,0) circle (2cm);
+\end{tikzpicture}
+```
+
+
+## Slides avec des idées clés
 ```{=html}
 <iframe class="slide-deck" src="slides/chapter-1/" width="100%"
     height="500"></iframe>
 ```
-
-## Lecture obligatoire
 
 
 ## References aditionel

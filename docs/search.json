@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "\n             Mécanique du Point\n         ",
     "section": "",
-    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             PMAP 8521 • Spring 2023Fabio A. CRUZ ENSGSIUniversité de Lorrain\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\nInstructor\n\n   Dr. Fabio A CruZ\n   357 Andrew Young School\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\nCourse details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             La vitesse n’a jamais tué personne. Se retrouver brusquement immobile, c’est ça qui vous tue. - Jeremy Clarkson, Top Gear Université de Lorraine\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\nInstructor\n\n   Guillaume Pronost\n   Dr. Fabio A Cruz\n   ENSGSI\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\nCourse details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "CM/03-energetique.html",
@@ -95,21 +95,21 @@
     "href": "CM/01-cinematique.html",
     "title": "Cinematique de Point",
     "section": "",
-    "text": "ss"
+    "text": "Chapitre 1 de .."
   },
   {
     "objectID": "CM/01-cinematique.html#presentation",
     "href": "CM/01-cinematique.html#presentation",
     "title": "Cinematique de Point",
-    "section": "",
-    "text": "ss"
+    "section": "Presentation",
+    "text": "Presentation"
   },
   {
     "objectID": "CM/01-cinematique.html#lecture-obligatoire",
     "href": "CM/01-cinematique.html#lecture-obligatoire",
     "title": "Cinematique de Point",
-    "section": "Lecture obligatoire",
-    "text": "Lecture obligatoire"
+    "section": "",
+    "text": "Chapitre 1 de .."
   },
   {
     "objectID": "CM/01-cinematique.html#references-aditionel",
@@ -187,5 +187,47 @@
     "title": "TD 1: Referentiel de mouvement",
     "section": "Exercise 3: Combinaison mouvement lineaire et mouvement",
     "text": "Exercise 3: Combinaison mouvement lineaire et mouvement\nIl est impératif de bien comprendre qu’on peut exprimer une vitesse relative à relative à un référentiel. Le mouvement d’un point est donc relatif à un observateur fixe dans un référentiel d’étude.\n\n\n\n\n\n\nTip\n\n\n\nUn référentiel (ou solide de référence) est un ensemble de points tous fixes les uns par rapport aux autres. L’observateur qui étudie le mouvement d’un point est lui-même immobile dans ce référentiel.\n\n\nSi l’on considère une vitesse liée à un référentiel fixe, il faut comprendre qu’il est parfois plus simple d’exprimer celle-ci sur une base tournante.\n\nRappel: Un vecteur peut changer dans le termps en “tournant”, il faut toujours savoir dans quel réferentiel on dérive un vecteur\n\n\nProblème\n\n\nAnalyse Cartesiène\nOn note \\(R_{C}\\) le référentiel associé aux coordonnées cartésiennes.\n\nLa vitesse angulaire \\(\\omega\\), exprimé en \\(\\frac{rad}{s}\\), correspond à la vittese angulaire du disque par rapport au referentiel \\(R_{C}\\).\n\nPendant un temp \\(dt\\), implique que le disque tourne de $d \\[\nf'(x)\n\\]"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#slides-avec-des-idées-clés",
+    "href": "CM/01-cinematique.html#slides-avec-des-idées-clés",
+    "title": "Cinematique de Point",
+    "section": "Slides avec des idées clés",
+    "text": "Slides avec des idées clés"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#section",
+    "href": "CM/01-cinematique.html#section",
+    "title": "Cinematique de Point",
+    "section": "",
+    "text": "La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps.\\ La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement."
+  },
+  {
+    "objectID": "CM/01-cinematique.html#quest-ce-que-cest-la-cinématique",
+    "href": "CM/01-cinematique.html#quest-ce-que-cest-la-cinématique",
+    "title": "Cinematique de Point",
+    "section": "Qu’est ce que c’est la Cinématique?",
+    "text": "Qu’est ce que c’est la Cinématique?\nLa cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.\n\n\n\n\n\n\nPoint matériel\n\n\n\nIl arrive souvent que l’on puisse décrire et prédire le mouvement d’un objet par les lois de la dynamique, en associant l’objet à un unique point géométrique auquel on attribue la masse \\(m\\) de l’objet. C’est ce qu’on appelle un point matériel.\nCe point matériel constitue un modèle de l’objet étudié. Il s’agit donc d’une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l’objet sous la forme d’un point matériel constitue une approximation de son comportement réel."
+  },
+  {
+    "objectID": "CM/01-cinematique.html#rappels-sur-les-vecteur",
+    "href": "CM/01-cinematique.html#rappels-sur-les-vecteur",
+    "title": "Cinematique de Point",
+    "section": "Rappels sur les vecteur",
+    "text": "Rappels sur les vecteur"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#rappels-sur-les-vecteur-et-le",
+    "href": "CM/01-cinematique.html#rappels-sur-les-vecteur-et-le",
+    "title": "Cinematique de Point",
+    "section": "Rappels sur les vecteur et le",
+    "text": "Rappels sur les vecteur et le"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#rappels-sur-les-vecteurs-et-les-espaces-vectoriels",
+    "href": "CM/01-cinematique.html#rappels-sur-les-vecteurs-et-les-espaces-vectoriels",
+    "title": "Cinematique de Point",
+    "section": "Rappels sur les vecteurs et les espaces vectoriels",
+    "text": "Rappels sur les vecteurs et les espaces vectoriels\n\nComparaison des vecteurs\nDeux vecteurs non nuls \\(\\vv u\\) et \\(\\vv v\\) sont colinéaires si et seulement si il existe un nombre réel \\(k\\) tel que \\(\\vv v = k*\\vv u\\). Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.\nLe produit scalaire de deux vecteurs \\(\\vv u\\) et \\(\\vv v\\) peut être défini comme:\n\\[\n\\newcommand\\mcy{{\\mathcal{y}}}\n\\vv u .\\vv v = \\left|\\left|\\vv u\\right|\\right| \\left|\\left|\\vv v\\right|\\right| \\cos{\\theta}\n\\]\noù \\(\\theta\\) est l’angle formé entre \\(\\vv u\\) et \\(\\vv v\\)\nDeux vecteurs non nuls \\(\\vv u\\) et \\(\\vv v\\) sont si et seulement si leur produit scalaire est nul : \\(\\vv u .\\vv v = 0\\) \\end{boite}"
   }
 ]

@@ -2,7 +2,8 @@
 title: "Mécanique du Point"
 subtitle: "Introduction à la Mécanique pour Ingénieurs"
 details: |
-  PMAP 8521 • Spring 2023<br>Fabio A. CRUZ ENSGSI<br>Université de Lorrain
+  La vitesse n'a jamais tué personne. Se retrouver brusquement immobile, c'est ça qui vous tue. - Jeremy Clarkson, *Top Gear*<br>
+  Université de Lorraine
 sidebar: false
 page-layout: full
 course-logo: /assets/img/logo-mdp.png
@@ -12,10 +13,6 @@ format:
       - assets/html/title-block.html
 
 ---
-
-
-
-
 
 
 :::: {.hero-banner}
@@ -32,6 +29,7 @@ format:
 ::: {.g-col-12 .g-col-sm-6 .g-col-md-4}
 ### Instructor
 
+- {{< fa user >}} &nbsp; [{{< var guillaume.name >}}]({{< var instructor.url >}})
 - {{< fa user >}} &nbsp; [{{< var instructor.name >}}]({{< var instructor.url >}})
 - {{< fa university >}} &nbsp; {{< var instructor.office >}}
 - {{< fa envelope >}} &nbsp; <a href="mailto:{{< var instructor.email >}}">{{< var instructor.email >}}</a>
