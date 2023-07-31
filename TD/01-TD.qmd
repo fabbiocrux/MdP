@@ -5,10 +5,10 @@ subtitle: "Objectif: Comprendre les différences entre les notions de coordonné
 #   html:
 #     number-sections: true
 format:
-  # pdf:
-  #   toc: true
-  #   number-sections: true
-  #   colorlinks: true
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
   html:
     number-sections: true
 ---
