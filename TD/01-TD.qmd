@@ -1,9 +1,65 @@
 ---
-title: "TD 1: Referentiel"
+title: "TD 1: Referentiel de mouvement"
+subtitle: "Objectif: Comprendre les différences entre les notions de coordonnées de **base de  projection** et de **référentiel**"
+# format:
+#   pdf:
+#     toc: true
+#     number-sections: true
+#     colorlinks: true
 ---
 
-## But de la Séance
 
 ## Lecture obligatoire
+
+## Exercise 1: 
+
+
+## Exercise 3: Combinaison mouvement lineaire et mouvement 
+
+Il est impératif de bien comprendre qu'on peut exprimer une vitesse relative à relative à un référentiel.
+Le mouvement d’un point est donc relatif à un observateur fixe dans un référentiel d’étude.
+
+::: {.callout-tip}
+Un **référentiel** (ou **solide de référence**) est un ensemble de points tous fixes les uns par rapport aux autres. L’observateur qui étudie le mouvement d’un point est lui-même immobile dans ce référentiel.
+:::
+
+Si l'on considère une vitesse liée à un référentiel fixe, il faut comprendre qu'il est parfois  plus simple  d'exprimer celle-ci sur une base tournante. 
+
+>Rappel: Un vecteur peut changer dans le termps en "*tournant*", il faut toujours savoir dans quel réferentiel on dérive un vecteur
+
+### Problème
+
+
+### Analyse Cartesiène
+
+On note $R_{C}$ le référentiel associé aux coordonnées cartésiennes.
+
+1. La vitesse angulaire $\omega$, exprimé en $\frac{rad}{s}$, correspond à la vittese angulaire du disque par rapport au referentiel $R_{C}$.
+
+Pendant un temp $dt$, implique que le disque tourne de $d
+$$
+ f'(x)
+$$
+
+2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## References bibliographiques 

@@ -16,14 +16,14 @@
   {
     "objectID": "TD/01-TD.html#lecture-obligatoire",
     "href": "TD/01-TD.html#lecture-obligatoire",
-    "title": "TD 1: Referentiel",
+    "title": "TD 1: Referentiel de mouvement",
     "section": "Lecture obligatoire",
     "text": "Lecture obligatoire"
   },
   {
     "objectID": "TD/01-TD.html#references-bibliographiques",
     "href": "TD/01-TD.html#references-bibliographiques",
-    "title": "TD 1: Referentiel",
+    "title": "TD 1: Referentiel de mouvement",
     "section": "References bibliographiques",
     "text": "References bibliographiques"
   },
@@ -124,5 +124,68 @@
     "title": "References",
     "section": "",
     "text": "References\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "TD/01-TD.html#references-bibliographiques-1",
+    "href": "TD/01-TD.html#references-bibliographiques-1",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "References bibliographiques",
+    "text": "References bibliographiques"
+  },
+  {
+    "objectID": "TD/01-TD.html#excersise",
+    "href": "TD/01-TD.html#excersise",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Excersise",
+    "text": "Excersise"
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-1",
+    "href": "TD/01-TD.html#exercise-1",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 1:",
+    "text": "Exercise 1:"
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-1-1",
+    "href": "TD/01-TD.html#exercise-1-1",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 1:",
+    "text": "Exercise 1:"
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-3",
+    "href": "TD/01-TD.html#exercise-3",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 3:",
+    "text": "Exercise 3:"
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-3-combina",
+    "href": "TD/01-TD.html#exercise-3-combina",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 3: Combina",
+    "text": "Exercise 3: Combina"
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-3-combinaison",
+    "href": "TD/01-TD.html#exercise-3-combinaison",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 3: Combinaison",
+    "text": "Exercise 3: Combinaison"
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-3-combinaison-moment-lineaire-et-mouvement",
+    "href": "TD/01-TD.html#exercise-3-combinaison-moment-lineaire-et-mouvement",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 3: Combinaison moment lineaire et mouvement",
+    "text": "Exercise 3: Combinaison moment lineaire et mouvement\nIl est impératif de bien comprendre qu’on peut exprimer une vitesse relative à relative à un référentiel. Le mouvement d’un point est donc relatif à un observateur fixe dans un référentiel d’étude.\n\n\n\n\n\n\nTip\n\n\n\nUn référentiel (ou solide de référence) est un ensemble de points tous fixes les uns par rapport aux autres. L’observateur qui étudie le mouvement d’un point est lui-même immobile dans ce référentiel."
+  },
+  {
+    "objectID": "TD/01-TD.html#exercise-3-combinaison-mouvement-lineaire-et-mouvement",
+    "href": "TD/01-TD.html#exercise-3-combinaison-mouvement-lineaire-et-mouvement",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "Exercise 3: Combinaison mouvement lineaire et mouvement",
+    "text": "Exercise 3: Combinaison mouvement lineaire et mouvement\nIl est impératif de bien comprendre qu’on peut exprimer une vitesse relative à relative à un référentiel. Le mouvement d’un point est donc relatif à un observateur fixe dans un référentiel d’étude.\n\n\n\n\n\n\nTip\n\n\n\nUn référentiel (ou solide de référence) est un ensemble de points tous fixes les uns par rapport aux autres. L’observateur qui étudie le mouvement d’un point est lui-même immobile dans ce référentiel.\n\n\nSi l’on considère une vitesse liée à un référentiel fixe, il faut comprendre qu’il est parfois plus simple d’exprimer celle-ci sur une base tournante.\n\nRappel: Un vecteur peut changer dans le termps en “tournant”, il faut toujours savoir dans quel réferentiel on dérive un vecteur\n\n\nProblème\n\n\nAnalyse Cartesiène\nOn note \\(R_{C}\\) le référentiel associé aux coordonnées cartésiennes.\n\nLa vitesse angulaire \\(\\omega\\), exprimé en \\(\\frac{rad}{s}\\), correspond à la vittese angulaire du disque par rapport au referentiel \\(R_{C}\\).\n\nPendant un temp \\(dt\\), implique que le disque tourne de $d \\[\nf'(x)\n\\]"
   }
 ]
