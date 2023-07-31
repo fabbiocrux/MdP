@@ -13,6 +13,8 @@ format:
     number-sections: true
 ---
 
+Si vous 
+
 ::: {.hero-buttons}
 [Telechargez ce TD comme pdf](TD/01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
 ::: 
