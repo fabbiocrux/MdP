@@ -5,16 +5,16 @@ subtitle: "Objectif: Comprendre les différences entre les notions de coordonné
 #   html:
 #     number-sections: true
 format:
-  pdf:
-    toc: true
-    number-sections: true
-    colorlinks: true
+  # pdf:
+  #   toc: true
+  #   number-sections: true
+  #   colorlinks: true
   html:
     number-sections: true
 ---
 
 ::: {.hero-buttons}
-[Telechargez ce TD comme pdf](/01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
+[Telechargez ce TD comme pdf](TD/01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
 ::: 
 
 
