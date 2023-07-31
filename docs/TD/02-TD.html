@@ -61,9 +61,18 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+window.MathJax = {
+  loader: {
+    load: ['[tex]/physics']
+  },
+  tex: {
+    packages: {'[+]': ['physics']}
+  }
+};
+</script>    
 
 
-<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-sidebar floating nav-fixed">
@@ -142,7 +151,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../TD/01-TD.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">TD 1: Referentiel</span></a>
+ <span class="menu-text">TD 1: Referentiel de mouvement</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -442,7 +451,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../TD/01-TD.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">TD 1: Referentiel</span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">TD 1: Referentiel de mouvement</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

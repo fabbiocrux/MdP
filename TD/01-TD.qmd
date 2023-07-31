@@ -1,6 +1,9 @@
 ---
 title: "TD 1: Referentiel de mouvement"
 subtitle: "Objectif: Comprendre les différences entre les notions de coordonnées de **base de  projection** et de **référentiel**"
+format:
+  html:
+    number-sections: true
 # format:
 #   pdf:
 #     toc: true
@@ -33,21 +36,62 @@ Si l'on considère une vitesse liée à un référentiel fixe, il faut comprendr
 ### Analyse Cartesiène
 
 On note $R_{C}$ le référentiel associé aux coordonnées cartésiennes.
+La vitesse angulaire $\omega$, exprimé en $\frac{rad}{s}$, correspond à la vittese angulaire du disque par rapport au referentiel $R_{C}$.
+Pendant un temp $dt$, le disque tourne de $d\theta$, donc cela correspond à:
 
-1. La vitesse angulaire $\omega$, exprimé en $\frac{rad}{s}$, correspond à la vittese angulaire du disque par rapport au referentiel $R_{C}$.
-
-Pendant un temp $dt$, implique que le disque tourne de $d
 $$
- f'(x)
+\dfrac{d\theta}{dt} = \omega
 $$
 
-2.
+en faisant l'integral, nous avons:
+
+$$
+\theta = \omega t + \text{const} \quad\rightarrow\quad \text{const} = 0 \text{ car } \theta = 0  \text{ à } t=0
+$$
 
 
+Maintenant, $v_{0}, exprimée en $\dfrac{m}{s}$ $ correspond à la vitesse de la fourmi par rapport au disque.
+Dans  $R_{tournant}$, le mouvement de la fourmi est rectiligne.
+Pendant $dt$, la fourmi parcourt $dr$ dans $R_{tournant}$, donc:
+
+$$
+\dfrac{dr}{dt} = v_{0}
+$$
+
+en faisant l'integral, nous avons:
+
+$$
+r = v_{0} t + \text{const} \quad\rightarrow\quad \text{const} = 0 \text{ car } r = 0  \text{ à } t = 0
+$$
 
 
+En fait, ce n'est pas rigoureaux car $\theta$ ne peut pas être définis à  $t=0$.
+Finalement
+
+$$
+r = \dfrac{v_{0}}{\omega}\theta
+$$
 
 
+```{r}
+#| fig-align: center
+#| echo: false
+#| message: false
+#| fig-width: 5
+#| fig-heigth: 5
+
+library(tidyverse)
+t <- seq(0, 4*pi, by = pi / 180)
+ x = t*cos(t); y = t*sin(t)
+ tibble(x,y) %>% 
+ ggplot(aes(x=x,y=y)) + 
+    geom_path() +
+    theme_minimal() +
+    labs(
+       title = "Parcours de la fourmi"
+    )
+ 
+```
 
 
 

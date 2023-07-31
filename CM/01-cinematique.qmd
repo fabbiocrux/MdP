@@ -7,6 +7,13 @@ title: "Cinematique de Point"
 - Chapitre 1 de ..
 
 
+
+## Slides avec des idées clés
+```{=html}
+<iframe class="slide-deck" src="slides/chapter-1/" width="100%"
+    height="500"></iframe>
+```
+
 ## Qu'est ce que c'est la Cinématique?
 
 La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps.
@@ -31,38 +38,42 @@ Ce point matériel constitue un *modèle* de l'objet étudié. Il s'agit donc d'
 ### Comparaison des vecteurs
 
 
-Deux vecteurs non nuls $\vv u$ et $\vv v$ sont ***colinéaires*** si et seulement si il existe un nombre réel $k$ tel que $\vv v = k*\vv u$.
+Deux vecteurs non nuls $\va u$ et $\va v$ sont ***colinéaires*** si et seulement si il existe un nombre réel $k$ tel que $\va v = k*\va u$.
 Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre. 
 
-Le ***produit scalaire*** de deux vecteurs $\vv u$ et $\vv v$ peut être défini comme: 
+Le ***produit scalaire*** de deux vecteurs $\va u$ et $\va v$ peut être défini comme: 
 
 $$
 \newcommand\mcy{{\mathcal{y}}}
-\vv u .\vv v = \left|\left|\vv u\right|\right| \left|\left|\vv v\right|\right| \cos{\theta}
+\va u .\va v = \left|\left|\va u\right|\right| \left|\left|\va v\right|\right| \cos{\theta}
 $$
 
-où $\theta$ est l’angle formé entre $\vv u$ et $\vv v$
+où $\theta$ est l’angle formé entre $\va u$ et $\va v$
 
-Deux vecteurs non nuls $\vv u$ et $\vv v$ sont \emph{\textbf{orthogonaux}} si et seulement si leur produit scalaire est nul : $\vv u .\vv v = 0$
-\end{boite}
-
-
-Tests 
+Deux vecteurs non nuls $\va u$ et $\va v$ sont \emph{\textbf{orthogonaux}} si et seulement si leur produit scalaire est nul : $\va u .\va v = 0$
 
 
-```{r, engine = 'tikz'}
-\begin{tikzpicture}
- \draw (0,0) circle (1cm);
- % \draw (0,0) circle (2cm);
-\end{tikzpicture}
-```
 
 
-## Slides avec des idées clés
-```{=html}
-<iframe class="slide-deck" src="slides/chapter-1/" width="100%"
-    height="500"></iframe>
-```
+:::: {.columns}
+
+::: {.column width="50%"}
+testsetsetse
+
+:::
+
+::: {.column width="50%"}
+
+cela est le contenu.
+:::
+
+::::
 
 
-## References aditionel
+
+
+
+This is a test for the creatino of graphics from TIKZ 
+
+
+

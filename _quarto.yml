@@ -93,6 +93,19 @@ format:
       - litera
       - assets/custom.scss
     toc: true
+    html-math-method: mathjax
+    include-in-header:
+      - text: |
+          <script>
+          window.MathJax = {
+            loader: {
+              load: ['[tex]/physics']
+            },
+            tex: {
+              packages: {'[+]': ['physics']}
+            }
+          };
+          </script>    
     #css: assets/styles.css  
   # pdf:
   #   documentclass: scrreprt

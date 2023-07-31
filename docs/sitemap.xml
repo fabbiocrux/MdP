@@ -1,51 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/CM.html</loc>
-    <lastmod>2023-07-31T14:29:31.187Z</lastmod>
-  </url>
-  <url>
-    <loc>/TD.html</loc>
-    <lastmod>2023-07-31T14:36:19.023Z</lastmod>
-  </url>
-  <url>
     <loc>/TD/01-TD.html</loc>
-    <lastmod>2023-07-31T13:33:02.700Z</lastmod>
+    <lastmod>2023-07-31T22:28:05.637Z</lastmod>
   </url>
   <url>
     <loc>/TD/03-TD.html</loc>
-    <lastmod>2023-07-30T21:05:34.308Z</lastmod>
+    <lastmod>2023-07-31T22:24:12.605Z</lastmod>
   </url>
   <url>
     <loc>/TD/02-TD.html</loc>
-    <lastmod>2023-07-30T21:05:34.676Z</lastmod>
-  </url>
-  <url>
-    <loc>/index.html</loc>
-    <lastmod>2023-07-31T14:05:40.222Z</lastmod>
+    <lastmod>2023-07-31T22:24:13.037Z</lastmod>
   </url>
   <url>
     <loc>/CM/03-energetique.html</loc>
-    <lastmod>2023-07-30T21:05:35.390Z</lastmod>
+    <lastmod>2023-07-31T22:24:13.482Z</lastmod>
   </url>
   <url>
     <loc>/CM/04-mecanique.html</loc>
-    <lastmod>2023-07-30T21:05:35.757Z</lastmod>
+    <lastmod>2023-07-31T22:24:13.932Z</lastmod>
   </url>
   <url>
     <loc>/CM/slides/chapter-1/index.html</loc>
-    <lastmod>2023-07-31T14:29:53.086Z</lastmod>
+    <lastmod>2023-07-31T22:24:14.546Z</lastmod>
   </url>
   <url>
     <loc>/CM/02-dynamique.html</loc>
-    <lastmod>2023-07-30T21:05:36.521Z</lastmod>
+    <lastmod>2023-07-31T22:24:15.007Z</lastmod>
   </url>
   <url>
     <loc>/CM/01-cinematique.html</loc>
-    <lastmod>2023-07-31T14:51:55.305Z</lastmod>
+    <lastmod>2023-07-31T22:24:15.569Z</lastmod>
   </url>
   <url>
     <loc>/references.html</loc>
-    <lastmod>2023-07-30T21:05:37.258Z</lastmod>
+    <lastmod>2023-07-31T22:24:16.022Z</lastmod>
   </url>
 </urlset>
