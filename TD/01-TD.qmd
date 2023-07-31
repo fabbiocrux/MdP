@@ -13,10 +13,10 @@ format:
     number-sections: true
 ---
 
-adding the TDgit 
+testing sin tel /git
 
 ::: {.hero-buttons}
-[Telechargez ce TD comme pdf](/01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
+[Telechargez ce TD comme pdf](01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
 ::: 
 
 
