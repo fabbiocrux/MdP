@@ -190,6 +190,23 @@ window.MathJax = {
   <li><a href="#rappels-sur-les-vecteurs-et-les-espaces-vectoriels" id="toc-rappels-sur-les-vecteurs-et-les-espaces-vectoriels" class="nav-link" data-scroll-target="#rappels-sur-les-vecteurs-et-les-espaces-vectoriels">Rappels sur les vecteurs et les espaces vectoriels</a>
   <ul class="collapse">
   <li><a href="#comparaison-des-vecteurs" id="toc-comparaison-des-vecteurs" class="nav-link" data-scroll-target="#comparaison-des-vecteurs">Comparaison des vecteurs</a></li>
+  <li><a href="#base-dun-espace-vectoriel" id="toc-base-dun-espace-vectoriel" class="nav-link" data-scroll-target="#base-dun-espace-vectoriel">Base d’un espace vectoriel</a></li>
+  </ul></li>
+  <li><a href="#repère" id="toc-repère" class="nav-link" data-scroll-target="#repère">Repère</a>
+  <ul class="collapse">
+  <li><a href="#repère-orthonormé-direct-en-dimension-2-et-3" id="toc-repère-orthonormé-direct-en-dimension-2-et-3" class="nav-link" data-scroll-target="#repère-orthonormé-direct-en-dimension-2-et-3">Repère orthonormé direct en dimension 2 et 3</a></li>
+  <li><a href="#repérage-dun-point-matériel" id="toc-repérage-dun-point-matériel" class="nav-link" data-scroll-target="#repérage-dun-point-matériel">Repérage d’un point matériel</a></li>
+  <li><a href="#référentiel" id="toc-référentiel" class="nav-link" data-scroll-target="#référentiel">Référentiel</a></li>
+  <li><a href="#trajectoire-dun-point" id="toc-trajectoire-dun-point" class="nav-link" data-scroll-target="#trajectoire-dun-point">Trajectoire d’un point</a></li>
+  <li><a href="#position-dun-point-en-2-dimensions" id="toc-position-dun-point-en-2-dimensions" class="nav-link" data-scroll-target="#position-dun-point-en-2-dimensions">Position d’un point en 2 dimensions</a>
+  <ul class="collapse">
+  <li><a href="#coordonnées-cartésiennes" id="toc-coordonnées-cartésiennes" class="nav-link" data-scroll-target="#coordonnées-cartésiennes">Coordonnées cartésiennes</a></li>
+  <li><a href="#coordonnées-polaires" id="toc-coordonnées-polaires" class="nav-link" data-scroll-target="#coordonnées-polaires">Coordonnées polaires</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#position-dun-point-en-3-dimensions" id="toc-position-dun-point-en-3-dimensions" class="nav-link" data-scroll-target="#position-dun-point-en-3-dimensions">Position d’un point en 3 dimensions</a>
+  <ul class="collapse">
+  <li><a href="#coordonnées-cartésiennes-1" id="toc-coordonnées-cartésiennes-1" class="nav-link" data-scroll-target="#coordonnées-cartésiennes-1">Coordonnées cartésiennes</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -242,10 +259,10 @@ Point matériel
 </div>
 </div>
 </section>
-<section id="rappels-sur-les-vecteurs-et-les-espaces-vectoriels" class="level2">
-<h2 class="anchored" data-anchor-id="rappels-sur-les-vecteurs-et-les-espaces-vectoriels">Rappels sur les vecteurs et les espaces vectoriels</h2>
-<section id="comparaison-des-vecteurs" class="level3">
-<h3 class="anchored" data-anchor-id="comparaison-des-vecteurs">Comparaison des vecteurs</h3>
+<section id="rappels-sur-les-vecteurs-et-les-espaces-vectoriels" class="level1">
+<h1>Rappels sur les vecteurs et les espaces vectoriels</h1>
+<section id="comparaison-des-vecteurs" class="level2">
+<h2 class="anchored" data-anchor-id="comparaison-des-vecteurs">Comparaison des vecteurs</h2>
 <p>Deux vecteurs non nuls <span class="math inline">\(\va u\)</span> et <span class="math inline">\(\va v\)</span> sont <strong><em>colinéaires</em></strong> si et seulement si il existe un nombre réel <span class="math inline">\(k\)</span> tel que <span class="math inline">\(\va v = k*\va u\)</span>. Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.</p>
 <p>Le <strong><em>produit scalaire</em></strong> de deux vecteurs <span class="math inline">\(\va u\)</span> et <span class="math inline">\(\va v\)</span> peut être défini comme:</p>
 <p><span class="math display">\[
@@ -254,14 +271,171 @@ Point matériel
 \]</span></p>
 <p>où <span class="math inline">\(\theta\)</span> est l’angle formé entre <span class="math inline">\(\va u\)</span> et <span class="math inline">\(\va v\)</span></p>
 <p>Deux vecteurs non nuls <span class="math inline">\(\va u\)</span> et <span class="math inline">\(\va v\)</span> sont si et seulement si leur produit scalaire est nul : <span class="math inline">\(\va u .\va v = 0\)</span></p>
+</section>
+<section id="base-dun-espace-vectoriel" class="level2">
+<h2 class="anchored" data-anchor-id="base-dun-espace-vectoriel">Base d’un espace vectoriel</h2>
+<p>Soit <span class="math inline">\(E\)</span> un espace vectoriel.</p>
+<p>Une famille de vecteurs <span class="math inline">\(F\)</span> = (<span class="math inline">\(\va i_1\)</span>, <span class="math inline">\(\va i_2\)</span>, … <span class="math inline">\(\va i_n\)</span>) de <span class="math inline">\(E\)</span> est dite <em>libre</em> et ses vecteurs sont dit liénairements indépendants, lorsque</p>
+<span class="math display">\[\begin{align*}
+
+\forall \ \lambda_1,\ \lambda_2,\ ...,\ \lambda_n \in E,\ \lambda_1 \va i_1 + \lambda_2 \va i_2 + ... + \lambda_n \va i_n = \va 0 \implies \lambda_1= \lambda_2= ...=\lambda_n = 0
+
+\end{align*}\]</span>
+<p>Une famille qui n’est pas libre est dite <em>liée</em>.</p>
+<p>Une famille de vecteurs <span class="math inline">\(F\)</span> = (<span class="math inline">\(\va i_1\)</span>, <span class="math inline">\(\va i_2\)</span>, … <span class="math inline">\(\va i_n\)</span>) de <span class="math inline">\(E\)</span> est dite <em>génératrice</em> lorsque tout vecteur <span class="math inline">\(\va v \in E\)</span> est combinaison des vecteurs de <span class="math inline">\(F\)</span>.</p>
+<p>Une famille de vecteurs <span class="math inline">\(F\)</span> = (<span class="math inline">\(\va i_1\)</span>, <span class="math inline">\(\va i_2\)</span>, … <span class="math inline">\(\va i_n\)</span>) de <span class="math inline">\(E\)</span> est dite <strong><em>base</em></strong> de <span class="math inline">\(E\)</span> lorsque qu’elle est libre et génératrice.</p>
+</section>
+</section>
+<section id="repère" class="level1">
+<h1>Repère</h1>
+<p>Soit <span class="math inline">\(E\)</span> un espace vectoriel de dimension <span class="math inline">\(n\)</span>, <span class="math inline">\(A\)</span> un espace affine sur <span class="math inline">\(E\)</span>. Soit (<span class="math inline">\(\va i_1\)</span>, <span class="math inline">\(\va i_2\)</span>, … <span class="math inline">\(\va i_n\)</span>) une base de <span class="math inline">\(E\)</span> et <span class="math inline">\(M\)</span> un point de l’espace affine <span class="math inline">\(A\)</span>. Alors l’ensemble (<span class="math inline">\(A\)</span>, <span class="math inline">\(\va i_1\)</span>, <span class="math inline">\(\va i_2\)</span>, … <span class="math inline">\(\va i_n\)</span>) constitue un <strong><em>repère</em></strong> de <span class="math inline">\(E\)</span>.</p>
+<section id="repère-orthonormé-direct-en-dimension-2-et-3" class="level2">
+<h2 class="anchored" data-anchor-id="repère-orthonormé-direct-en-dimension-2-et-3">Repère orthonormé direct en dimension 2 et 3</h2>
+<p>Dans ce chapitre et les suivants, on s’interessera uniquement à des espaces de dimension 2 (problème plan) et de dimension 3 (problème en 3D). Dans ce contexte, les différents repères utilisés seront toujours des repères orthonormés directs.</p>
+<p>Un repère (<span class="math inline">\(A\)</span>, <span class="math inline">\(\va i_1\)</span>, … <span class="math inline">\(\va i_n\)</span>) est dit <strong><em>orthonormé</em></strong> si tout les vecteurs (<span class="math inline">\(\va i_1\)</span>, … <span class="math inline">\(\va i_n\)</span>) composant ce repère sont des vecteurs <strong><em>unitaires</em></strong>, c’est-à-dire qu’ils sont de norme 1 :</p>
+<span class="math display">\[\begin{align*}
+\left|\left|\va i_1\right|\right|= ... =\left|\left|\va i_n\right|\right|= 1
+\end{align*}\]</span>
+<p>Un repère (<span class="math inline">\(A\)</span>, <span class="math inline">\(\va i_1\)</span>, … <span class="math inline">\(\va i_n\)</span>) de dimension 2 ou 3 est dit <strong><em>direct</em></strong> si il respecte la règle dite du “bonhomme d’Ampère” ou de la “main droite”. Dans le cas contraire, le repère est dit <strong><em>indirect</em></strong>.</p>
+</section>
+<section id="repérage-dun-point-matériel" class="level2">
+<h2 class="anchored" data-anchor-id="repérage-dun-point-matériel">Repérage d’un point matériel</h2>
+</section>
+<section id="référentiel" class="level2">
+<h2 class="anchored" data-anchor-id="référentiel">Référentiel</h2>
+<p>Pour commence à discuter du mouvement d’un corps ou d’un point, il est nécessaire de définir par rapport à quoi le mouvement sera mesuré.</p>
+<p>Un <strong><em>référentiel</em></strong> est un solide servant de référence pour décrire le mouvement des objets. Les vitesses et accélérations sont définies par rapport à ce référentiel.</p>
+<p>Sauf indication contraire, nous utiliserons le référentiel terrestre.</p>
+<p>Exemples de référentiels :</p>
+<ul>
+<li>Le référentiel héliocentrique (ou référentiel de Kepler)</li>
+<li>Le référentiel géocentrique</li>
+<li>Le référentiel terrestre</li>
+</ul>
+<p>Nous supposerons qu’il existe un temps absolu : deux observateurs en mouvement relatifs peuvent attribuer les mêmes dates aux mêmes événements.</p>
+</section>
+<section id="trajectoire-dun-point" class="level2">
+<h2 class="anchored" data-anchor-id="trajectoire-dun-point">Trajectoire d’un point</h2>
+<p>On appelle <strong><em>trajectoire</em></strong> d’un point, dans un référentiel, l’ensemble des positions successives occupées par ce point au cours du temps.</p>
+<p>Soit <span class="math inline">\(O\)</span> un point particulier du référentiel et <span class="math inline">\(M\)</span> la position du point matériel. La fonction <span class="math inline">\(\overrightarrow{OM}(t)\)</span> donne la position du point matériel <span class="math inline">\(M\)</span> au cours du temps <span class="math inline">\(t\)</span>. On la nomme <strong><em>équation horaire</em></strong>.</p>
+<p>Déterminer cette fonction <span class="math inline">\(\overrightarrow{OM}(t)\)</span> représente l’objectif principal de la mécanique du point.</p>
+</section>
+<section id="position-dun-point-en-2-dimensions" class="level2">
+<h2 class="anchored" data-anchor-id="position-dun-point-en-2-dimensions">Position d’un point en 2 dimensions</h2>
+<p>On place un observateur à un point <span class="math inline">\(O\)</span> du référentiel, nommé <strong>origine</strong>. On cherche à exprimer la position d’un point matériel <span class="math inline">\(M\)</span> par rapport à un repère orthonormé direct (<span class="math inline">\(O\)</span>, <span class="math inline">\(\va u_1\)</span>, <span class="math inline">\(\va u_2\)</span>).</p>
+<section id="coordonnées-cartésiennes" class="level3">
+<h3 class="anchored" data-anchor-id="coordonnées-cartésiennes">Coordonnées cartésiennes</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>testsetsetse</p>
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-1_6e6c641be24a0b4eabb171dd2506362f">
+<div class="cell-output-display">
+<p><img src="01-cinematique_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 </div><div class="column" style="width:50%;">
-<p>cela est le contenu.</p>
+<p>Le point <span class="math inline">\(M\)</span> est repéré par les coordonnées cartésiennes (<span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>)</p>
+<span class="math display">\[\begin{align*}
+\va{OM} &amp;= x \va u_x + y \va u_y \\ x, y \ &amp;\in \ ]-\infty, +\infty[
+\end{align*}\]</span>
 </div>
 </div>
-<p>This is a test for the creatino of graphics from TIKZ</p>
+<p>Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point <span class="math inline">\(M(x, y)\)</span> et les composantes d’un vecteur <span class="math inline">\(\va V(V_x, V_y)\)</span> sur la base (<span class="math inline">\(\va u_x\)</span>, <span class="math inline">\(\va u_y\)</span>).\</p>
+<p>Dans la suite, le référentiel <span class="math inline">\(R_c\)</span> associé aux coordonnées cartésiennes sera considéré comme fixe.</p>
+<p>Il se peut que les coordonnées cartésiennes ne soient pas les plus commodes pour décrire la position d’un point matériel. C’est notamment le cas lorsqu’on veut décrire un mouvement de rotation, tel qu’un mouvement sur une sphère ou un cylindre.</p>
+</section>
+<section id="coordonnées-polaires" class="level3">
+<h3 class="anchored" data-anchor-id="coordonnées-polaires">Coordonnées polaires</h3>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-2_0007b01772d5a515b2ec4788039af6e1">
+<div class="cell-output-display">
+<p><img src="01-cinematique_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<p>Le point <span class="math inline">\(M\)</span> est repéré par les coordonnées polaires (<span class="math inline">\(r\)</span>, <span class="math inline">\(\theta\)</span>) <span class="math display">\[\begin{align*}
+\va{OM} &amp;= r \va u_r  \\ r \ &amp;\in \ [0, +\infty[ \\ \theta \ &amp;\in \ [0, 2\pi[
+\end{align*}\]</span></p>
+</div>
+</div>
+<p>Le repère associé aux coordonnées polaires permet de décrire les coordonnées d’un point <span class="math inline">\(M ( r, \theta)\)</span> et les composantes d’un vecteur <span class="math inline">\(\va V(V_r, V_\theta)\)</span> sur la base (<span class="math inline">\(\va u_r\)</span>, <span class="math inline">\(\va u_\theta\)</span>).</p>
+<p>Il est important de remarquer que la base dépend de la coordonnée <span class="math inline">\(\theta\)</span> du point <span class="math inline">\(M\)</span>.</p>
+<p>En général, les coordonnées cartésiennes sont associées au référentiel terrestre, considéré comme <strong><em>galiléen</em></strong>. Les coordonnées polaires, quant à elles, sont particulièrement adaptées à l’étude des mouvements de rotation. La base est souvent appelée <strong><em>base mobile</em></strong>. On dit qu’elle est associée au référentiel tournant <span class="math inline">\(R_T\)</span>.</p>
+<div id="thm-base" class="theorem">
+<p><span class="theorem-title"><strong>Theorem 1 (Changement de base) </strong></span>On s’interesse à une base fixe (<span class="math inline">\(\va u_x\)</span>, <span class="math inline">\(\va u_y\)</span>) et à une base mobile (<span class="math inline">\(\va u_r\)</span>, <span class="math inline">\(\va u_\theta\)</span>). Tout les vecteurs des bases sont unitaires. On a donc :</p>
+<span class="math display">\[\begin{align*}
+
+\left|\left|\va u_x\right|\right|=\left|\left|\va u_y\right|\right|=\left|\left|\va u_r\right|\right|=\left|\left|\va u_\theta\right|\right|=1
+
+\end{align*}\]</span>
+<div class="columns">
+<div class="column" style="width:38%;">
+<span class="math display">\[\begin{align*}
+\va u_r &amp;= \va u_{r_x} + \va u_{r_y} \\
+\va u_r &amp;= \cos{\theta}\va u_x + \sin{\theta}\va u_y\\
+&amp;\\
+\va u_\theta &amp;= \va u_{\theta_x} + \va u_{\theta_y} \\
+\va u_\theta &amp;= -\sin{\theta}\va u_x + \cos{\theta}\va u_y
+\end{align*}\]</span>
+</div><div class="column" style="width:60%;">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-3_2b1dd5a82349dd09f6a792346adadea8">
+<div class="cell-output-display">
+<p><img src="01-cinematique_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div><div class="column" style="width:38%;">
+<span class="math display">\[\begin{align*}
+\va u_x &amp;= \va u_{x_r} + \va u_{x_\theta} \\
+\va u_x &amp;= \cos{\theta}\va u_r - \sin{\theta}\va u_\theta\\
+&amp;\\
+\va u_y &amp;= \va u_{y_r} + \va u_{y_\theta} \\
+\va u_y &amp;= \sin{\theta}\va u_r + \cos{\theta}\va u_\theta
+\end{align*}\]</span>
+</div><div class="column" style="width:60%;">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-4_34fc86b2561e73361b9985550985c592">
+<div class="cell-output-display">
+<p><img src="01-cinematique_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<p>On a pu voir que différents systèmes de coordonnées permettaient de représenter la position du point <span class="math inline">\(M\)</span>. Ainsi :</p>
+<span class="math display">\[\begin{align*}
+\overrightarrow{OM} &amp;= x \va u_x + y \va u_y \\
+&amp; \text{et}\\
+\overrightarrow{OM} &amp;= r \va u_r
+\end{align*}\]</span>
+<p>A partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (<span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>) en fonction des coordonnées polaires (<span class="math inline">\(r\)</span>, <span class="math inline">\(\theta\)</span>) et inversemment. Ainsi :</p>
+<span class="math display">\[\begin{equation*}
+    \begin{cases}
+      x &amp;= \ r \cos{\theta}  \\
+      y &amp;= \ r \sin{\theta}
+    \end{cases}       
+\end{equation*}\]</span>
+</section>
+</section>
+</section>
+<section id="position-dun-point-en-3-dimensions" class="level1">
+<h1>Position d’un point en 3 dimensions</h1>
+<p>On place un observateur à un point <span class="math inline">\(O\)</span> du référentiel, nommé <strong><em>origine</em></strong>. On cherche à exprimer la position d’un point matériel <span class="math inline">\(M\)</span> par rapport à un repère orthonormé direct (<span class="math inline">\(O\)</span>, <span class="math inline">\(\va u_1\)</span>, <span class="math inline">\(\va u_2\)</span>, <span class="math inline">\(\va u_3\)</span>).</p>
+<section id="coordonnées-cartésiennes-1" class="level3">
+<h3 class="anchored" data-anchor-id="coordonnées-cartésiennes-1">Coordonnées cartésiennes</h3>
+<div class="columns">
+<div class="column" style="width:38%;">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-5_ed298236f506f1efbd914700085c52b8">
+<div class="cell-output-display">
+<p><img src="01-cinematique_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div><div class="column" style="width:48%;">
+<p>Le point <span class="math inline">\(M\)</span> est repéré par les coordonnées cartésiennes (<span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>, <span class="math inline">\(z\)</span>) <span class="math display">\[\begin{align*}
+&amp;\va{OM} = x \va u_x + y \va u_y + z \va u_z \\ &amp;x, y, z \ \in \ ]-\infty, +\infty[
+\end{align*}\]</span></p>
+</div>
+</div>
+<p>Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point <span class="math inline">\(M(x, y, z)\)</span> et les composantes d’un vecteur <span class="math inline">\(\vv V(V_x, V_y, V_z)\)</span> sur la base (<span class="math inline">\(\vv u_x\)</span>, <span class="math inline">\(\vv u_y\)</span>, <span class="math inline">\(\vv u_z\)</span>).\</p>
+<p>Dans la suite, le référentiel <span class="math inline">\(R_c\)</span> associé aux coordonnées cartésiennes sera considéré comme fixe.</p>
 
 
 </section>
