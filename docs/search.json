@@ -119,20 +119,6 @@
     "text": "Qu’est ce que c’est la Cinématique?\nLa cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.\n\n\n\n\n\n\nPoint matériel\n\n\n\nIl arrive souvent que l’on puisse décrire et prédire le mouvement d’un objet par les lois de la dynamique, en associant l’objet à un unique point géométrique auquel on attribue la masse \\(m\\) de l’objet. C’est ce qu’on appelle un point matériel.\nCe point matériel constitue un modèle de l’objet étudié. Il s’agit donc d’une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l’objet sous la forme d’un point matériel constitue une approximation de son comportement réel."
   },
   {
-    "objectID": "CM/01-cinematique.html#rappels-sur-les-vecteurs-et-les-espaces-vectoriels",
-    "href": "CM/01-cinematique.html#rappels-sur-les-vecteurs-et-les-espaces-vectoriels",
-    "title": "Cinematique de Point",
-    "section": "Rappels sur les vecteurs et les espaces vectoriels",
-    "text": "Rappels sur les vecteurs et les espaces vectoriels\n\nComparaison des vecteurs\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont colinéaires si et seulement si il existe un nombre réel \\(k\\) tel que \\(\\va v = k*\\va u\\). Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.\nLe produit scalaire de deux vecteurs \\(\\va u\\) et \\(\\va v\\) peut être défini comme:\n\\[\n\\newcommand\\mcy{{\\mathcal{y}}}\n\\va u .\\va v = \\left|\\left|\\va u\\right|\\right| \\left|\\left|\\va v\\right|\\right| \\cos{\\theta}\n\\]\noù \\(\\theta\\) est l’angle formé entre \\(\\va u\\) et \\(\\va v\\)\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont si et seulement si leur produit scalaire est nul : \\(\\va u .\\va v = 0\\)\n\n\ntestsetsetse\n\ncela est le contenu.\n\n\nThis is a test for the creatino of graphics from TIKZ"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "References\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
     "objectID": "CM/01-cinematique.html#comparaison-des-vecteurs",
     "href": "CM/01-cinematique.html#comparaison-des-vecteurs",
     "title": "Cinematique de Point",
@@ -145,13 +131,6 @@
     "title": "Cinematique de Point",
     "section": "Base d’un espace vectoriel",
     "text": "Base d’un espace vectoriel\nSoit \\(E\\) un espace vectoriel.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite libre et ses vecteurs sont dit liénairements indépendants, lorsque\n\\[\\begin{align*}\n\n\\forall \\ \\lambda_1,\\ \\lambda_2,\\ ...,\\ \\lambda_n \\in E,\\ \\lambda_1 \\va i_1 + \\lambda_2 \\va i_2 + ... + \\lambda_n \\va i_n = \\va 0 \\implies \\lambda_1= \\lambda_2= ...=\\lambda_n = 0\n\n\\end{align*}\\]\nUne famille qui n’est pas libre est dite liée.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite génératrice lorsque tout vecteur \\(\\va v \\in E\\) est combinaison des vecteurs de \\(F\\).\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite base de \\(E\\) lorsque qu’elle est libre et génératrice."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#repère",
-    "href": "CM/01-cinematique.html#repère",
-    "title": "Cinematique de Point",
-    "section": "Repère",
-    "text": "Repère\nSoit \\(E\\) un espace vectoriel de dimension \\(n\\), \\(A\\) un espace affine sur \\(E\\). Soit (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) une base de \\(E\\) et \\(M\\) un point de l’espace affine \\(A\\). Alors l’ensemble (\\(A\\), \\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) constitue un repère de \\(E\\)."
   },
   {
     "objectID": "CM/01-cinematique.html#repère-orthonormé-direct-en-dimension-2-et-3",
@@ -189,17 +168,17 @@
     "text": "Position d’un point en 2 dimensions\nOn place un observateur à un point \\(O\\) du référentiel, nommé origine. On cherche à exprimer la position d’un point matériel \\(M\\) par rapport à un repère orthonormé direct (\\(O\\), \\(\\va u_1\\), \\(\\va u_2\\)).\n\nCoordonnées cartésiennes\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées cartésiennes (\\(x\\), \\(y\\))\n\\[\\begin{align*}\n\\va{OM} &= x \\va u_x + y \\va u_y \\\\ x, y \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point \\(M(x, y)\\) et les composantes d’un vecteur \\(\\va V(V_x, V_y)\\) sur la base (\\(\\va u_x\\), \\(\\va u_y\\)).\\\nDans la suite, le référentiel \\(R_c\\) associé aux coordonnées cartésiennes sera considéré comme fixe.\nIl se peut que les coordonnées cartésiennes ne soient pas les plus commodes pour décrire la position d’un point matériel. C’est notamment le cas lorsqu’on veut décrire un mouvement de rotation, tel qu’un mouvement sur une sphère ou un cylindre.\n\n\nCoordonnées polaires\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées polaires (\\(r\\), \\(\\theta\\)) \\[\\begin{align*}\n\\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées polaires permet de décrire les coordonnées d’un point \\(M ( r, \\theta)\\) et les composantes d’un vecteur \\(\\va V(V_r, V_\\theta)\\) sur la base (\\(\\va u_r\\), \\(\\va u_\\theta\\)).\nIl est important de remarquer que la base dépend de la coordonnée \\(\\theta\\) du point \\(M\\).\nEn général, les coordonnées cartésiennes sont associées au référentiel terrestre, considéré comme galiléen. Les coordonnées polaires, quant à elles, sont particulièrement adaptées à l’étude des mouvements de rotation. La base est souvent appelée base mobile. On dit qu’elle est associée au référentiel tournant \\(R_T\\).\n\nTheorem 1 (Changement de base) On s’interesse à une base fixe (\\(\\va u_x\\), \\(\\va u_y\\)) et à une base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\)). Tout les vecteurs des bases sont unitaires. On a donc :\n\\[\\begin{align*}\n\n\\left|\\left|\\va u_x\\right|\\right|=\\left|\\left|\\va u_y\\right|\\right|=\\left|\\left|\\va u_r\\right|\\right|=\\left|\\left|\\va u_\\theta\\right|\\right|=1\n\n\\end{align*}\\]\n\n\n\\[\\begin{align*}\n\\va u_r &= \\va u_{r_x} + \\va u_{r_y} \\\\\n\\va u_r &= \\cos{\\theta}\\va u_x + \\sin{\\theta}\\va u_y\\\\\n&\\\\\n\\va u_\\theta &= \\va u_{\\theta_x} + \\va u_{\\theta_y} \\\\\n\\va u_\\theta &= -\\sin{\\theta}\\va u_x + \\cos{\\theta}\\va u_y\n\\end{align*}\\]\n\n\n\n\n\n\n\n\\[\\begin{align*}\n\\va u_x &= \\va u_{x_r} + \\va u_{x_\\theta} \\\\\n\\va u_x &= \\cos{\\theta}\\va u_r - \\sin{\\theta}\\va u_\\theta\\\\\n&\\\\\n\\va u_y &= \\va u_{y_r} + \\va u_{y_\\theta} \\\\\n\\va u_y &= \\sin{\\theta}\\va u_r + \\cos{\\theta}\\va u_\\theta\n\\end{align*}\\]\n\n\n\n\n\n\n\n\n\nOn a pu voir que différents systèmes de coordonnées permettaient de représenter la position du point \\(M\\). Ainsi :\n\\[\\begin{align*}\n\\overrightarrow{OM} &= x \\va u_x + y \\va u_y \\\\\n& \\text{et}\\\\\n\\overrightarrow{OM} &= r \\va u_r\n\\end{align*}\\]\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\)) en fonction des coordonnées polaires (\\(r\\), \\(\\theta\\)) et inversemment. Ainsi :\n\\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\cos{\\theta}  \\\\\n      y &= \\ r \\sin{\\theta}\n    \\end{cases}       \n\\end{equation*}\\]"
   },
   {
-    "objectID": "CM/01-cinematique.html#changement-de-base",
-    "href": "CM/01-cinematique.html#changement-de-base",
+    "objectID": "CM/01-cinematique.html#coordonnées-cylindriques",
+    "href": "CM/01-cinematique.html#coordonnées-cylindriques",
     "title": "Cinematique de Point",
-    "section": "Changement de base",
-    "text": "Changement de base\nOn s’interesse à une base fixe (\\(\\va u_x\\), \\(\\va u_y\\)) et à une base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\)). Tout les vecteurs des bases sont unitaires. On a donc :\n\\[\\begin{align*}\n\n\\left|\\left|\\va u_x\\right|\\right|=\\left|\\left|\\va u_y\\right|\\right|=\\left|\\left|\\va u_r\\right|\\right|=\\left|\\left|\\va u_\\theta\\right|\\right|=1\n\n\\end{align*}\\]\n\n\n\\[\\begin{align*}\n\\va u_r &= \\va u_{r_x} + \\va u_{r_y} \\\\\n\\va u_r &= \\cos{\\theta}\\va u_x + \\sin{\\theta}\\va u_y\\\\\n&\\\\\n\\va u_\\theta &= \\va u_{\\theta_x} + \\va u_{\\theta_y} \\\\\n\\va u_\\theta &= -\\sin{\\theta}\\va u_x + \\cos{\\theta}\\va u_y\n\\end{align*}\\]\n\n\n\n\n\n\n\n\\[\\begin{align*}\n\\va u_x &= \\va u_{x_r} + \\va u_{x_\\theta} \\\\\n\\va u_x &= \\cos{\\theta}\\va u_r - \\sin{\\theta}\\va u_\\theta\\\\\n&\\\\\n\\va u_y &= \\va u_{y_r} + \\va u_{y_\\theta} \\\\\n\\va u_y &= \\sin{\\theta}\\va u_r + \\cos{\\theta}\\va u_\\theta\n\\end{align*}\\]\n\n\n\n\n\n\n\n\n:::\nSee ?@thm-base."
+    "section": "Coordonnées cylindriques",
+    "text": "Coordonnées cylindriques\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées cylindriques (\\(r\\), \\(\\theta\\), \\(z\\))\n\\[\\begin{align*}\n  \\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[ \\\\ z \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nOn utilisera les coordonnées cylindriques dès que la distance à l’axe \\(O_z\\) joue un rôle important dans l’exercice.\nThis is sparta dos pero vamos a ver"
   },
   {
-    "objectID": "CM/01-cinematique.html#position-dun-point-en-3-dimensions",
-    "href": "CM/01-cinematique.html#position-dun-point-en-3-dimensions",
-    "title": "Cinematique de Point",
-    "section": "Position d’un point en 3 dimensions",
-    "text": "Position d’un point en 3 dimensions"
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "References\n\n\n\n\n\n\n\n Back to top"
   }
 ]

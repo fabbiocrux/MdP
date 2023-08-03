@@ -89,9 +89,9 @@ Sauf indication contraire, nous utiliserons le référentiel terrestre.
 
 Exemples de référentiels :
 
--   Le référentiel héliocentrique (ou référentiel de Kepler)
--   Le référentiel géocentrique
--   Le référentiel terrestre
+- Le référentiel héliocentrique (ou référentiel de Kepler)
+- Le référentiel géocentrique
+- Le référentiel terrestre
 
 Nous supposerons qu'il existe un temps absolu : deux observateurs en mouvement relatifs peuvent attribuer les mêmes dates aux mêmes événements.
 
@@ -109,7 +109,7 @@ On place un observateur à un point $O$ du référentiel, nommé **origine**. On
 
 ### Coordonnées cartésiennes
 
-::: columns
+:::: columns
 ::: {.column width="50%"}
 ```{r, engine = 'tikz', engine.opts = list(template = "../assets/tikz.tex"), cache=TRUE}
 
@@ -146,13 +146,13 @@ On place un observateur à un point $O$ du référentiel, nommé **origine**. On
 ::: {.column width="50%"}
 Le point $M$ est repéré par les coordonnées cartésiennes ($x$, $y$)
 
-```{=tex}
+
 \begin{align*}
  \va{OM} &= x \va u_x + y \va u_y \\ x, y \ &\in \ ]-\infty, +\infty[
 \end{align*}
-```
+
 :::
-:::
+::::
 
 Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d'un point $M(x, y)$ et les composantes d'un vecteur $\va V(V_x, V_y)$ sur la base ($\va u_x$, $\va u_y$).\\
 
@@ -413,6 +413,7 @@ On place un observateur à un point $O$ du référentiel, nommé ***origine***. 
 \tkzDrawSegment[dashed](O,M') ;
 
 
+
 \tkzDefPointBy[translation=from O to vy](M') \tkzGetPoint{xM1}
 \tkzInterLL(O,vx)(M',xM1) \tkzGetPoint{xM}
 \tkzDefPointBy[translation=from O to vx](M') \tkzGetPoint{yM1}
@@ -440,6 +441,7 @@ On place un observateur à un point $O$ du référentiel, nommé ***origine***. 
 
 ::: {.column width="48%"}
 
+
 Le point $M$ est repéré par les coordonnées cartésiennes ($x$, $y$, $z$)
 \begin{align*}
 &\va{OM} = x \va u_x + y \va u_y + z \va u_z \\ &x, y, z \ \in \ ]-\infty, +\infty[
@@ -452,5 +454,95 @@ Le point $M$ est repéré par les coordonnées cartésiennes ($x$, $y$, $z$)
 Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point $M(x, y, z)$ et les composantes d’un vecteur $\va V(V_x, V_y, V_z)$ sur la base ($\va u_x$, $\va u_y$, $\va u_z$).\\
 
 Dans la suite, le référentiel $R_c$ associé aux coordonnées cartésiennes sera considéré comme fixe.
+
+
+
+
+
+## Coordonnées cylindriques
+
+
+:::: columns
+::: {.column width="38%"}
+
+
+```{r, engine = 'tikz', engine.opts = list(template = "../assets/tikz.tex"), cache=TRUE}
+
+\begin{tikzpicture}
+
+
+\tkzDefPoint[label={left:$O$}](0,0){O}
+\tkzDefPoint[label={below left:$\va x$}](-1,-1){vx}
+\tkzDefPoint[label={above:$\va y$}](2.3,0){vy}
+\tkzDefPoint[label={above left:$\va z$}](0,2){vz}
+\tkzDrawSegment[->](O,vx) ;
+\tkzDrawSegment[->](O,vy);
+\tkzDrawSegment[->](O,vz);
+
+\tkzDefPoint(1.2,1.1){M} ;
+\tkzDrawPoint(M);
+\tkzDrawSegment(O,M) ;
+\tkzLabelPoints[below right](M) ;
+\tkzDefPoint(1.2,-0.5){M'} ;
+\tkzDrawSegment[dashed](O,M') ;
+
+\tkzDefPointBy[projection=onto O--vy](M) \tkzGetPoint{yM}
+
+\draw[thin] (0,0) [elliparc=0:360:1.75cm and .7cm];
+\draw[thin] (0,1.6) [elliparc=0:360:1.75cm and .7cm];
+
+
+\tkzDefPointBy[translation=from O to M'](M) \tkzGetPoint{zM1}
+\tkzInterLL(O,vz)(M,zM1) \tkzGetPoint{zM}
+
+
+\tkzDrawSegment[dashed](M,zM) ;
+\tkzLabelSegment[above,pos=.5](M,zM){$r$}
+\tkzLabelSegment(O,zM){$z$}
+\tkzDrawSegment[dashed](M',M) ;
+\tkzMarkAngle[mark=none,size=.6cm,->,color=red](vx,O,M') ;
+\tkzLabelAngle[color=red,xshift=.3cm,yshift=.1cm](vx,O,M'){$\theta$} ;
+
+\tkzDefPointWith[linear,K=2](zM,M) \tkzGetPoint{M2}
+\tkzDefPointWith[linear normed](M,M2) \tkzGetPoint{ur}
+\tkzDefPointWith[colinear normed= at M](M',yM) \tkzGetPoint{utheta}
+\tkzDefPointWith[colinear normed= at M](O,zM) \tkzGetPoint{uz}
+\tkzDrawSegment[red,->,thick](M,ur);
+\tkzDrawSegment[red,->,thick](M,utheta) ;
+\tkzDrawSegment[red,->,thick](M,uz) ;
+\tkzLabelPoint[below right, red](ur){$\va u_r$} ;
+\tkzLabelPoint[above, red](utheta){$\va u_\theta$} ;
+\tkzLabelPoint[above, red](uz){$\va u_z$} ;
+
+\tkzMarkRightAngle[,size=.1,color=red](O,M',M);
+\tkzMarkRightAngle[,size=.1,color=red](O,zM,M);
+\tkzMarkRightAngle[,size=.1,color=red](ur,M,utheta);
+\tkzMarkRightAngle[,size=.1,color=red](uz,M,utheta);
+
+\end{tikzpicture}
+
+```
+
+:::
+
+
+::: {.column width="60%"}
+
+Le point $M$ est repéré par les coordonnées cylindriques ($r$, $\theta$, $z$)
+
+\begin{align*}
+  \va{OM} &= r \va u_r  \\ r \ &\in \ [0, +\infty[ \\ \theta \ &\in \ [0, 2\pi[ \\ z \ &\in \ ]-\infty, +\infty[
+\end{align*}
+
+:::
+
+::::
+
+On utilisera les coordonnées cylindriques dès que la distance à l’axe $O_z$ joue un rôle important dans l’exercice.
+
+
+This is sparta
+dos pero vamos a ver
+
 
 

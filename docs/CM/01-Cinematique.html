@@ -207,6 +207,7 @@ window.MathJax = {
   <li><a href="#position-dun-point-en-3-dimensions" id="toc-position-dun-point-en-3-dimensions" class="nav-link" data-scroll-target="#position-dun-point-en-3-dimensions">Position d’un point en 3 dimensions</a>
   <ul class="collapse">
   <li><a href="#coordonnées-cartésiennes-1" id="toc-coordonnées-cartésiennes-1" class="nav-link" data-scroll-target="#coordonnées-cartésiennes-1">Coordonnées cartésiennes</a></li>
+  <li><a href="#coordonnées-cylindriques" id="toc-coordonnées-cylindriques" class="nav-link" data-scroll-target="#coordonnées-cylindriques">Coordonnées cylindriques</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -327,16 +328,16 @@ Point matériel
 <h3 class="anchored" data-anchor-id="coordonnées-cartésiennes">Coordonnées cartésiennes</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-1_6e6c641be24a0b4eabb171dd2506362f">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}">
 <div class="cell-output-display">
 <p><img src="01-cinematique_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </div><div class="column" style="width:50%;">
 <p>Le point <span class="math inline">\(M\)</span> est repéré par les coordonnées cartésiennes (<span class="math inline">\(x\)</span>, <span class="math inline">\(y\)</span>)</p>
-<span class="math display">\[\begin{align*}
+<p><span class="math display">\[\begin{align*}
 \va{OM} &amp;= x \va u_x + y \va u_y \\ x, y \ &amp;\in \ ]-\infty, +\infty[
-\end{align*}\]</span>
+\end{align*}\]</span></p>
 </div>
 </div>
 <p>Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point <span class="math inline">\(M(x, y)\)</span> et les composantes d’un vecteur <span class="math inline">\(\va V(V_x, V_y)\)</span> sur la base (<span class="math inline">\(\va u_x\)</span>, <span class="math inline">\(\va u_y\)</span>).\</p>
@@ -347,7 +348,7 @@ Point matériel
 <h3 class="anchored" data-anchor-id="coordonnées-polaires">Coordonnées polaires</h3>
 <div class="columns">
 <div class="column" style="width:50%;">
-<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-2_0007b01772d5a515b2ec4788039af6e1">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}">
 <div class="cell-output-display">
 <p><img src="01-cinematique_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -378,7 +379,7 @@ Point matériel
 \va u_\theta &amp;= -\sin{\theta}\va u_x + \cos{\theta}\va u_y
 \end{align*}\]</span>
 </div><div class="column" style="width:60%;">
-<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-3_2b1dd5a82349dd09f6a792346adadea8">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}">
 <div class="cell-output-display">
 <p><img src="01-cinematique_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -392,7 +393,7 @@ Point matériel
 \va u_y &amp;= \sin{\theta}\va u_r + \cos{\theta}\va u_\theta
 \end{align*}\]</span>
 </div><div class="column" style="width:60%;">
-<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-4_34fc86b2561e73361b9985550985c592">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}">
 <div class="cell-output-display">
 <p><img src="01-cinematique_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -423,7 +424,7 @@ Point matériel
 <h3 class="anchored" data-anchor-id="coordonnées-cartésiennes-1">Coordonnées cartésiennes</h3>
 <div class="columns">
 <div class="column" style="width:38%;">
-<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-cinematique_cache/html/unnamed-chunk-5_ed298236f506f1efbd914700085c52b8">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}">
 <div class="cell-output-display">
 <p><img src="01-cinematique_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
@@ -434,8 +435,27 @@ Point matériel
 \end{align*}\]</span></p>
 </div>
 </div>
-<p>Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point <span class="math inline">\(M(x, y, z)\)</span> et les composantes d’un vecteur <span class="math inline">\(\vv V(V_x, V_y, V_z)\)</span> sur la base (<span class="math inline">\(\vv u_x\)</span>, <span class="math inline">\(\vv u_y\)</span>, <span class="math inline">\(\vv u_z\)</span>).\</p>
+<p>Le repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point <span class="math inline">\(M(x, y, z)\)</span> et les composantes d’un vecteur <span class="math inline">\(\va V(V_x, V_y, V_z)\)</span> sur la base (<span class="math inline">\(\va u_x\)</span>, <span class="math inline">\(\va u_y\)</span>, <span class="math inline">\(\va u_z\)</span>).\</p>
 <p>Dans la suite, le référentiel <span class="math inline">\(R_c\)</span> associé aux coordonnées cartésiennes sera considéré comme fixe.</p>
+</section>
+<section id="coordonnées-cylindriques" class="level2">
+<h2 class="anchored" data-anchor-id="coordonnées-cylindriques">Coordonnées cylindriques</h2>
+<div class="columns">
+<div class="column" style="width:38%;">
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}">
+<div class="cell-output-display">
+<p><img src="01-cinematique_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div><div class="column" style="width:60%;">
+<p>Le point <span class="math inline">\(M\)</span> est repéré par les coordonnées cylindriques (<span class="math inline">\(r\)</span>, <span class="math inline">\(\theta\)</span>, <span class="math inline">\(z\)</span>)</p>
+<p><span class="math display">\[\begin{align*}
+  \va{OM} &amp;= r \va u_r  \\ r \ &amp;\in \ [0, +\infty[ \\ \theta \ &amp;\in \ [0, 2\pi[ \\ z \ &amp;\in \ ]-\infty, +\infty[
+\end{align*}\]</span></p>
+</div>
+</div>
+<p>On utilisera les coordonnées cylindriques dès que la distance à l’axe <span class="math inline">\(O_z\)</span> joue un rôle important dans l’exercice.</p>
+<p>This is sparta dos pero vamos a ver</p>
 
 
 </section>

@@ -112,6 +112,6 @@ format:
 
 
 execute:
-  cache: true
+  cache: false
   echo: false
 #freeze: true
