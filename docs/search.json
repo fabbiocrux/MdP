@@ -3,15 +3,15 @@
     "objectID": "CM.html#notes",
     "href": "CM.html#notes",
     "title": "Cours Magistraux",
-    "section": "Notes",
-    "text": "Notes"
+    "section": "2 Notes",
+    "text": "2 Notes"
   },
   {
     "objectID": "CM.html#bibliographie",
     "href": "CM.html#bibliographie",
     "title": "Cours Magistraux",
-    "section": "Bibliographie",
-    "text": "Bibliographie"
+    "section": "3 Bibliographie",
+    "text": "3 Bibliographie"
   },
   {
     "objectID": "TD/01-TD.html",
@@ -60,7 +60,7 @@
     "href": "index.html",
     "title": "\n             Mécanique du Point\n         ",
     "section": "",
-    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             La vitesse n’a jamais tué personne. Se retrouver brusquement immobile, c’est ça qui vous tue. - Jeremy Clarkson, Top Gear Université de Lorraine\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\nInstructor\n\n   Guillaume Pronost\n   Dr. Fabio A Cruz\n   ENSGSI\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\nCourse details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\nContacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             La vitesse n’a jamais tué personne. Se retrouver brusquement immobile, c’est ça qui vous tue. - Jeremy Clarkson, Top Gear Université de Lorraine\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\n0.1 Instructor\n\n   Guillaume Pronost\n   Dr. Fabio A Cruz\n   ENSGSI\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\n0.2 Course details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\n0.3 Contacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "CM/03-energetique.html",
@@ -95,7 +95,7 @@
     "href": "CM/01-cinematique.html",
     "title": "Cinematique de Point",
     "section": "",
-    "text": "Chapitre 1 de .."
+    "text": "$$\n$$"
   },
   {
     "objectID": "CM/01-cinematique.html#lecture-obligatoire",
@@ -108,71 +108,71 @@
     "objectID": "CM/01-cinematique.html#slides-avec-des-idées-clés",
     "href": "CM/01-cinematique.html#slides-avec-des-idées-clés",
     "title": "Cinematique de Point",
-    "section": "Slides avec des idées clés",
-    "text": "Slides avec des idées clés"
+    "section": "1.1 Slides avec des idées clés",
+    "text": "1.1 Slides avec des idées clés"
   },
   {
     "objectID": "CM/01-cinematique.html#quest-ce-que-cest-la-cinématique",
     "href": "CM/01-cinematique.html#quest-ce-que-cest-la-cinématique",
     "title": "Cinematique de Point",
-    "section": "Qu’est ce que c’est la Cinématique?",
-    "text": "Qu’est ce que c’est la Cinématique?\nLa cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.\n\n\n\n\n\n\nPoint matériel\n\n\n\nIl arrive souvent que l’on puisse décrire et prédire le mouvement d’un objet par les lois de la dynamique, en associant l’objet à un unique point géométrique auquel on attribue la masse \\(m\\) de l’objet. C’est ce qu’on appelle un point matériel.\nCe point matériel constitue un modèle de l’objet étudié. Il s’agit donc d’une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l’objet sous la forme d’un point matériel constitue une approximation de son comportement réel."
+    "section": "",
+    "text": "La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.\n\n\n\n\n\n\nPoint matériel\n\n\n\nIl arrive souvent que l’on puisse décrire et prédire le mouvement d’un objet par les lois de la dynamique, en associant l’objet à un unique point géométrique auquel on attribue la masse \\(m\\) de l’objet. C’est ce qu’on appelle un point matériel.\nCe point matériel constitue un modèle de l’objet étudié. Il s’agit donc d’une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l’objet sous la forme d’un point matériel constitue une approximation de son comportement réel."
   },
   {
     "objectID": "CM/01-cinematique.html#comparaison-des-vecteurs",
     "href": "CM/01-cinematique.html#comparaison-des-vecteurs",
     "title": "Cinematique de Point",
-    "section": "Comparaison des vecteurs",
-    "text": "Comparaison des vecteurs\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont colinéaires si et seulement si il existe un nombre réel \\(k\\) tel que \\(\\va v = k*\\va u\\). Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.\nLe produit scalaire de deux vecteurs \\(\\va u\\) et \\(\\va v\\) peut être défini comme:\n\\[\n\\newcommand\\mcy{{\\mathcal{y}}}\n\\va u .\\va v = \\left|\\left|\\va u\\right|\\right| \\left|\\left|\\va v\\right|\\right| \\cos{\\theta}\n\\]\noù \\(\\theta\\) est l’angle formé entre \\(\\va u\\) et \\(\\va v\\)\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont si et seulement si leur produit scalaire est nul : \\(\\va u .\\va v = 0\\)"
+    "section": "3.1 Comparaison des vecteurs",
+    "text": "3.1 Comparaison des vecteurs\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont colinéaires si et seulement si il existe un nombre réel \\(k\\) tel que \\(\\va v = k*\\va u\\). Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.\nLe produit scalaire de deux vecteurs \\(\\va u\\) et \\(\\va v\\) peut être défini comme:\n\\[\n\\newcommand\\mcy{{\\mathcal{y}}}\n\\va u .\\va v = \\left|\\left|\\va u\\right|\\right| \\left|\\left|\\va v\\right|\\right| \\cos{\\theta}\n\\]\noù \\(\\theta\\) est l’angle formé entre \\(\\va u\\) et \\(\\va v\\)\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont si et seulement si leur produit scalaire est nul : \\(\\va u .\\va v = 0\\)"
   },
   {
     "objectID": "CM/01-cinematique.html#base-dun-espace-vectoriel",
     "href": "CM/01-cinematique.html#base-dun-espace-vectoriel",
     "title": "Cinematique de Point",
-    "section": "Base d’un espace vectoriel",
-    "text": "Base d’un espace vectoriel\nSoit \\(E\\) un espace vectoriel.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite libre et ses vecteurs sont dit liénairements indépendants, lorsque\n\\[\\begin{align*}\n\n\\forall \\ \\lambda_1,\\ \\lambda_2,\\ ...,\\ \\lambda_n \\in E,\\ \\lambda_1 \\va i_1 + \\lambda_2 \\va i_2 + ... + \\lambda_n \\va i_n = \\va 0 \\implies \\lambda_1= \\lambda_2= ...=\\lambda_n = 0\n\n\\end{align*}\\]\nUne famille qui n’est pas libre est dite liée.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite génératrice lorsque tout vecteur \\(\\va v \\in E\\) est combinaison des vecteurs de \\(F\\).\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite base de \\(E\\) lorsque qu’elle est libre et génératrice."
+    "section": "3.2 Base d’un espace vectoriel",
+    "text": "3.2 Base d’un espace vectoriel\nSoit \\(E\\) un espace vectoriel.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite libre et ses vecteurs sont dit liénairements indépendants, lorsque\n\\[\\begin{align*}\n\n\\forall \\ \\lambda_1,\\ \\lambda_2,\\ ...,\\ \\lambda_n \\in E,\\ \\lambda_1 \\va i_1 + \\lambda_2 \\va i_2 + ... + \\lambda_n \\va i_n = \\va 0 \\implies \\lambda_1= \\lambda_2= ...=\\lambda_n = 0\n\n\\end{align*}\\]\nUne famille qui n’est pas libre est dite liée.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite génératrice lorsque tout vecteur \\(\\va v \\in E\\) est combinaison des vecteurs de \\(F\\).\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite base de \\(E\\) lorsque qu’elle est libre et génératrice."
   },
   {
     "objectID": "CM/01-cinematique.html#repère-orthonormé-direct-en-dimension-2-et-3",
     "href": "CM/01-cinematique.html#repère-orthonormé-direct-en-dimension-2-et-3",
     "title": "Cinematique de Point",
-    "section": "Repère orthonormé direct en dimension 2 et 3",
-    "text": "Repère orthonormé direct en dimension 2 et 3\nDans ce chapitre et les suivants, on s’interessera uniquement à des espaces de dimension 2 (problème plan) et de dimension 3 (problème en 3D). Dans ce contexte, les différents repères utilisés seront toujours des repères orthonormés directs.\nUn repère (\\(A\\), \\(\\va i_1\\), … \\(\\va i_n\\)) est dit orthonormé si tout les vecteurs (\\(\\va i_1\\), … \\(\\va i_n\\)) composant ce repère sont des vecteurs unitaires, c’est-à-dire qu’ils sont de norme 1 :\n\\[\\begin{align*}\n\\left|\\left|\\va i_1\\right|\\right|= ... =\\left|\\left|\\va i_n\\right|\\right|= 1\n\\end{align*}\\]\nUn repère (\\(A\\), \\(\\va i_1\\), … \\(\\va i_n\\)) de dimension 2 ou 3 est dit direct si il respecte la règle dite du “bonhomme d’Ampère” ou de la “main droite”. Dans le cas contraire, le repère est dit indirect."
+    "section": "4.1 Repère orthonormé direct en dimension 2 et 3",
+    "text": "4.1 Repère orthonormé direct en dimension 2 et 3\nDans ce chapitre et les suivants, on s’interessera uniquement à des espaces de dimension 2 (problème plan) et de dimension 3 (problème en 3D). Dans ce contexte, les différents repères utilisés seront toujours des repères orthonormés directs.\nUn repère (\\(A\\), \\(\\va i_1\\), … \\(\\va i_n\\)) est dit orthonormé si tout les vecteurs (\\(\\va i_1\\), … \\(\\va i_n\\)) composant ce repère sont des vecteurs unitaires, c’est-à-dire qu’ils sont de norme 1 :\n\\[\\begin{align*}\n\\left|\\left|\\va i_1\\right|\\right|= ... =\\left|\\left|\\va i_n\\right|\\right|= 1\n\\end{align*}\\]\nUn repère (\\(A\\), \\(\\va i_1\\), … \\(\\va i_n\\)) de dimension 2 ou 3 est dit direct si il respecte la règle dite du “bonhomme d’Ampère” ou de la “main droite”. Dans le cas contraire, le repère est dit indirect."
   },
   {
     "objectID": "CM/01-cinematique.html#repérage-dun-point-matériel",
     "href": "CM/01-cinematique.html#repérage-dun-point-matériel",
     "title": "Cinematique de Point",
-    "section": "Repérage d’un point matériel",
-    "text": "Repérage d’un point matériel"
+    "section": "4.2 Repérage d’un point matériel",
+    "text": "4.2 Repérage d’un point matériel"
   },
   {
     "objectID": "CM/01-cinematique.html#référentiel",
     "href": "CM/01-cinematique.html#référentiel",
     "title": "Cinematique de Point",
-    "section": "Référentiel",
-    "text": "Référentiel\nPour commence à discuter du mouvement d’un corps ou d’un point, il est nécessaire de définir par rapport à quoi le mouvement sera mesuré.\nUn référentiel est un solide servant de référence pour décrire le mouvement des objets. Les vitesses et accélérations sont définies par rapport à ce référentiel.\nSauf indication contraire, nous utiliserons le référentiel terrestre.\nExemples de référentiels :\n\nLe référentiel héliocentrique (ou référentiel de Kepler)\nLe référentiel géocentrique\nLe référentiel terrestre\n\nNous supposerons qu’il existe un temps absolu : deux observateurs en mouvement relatifs peuvent attribuer les mêmes dates aux mêmes événements."
+    "section": "4.3 Référentiel",
+    "text": "4.3 Référentiel\nPour commence à discuter du mouvement d’un corps ou d’un point, il est nécessaire de définir par rapport à quoi le mouvement sera mesuré.\nUn référentiel est un solide servant de référence pour décrire le mouvement des objets. Les vitesses et accélérations sont définies par rapport à ce référentiel.\nSauf indication contraire, nous utiliserons le référentiel terrestre.\nExemples de référentiels :\n\nLe référentiel héliocentrique (ou référentiel de Kepler)\nLe référentiel géocentrique\nLe référentiel terrestre\n\nNous supposerons qu’il existe un temps absolu : deux observateurs en mouvement relatifs peuvent attribuer les mêmes dates aux mêmes événements."
   },
   {
     "objectID": "CM/01-cinematique.html#trajectoire-dun-point",
     "href": "CM/01-cinematique.html#trajectoire-dun-point",
     "title": "Cinematique de Point",
-    "section": "Trajectoire d’un point",
-    "text": "Trajectoire d’un point\nOn appelle trajectoire d’un point, dans un référentiel, l’ensemble des positions successives occupées par ce point au cours du temps.\nSoit \\(O\\) un point particulier du référentiel et \\(M\\) la position du point matériel. La fonction \\(\\overrightarrow{OM}(t)\\) donne la position du point matériel \\(M\\) au cours du temps \\(t\\). On la nomme équation horaire.\nDéterminer cette fonction \\(\\overrightarrow{OM}(t)\\) représente l’objectif principal de la mécanique du point."
+    "section": "4.4 Trajectoire d’un point",
+    "text": "4.4 Trajectoire d’un point\nOn appelle trajectoire d’un point, dans un référentiel, l’ensemble des positions successives occupées par ce point au cours du temps.\nSoit \\(O\\) un point particulier du référentiel et \\(M\\) la position du point matériel. La fonction \\(\\overrightarrow{OM}(t)\\) donne la position du point matériel \\(M\\) au cours du temps \\(t\\). On la nomme équation horaire.\nDéterminer cette fonction \\(\\overrightarrow{OM}(t)\\) représente l’objectif principal de la mécanique du point."
   },
   {
     "objectID": "CM/01-cinematique.html#position-dun-point-en-2-dimensions",
     "href": "CM/01-cinematique.html#position-dun-point-en-2-dimensions",
     "title": "Cinematique de Point",
-    "section": "Position d’un point en 2 dimensions",
-    "text": "Position d’un point en 2 dimensions\nOn place un observateur à un point \\(O\\) du référentiel, nommé origine. On cherche à exprimer la position d’un point matériel \\(M\\) par rapport à un repère orthonormé direct (\\(O\\), \\(\\va u_1\\), \\(\\va u_2\\)).\n\nCoordonnées cartésiennes\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées cartésiennes (\\(x\\), \\(y\\))\n\\[\\begin{align*}\n\\va{OM} &= x \\va u_x + y \\va u_y \\\\ x, y \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point \\(M(x, y)\\) et les composantes d’un vecteur \\(\\va V(V_x, V_y)\\) sur la base (\\(\\va u_x\\), \\(\\va u_y\\)).\\\nDans la suite, le référentiel \\(R_c\\) associé aux coordonnées cartésiennes sera considéré comme fixe.\nIl se peut que les coordonnées cartésiennes ne soient pas les plus commodes pour décrire la position d’un point matériel. C’est notamment le cas lorsqu’on veut décrire un mouvement de rotation, tel qu’un mouvement sur une sphère ou un cylindre.\n\n\nCoordonnées polaires\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées polaires (\\(r\\), \\(\\theta\\)) \\[\\begin{align*}\n\\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées polaires permet de décrire les coordonnées d’un point \\(M ( r, \\theta)\\) et les composantes d’un vecteur \\(\\va V(V_r, V_\\theta)\\) sur la base (\\(\\va u_r\\), \\(\\va u_\\theta\\)).\nIl est important de remarquer que la base dépend de la coordonnée \\(\\theta\\) du point \\(M\\).\nEn général, les coordonnées cartésiennes sont associées au référentiel terrestre, considéré comme galiléen. Les coordonnées polaires, quant à elles, sont particulièrement adaptées à l’étude des mouvements de rotation. La base est souvent appelée base mobile. On dit qu’elle est associée au référentiel tournant \\(R_T\\).\n\nTheorem 1 (Changement de base) On s’interesse à une base fixe (\\(\\va u_x\\), \\(\\va u_y\\)) et à une base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\)). Tout les vecteurs des bases sont unitaires. On a donc :\n\\[\\begin{align*}\n\n\\left|\\left|\\va u_x\\right|\\right|=\\left|\\left|\\va u_y\\right|\\right|=\\left|\\left|\\va u_r\\right|\\right|=\\left|\\left|\\va u_\\theta\\right|\\right|=1\n\n\\end{align*}\\]\n\n\n\\[\\begin{align*}\n\\va u_r &= \\va u_{r_x} + \\va u_{r_y} \\\\\n\\va u_r &= \\cos{\\theta}\\va u_x + \\sin{\\theta}\\va u_y\\\\\n&\\\\\n\\va u_\\theta &= \\va u_{\\theta_x} + \\va u_{\\theta_y} \\\\\n\\va u_\\theta &= -\\sin{\\theta}\\va u_x + \\cos{\\theta}\\va u_y\n\\end{align*}\\]\n\n\n\n\n\n\n\n\\[\\begin{align*}\n\\va u_x &= \\va u_{x_r} + \\va u_{x_\\theta} \\\\\n\\va u_x &= \\cos{\\theta}\\va u_r - \\sin{\\theta}\\va u_\\theta\\\\\n&\\\\\n\\va u_y &= \\va u_{y_r} + \\va u_{y_\\theta} \\\\\n\\va u_y &= \\sin{\\theta}\\va u_r + \\cos{\\theta}\\va u_\\theta\n\\end{align*}\\]\n\n\n\n\n\n\n\n\n\nOn a pu voir que différents systèmes de coordonnées permettaient de représenter la position du point \\(M\\). Ainsi :\n\\[\\begin{align*}\n\\overrightarrow{OM} &= x \\va u_x + y \\va u_y \\\\\n& \\text{et}\\\\\n\\overrightarrow{OM} &= r \\va u_r\n\\end{align*}\\]\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\)) en fonction des coordonnées polaires (\\(r\\), \\(\\theta\\)) et inversemment. Ainsi :\n\\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\cos{\\theta}  \\\\\n      y &= \\ r \\sin{\\theta}\n    \\end{cases}       \n\\end{equation*}\\]"
+    "section": "4.5 Position d’un point en 2 dimensions",
+    "text": "4.5 Position d’un point en 2 dimensions\nOn place un observateur à un point \\(O\\) du référentiel, nommé origine. On cherche à exprimer la position d’un point matériel \\(M\\) par rapport à un repère orthonormé direct (\\(O\\), \\(\\va u_1\\), \\(\\va u_2\\)).\n\n4.5.1 Coordonnées cartésiennes\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées cartésiennes (\\(x\\), \\(y\\))\n\\[\\begin{align*}\n\\va{OM} &= x \\va u_x + y \\va u_y \\\\ x, y \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point \\(M(x, y)\\) et les composantes d’un vecteur \\(\\va V(V_x, V_y)\\) sur la base (\\(\\va u_x\\), \\(\\va u_y\\)).\\\nDans la suite, le référentiel \\(R_c\\) associé aux coordonnées cartésiennes sera considéré comme fixe.\nIl se peut que les coordonnées cartésiennes ne soient pas les plus commodes pour décrire la position d’un point matériel. C’est notamment le cas lorsqu’on veut décrire un mouvement de rotation, tel qu’un mouvement sur une sphère ou un cylindre.\n\n\n4.5.2 Coordonnées polaires\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées polaires (\\(r\\), \\(\\theta\\)) \\[\\begin{align*}\n\\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées polaires permet de décrire les coordonnées d’un point \\(M ( r, \\theta)\\) et les composantes d’un vecteur \\(\\va V(V_r, V_\\theta)\\) sur la base (\\(\\va u_r\\), \\(\\va u_\\theta\\)).\nIl est important de remarquer que la base dépend de la coordonnée \\(\\theta\\) du point \\(M\\).\nEn général, les coordonnées cartésiennes sont associées au référentiel terrestre, considéré comme galiléen. Les coordonnées polaires, quant à elles, sont particulièrement adaptées à l’étude des mouvements de rotation. La base est souvent appelée base mobile. On dit qu’elle est associée au référentiel tournant \\(R_T\\).\n\nTheorem 1 (Changement de base) On s’interesse à une base fixe (\\(\\va u_x\\), \\(\\va u_y\\)) et à une base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\)). Tout les vecteurs des bases sont unitaires. On a donc :\n\\[\\begin{align*}\n\n\\left|\\left|\\va u_x\\right|\\right|=\\left|\\left|\\va u_y\\right|\\right|=\\left|\\left|\\va u_r\\right|\\right|=\\left|\\left|\\va u_\\theta\\right|\\right|=1\n\n\\end{align*}\\]\n\n\n\\[\\begin{align*}\n\\va u_r &= \\va u_{r_x} + \\va u_{r_y} \\\\\n\\va u_r &= \\cos{\\theta}\\va u_x + \\sin{\\theta}\\va u_y\\\\\n&\\\\\n\\va u_\\theta &= \\va u_{\\theta_x} + \\va u_{\\theta_y} \\\\\n\\va u_\\theta &= -\\sin{\\theta}\\va u_x + \\cos{\\theta}\\va u_y\n\\end{align*}\\]\n\n\n\n\n\n\n\n\\[\\begin{align*}\n\\va u_x &= \\va u_{x_r} + \\va u_{x_\\theta} \\\\\n\\va u_x &= \\cos{\\theta}\\va u_r - \\sin{\\theta}\\va u_\\theta\\\\\n&\\\\\n\\va u_y &= \\va u_{y_r} + \\va u_{y_\\theta} \\\\\n\\va u_y &= \\sin{\\theta}\\va u_r + \\cos{\\theta}\\va u_\\theta\n\\end{align*}\\]\n\n\n\n\n\n\n\n\n\nOn a pu voir que différents systèmes de coordonnées permettaient de représenter la position du point \\(M\\). Ainsi :\n\\[\\begin{align*}\n\\overrightarrow{OM} &= x \\va u_x + y \\va u_y \\\\\n& \\text{et}\\\\\n\\overrightarrow{OM} &= r \\va u_r\n\\end{align*}\\]\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\)) en fonction des coordonnées polaires (\\(r\\), \\(\\theta\\)) et inversemment. Ainsi :\n\\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\cos{\\theta}  \\\\\n      y &= \\ r \\sin{\\theta}\n    \\end{cases}       \n\\end{equation*}\\]"
   },
   {
     "objectID": "CM/01-cinematique.html#coordonnées-cylindriques",
     "href": "CM/01-cinematique.html#coordonnées-cylindriques",
     "title": "Cinematique de Point",
-    "section": "Coordonnées cylindriques",
-    "text": "Coordonnées cylindriques\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées cylindriques (\\(r\\), \\(\\theta\\), \\(z\\))\n\\[\\begin{align*}\n  \\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[ \\\\ z \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nOn utilisera les coordonnées cylindriques dès que la distance à l’axe \\(O_z\\) joue un rôle important dans l’exercice.\nThis is sparta dos pero vamos a ver"
+    "section": "5.1 Coordonnées cylindriques",
+    "text": "5.1 Coordonnées cylindriques\n\n\nIci figure de Coordones cyclindriques\n\nLe point \\(M\\) est repéré par les coordonnées cylindriques (\\(r\\), \\(\\theta\\), \\(z\\))\n\\[\\begin{align*}\n  \\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[ \\\\ z \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nOn utilisera les coordonnées cylindriques dès que la distance à l’axe \\(O_z\\) joue un rôle important dans l’exercice.\n\n5.1.1 Changement de système de coordonnées\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\), \\(z\\)) en fonction des coordonnées cylindriques (\\(r\\), \\(\\theta\\), \\(z\\)) et inversemment. Ainsi :\n\\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\cos{\\theta}  \\\\\n      y &= \\ r \\sin{\\theta} \\\\\n      z &= \\ z\n    \\end{cases}       \n\\end{equation*}\\]"
   },
   {
     "objectID": "references.html",
@@ -180,5 +180,61 @@
     "title": "References",
     "section": "",
     "text": "References\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#coordonnées-sphériques",
+    "href": "CM/01-cinematique.html#coordonnées-sphériques",
+    "title": "Cinematique de Point",
+    "section": "5.2 Coordonnées sphériques",
+    "text": "5.2 Coordonnées sphériques\n\n\nFigure coordones Spériques\n\n\n\n\nOn utilisera les coordonnées sphériques dès que la distance \\(r\\) au centre O joue un rôle important dans l’exercice.\\\n\n5.2.1 Changement de système de coordonnées\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\), \\(z\\)) en fonction des coordonnées sphériques (\\(r\\), \\(\\theta\\), \\(\\phi\\)) et inversemment. Ainsi : \\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\sin{\\theta}\\cos{\\phi}  \\\\\n      y &= \\ r \\sin{\\theta}\\sin{\\phi} \\\\\n      z &= \\ r \\cos{\\theta}\n    \\end{cases}       \n\\end{equation*}\\]"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cartésiennes",
+    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cartésiennes",
+    "title": "Cinematique de Point",
+    "section": "6.1 Expression de la vitesse en coordonnées cartésiennes",
+    "text": "6.1 Expression de la vitesse en coordonnées cartésiennes\nSoit (\\(\\va u_x\\), \\(\\va u_y\\), \\(\\va u_z\\)) la base des coordonnées cartésiennes.\n\\[\\begin{align*}\n    &\\va v(M_{/R_c})=\\left(\\frac{d(\\va{OM})}{dt}\\right)_{/Rc} \\ \\ \\text{avec} \\ \\ \\va{OM} = x \\va u_x + y \\va u_y + z \\va u_z\\\\\n    &\\va v(M_{/R_c})=\\left(\\frac{d(x \\va u_x + y \\va u_y + z \\va u_z)}{dt}\\right)_{/R}\\\\\n    &\\va v(M_{/R_c})=\\frac{dx}{dt}\\va u_x +\n    \\let\\OldcancelColor\\CancelColor\n    \\renewcommand\\CancelColor{\\color{red}}\n    \\cancel{x\\left(\\frac{d(\\va u_x)}{dt}\\right)_{/R_c}}\n    \\renewcommand\\CancelColor{\\OldcancelColor}\n+ \\frac{dy}{dt}\\va u_y +\n    \\let\\OldcancelColor\\CancelColor\n    \\renewcommand\\CancelColor{\\color{red}}\n    \\cancel{y\\left(\\frac{d(\\va u_y)}{dt}\\right)_{/R_c}}\n    \\renewcommand\\CancelColor{\\OldcancelColor}\n+ \\frac{dz}{dt}\\va u_z +  \n    \\let\\OldcancelColor\\CancelColor\n    \\renewcommand\\CancelColor{\\color{red}}\n    \\cancel{z\\left(\\frac{d(\\va u_z)}{dt}\\right)_{/R_c}}\n    \\renewcommand\\CancelColor{\\OldcancelColor}\n\\\\\n\n\n    \\va v(M_{/R_c})=\\dfrac{dx}{dt}\\va u_x + \\dfrac{dy}{dt}\\va u_y + \\dfrac{dz}{dt}\\va u_z \\\\\n\\end{align*}\\]\nLes vecteurs \\(\\va u_x\\), \\(\\va u_y\\), et \\(\\va u_z\\) et sont dans \\(R_c\\) , donc leur dérivée est nulle."
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-polaires",
+    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-polaires",
+    "title": "Cinematique de Point",
+    "section": "6.2 Expression de la vitesse en coordonnées polaires",
+    "text": "6.2 Expression de la vitesse en coordonnées polaires\nLa vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées polaires (\\(\\va u_r\\), \\(\\va u_\\theta\\)).\n\n\n\\[\\begin{align*}\n    &\\va v(M_{/R_c})=\\left(\\frac{d(\\va{OM})}{dt}\\right)_{/Rc} \\ \\ \\text{avec} \\ \\ \\va{OM} = r \\va u_r\\\\\n    &\\va v(M_{/R_c})=\\left(\\frac{d(r \\va u_r)}{dt}\\right)_{/R}\\\\\n    &\\va v(M_{/R_c})=\\frac{dr}{dt}\\va u_r + r\\left(\\frac{d(\\va u_r)}{dt}\\right)_{/R_c}\n\\end{align*}\\]\n\nFigure ici\n\n\nProblème : le vecteur \\(\\va u_r\\) n’est dans \\(R_c\\), donc sa dérivée n’est .\n\nTheorem 2 (Dérivation des vecteurs de la base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\))) \\[\\begin{align*}\n  \\left(\\frac{d(\\va u_r)}{dt}\\right)_{/Rc} &= \\frac{d\\theta}{dt}\\va u_\\theta\\\\\n  \\left(\\frac{d(\\va u_\\theta)}{dt}\\right)_{/Rc} &= -\\frac{d\\theta}{dt}\\va u_r\n\\end{align*}\\]\nA connaître !\n\nSi on applique ces expressions dans le calcul précédent, on obtient finalement : \\[\\begin{align*}\n    &\\va v(M_{/R_c})=\\frac{dr}{dt}\\va u_r + r\\left(\\frac{d(\\va u_r)}{dt}\\right)_{/R_c}\\\\\n    &\\tikz[baseline]{\n            \\node[fill=red!20,anchor=base,rounded corners]\n            {$\\va v(M_{/R_c})=\\dfrac{dr}{dt}\\va u_r + r\\dfrac{d\\theta}{dt}\\va u_\\theta$};\n        }\n\\end{align*}\\]\n\n6.2.1 Remarques sur la notation\nOn écrit \\(\\dfrac{dr}{dt}\\) et \\(\\dfrac{d\\theta}{dt}\\) sans préciser le référentiel par rapport auquel on dérive car \\(r\\) est défini par rapport à l’origine \\(O\\), commune au repère cartésien et polaire, et \\(\\theta\\) est défini par rapport à l’axe \\(\\va x\\) qui est fixe.\nLes valeurs de \\(r(t)\\) et \\(\\theta(t)\\) ne dépendent pas du référentiel.\nOn écrit \\(\\left(\\dfrac{d(\\va u_r)}{dt}\\right)_{/R_c}\\) et \\(\\left(\\dfrac{d(\\va u_\\theta)}{dt}\\right)_{/R_c}\\) en précisant le référentiel par rapport auquel on dérive car l’expression de ces vecteurs dépend du référentiel.\nDans le référentiel cartésien \\(R_c\\), les composantes de \\(\\va u_r\\) et \\(\\va u_\\theta\\) sur (\\(\\va u_x\\), \\(\\va u_y\\)) sont (\\(\\cos{\\theta}\\), \\(\\sin{\\theta}\\)) et (\\(-\\sin{\\theta}\\), \\(\\cos{\\theta}\\)). Comme \\(\\theta\\) dépend généralement du temps, la dérivée de ces composantes par rapport à \\(R_c\\) n’est pas nulle.\nDans le référentiel tournant \\(R_T\\), les composantes de \\(\\va u_r\\) et \\(\\va u_\\theta\\) sur (\\(\\va u_r\\), \\(\\va u_\\theta\\)) sont (\\(1\\), \\(0\\)) et (\\(0\\), \\(1\\)).\nLa dérivée par rapport à \\(R_T\\) est nulle. Ainsi, la dérivation de ces vecteurs aura un résultat différent selon le référentiel de dérivation choisi. Elle dépend du référentiel."
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cylindriques",
+    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cylindriques",
+    "title": "Cinematique de Point",
+    "section": "6.3 Expression de la vitesse en coordonnées cylindriques",
+    "text": "6.3 Expression de la vitesse en coordonnées cylindriques\nLa vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées cylindriques (\\(\\va u_r\\), \\(\\va u_\\theta\\), \\(\\va u_z\\)).\n\n\n\n\nFigure ici"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-sphériques",
+    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-sphériques",
+    "title": "Cinematique de Point",
+    "section": "6.4 Expression de la vitesse en coordonnées sphériques",
+    "text": "6.4 Expression de la vitesse en coordonnées sphériques\nLa vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées sphériques (\\(\\va u_r\\), \\(\\va u_\\theta\\), \\(\\va u_\\phi\\)).\n\n\n\n\nFigure ici"
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cartésiennes",
+    "href": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cartésiennes",
+    "title": "Cinematique de Point",
+    "section": "7.1 Expression de l’accélération en coordonnées cartésiennes",
+    "text": "7.1 Expression de l’accélération en coordonnées cartésiennes\nSoit (\\(\\va u_x\\), \\(\\va u_y\\), \\(\\va u_z\\)) la base des coordonnées cartésiennes.\n\n\n\n\n\n\nTip\n\n\n\n\\[\\begin{align*}\n\n&\\va \\gamma(M_{/R_c})=\\left(\\frac{d^2(\\va{OM})}{dt^2}\\right)_{/R_c} \\ \\ \\text{avec} \\ \\ \\va{OM} = x \\va u_x + y \\va u_y + z \\va u_z\\\\\n\\va \\gamma(M_{/R_c})=\\dfrac{d^2x}{dt^2}\\va u_x + \\dfrac{d^2y}{dt^2}\\va u_y + \\dfrac{d^2z}{dt^2}\\va u_z\n\n\\end{align*}\\]\n\n\nOn applique la même méthode de calcul que pour la vitesse."
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-polaires",
+    "href": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-polaires",
+    "title": "Cinematique de Point",
+    "section": "7.2 Expression de l’accélération en coordonnées polaires",
+    "text": "7.2 Expression de l’accélération en coordonnées polaires\nL’accélération est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées polaires (\\(\\va u_r\\), \\(\\va u_\\theta\\))."
+  },
+  {
+    "objectID": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cylindriques",
+    "href": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cylindriques",
+    "title": "Cinematique de Point",
+    "section": "7.3 Expression de l’accélération en coordonnées cylindriques",
+    "text": "7.3 Expression de l’accélération en coordonnées cylindriques\nL’accélération est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées cylindriques (\\(\\va u_r\\), \\(\\va u_\\theta\\), \\(\\va u_z\\)).\n\n\n\n\nFigure ici"
   }
 ]

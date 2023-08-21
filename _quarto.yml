@@ -93,6 +93,7 @@ format:
       - litera
       - assets/custom.scss
     toc: true
+    number-sections: true
     html-math-method: mathjax
     include-in-header:
       - text: |

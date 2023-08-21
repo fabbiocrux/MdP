@@ -2,7 +2,24 @@
 title: "Cinematique de Point"
 ---
 
-## Lecture obligatoire
+::: {.hidden}
+$$
+
+\newcommand\Ccancel[2][black]{
+    \let\OldcancelColor\CancelColor
+    \renewcommand\CancelColor{\color{#1}}
+    \cancel{#2}
+    \renewcommand\CancelColor{\OldcancelColor}
+}
+
+$$
+
+
+:::
+
+
+
+# Lecture obligatoire
 
 -   Chapitre 1 de ..
 
@@ -12,12 +29,12 @@ title: "Cinematique de Point"
 <iframe class="slide-deck" src="slides/chapter-1/" width="100%"
     height="500"></iframe>
 ```
-## Qu'est ce que c'est la Cinématique?
+# Qu'est ce que c'est la Cinématique?
 
 La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l'étude du mouvement d'un point indépendamment des causes qui ont engendré ce mouvement.
 
 ::: callout-note
-### Point matériel
+## Point matériel
 
 Il arrive souvent que l'on puisse décrire et prédire le mouvement d'un objet par les lois de la dynamique, en associant l'objet à un unique point géométrique auquel on attribue la masse $m$ de l'objet. C'est ce qu'on appelle un *point matériel*.
 
@@ -441,7 +458,6 @@ On place un observateur à un point $O$ du référentiel, nommé ***origine***. 
 
 ::: {.column width="48%"}
 
-
 Le point $M$ est repéré par les coordonnées cartésiennes ($x$, $y$, $z$)
 \begin{align*}
 &\va{OM} = x \va u_x + y \va u_y + z \va u_z \\ &x, y, z \ \in \ ]-\infty, +\infty[
@@ -457,7 +473,7 @@ Dans la suite, le référentiel $R_c$ associé aux coordonnées cartésiennes se
 
 
 
-
+Il se peut que les coordonnées cartésiennes ne soient pas les plus commodes pour décrire la position d'un point matériel. C'est notamment le cas lorsqu'on veut décrire un mouvement de rotation, tel qu'un mouvement sur une sphère ou un cylindre.
 
 ## Coordonnées cylindriques
 
@@ -466,62 +482,7 @@ Dans la suite, le référentiel $R_c$ associé aux coordonnées cartésiennes se
 ::: {.column width="38%"}
 
 
-```{r, engine = 'tikz', engine.opts = list(template = "../assets/tikz.tex"), cache=TRUE}
-
-\begin{tikzpicture}
-
-
-\tkzDefPoint[label={left:$O$}](0,0){O}
-\tkzDefPoint[label={below left:$\va x$}](-1,-1){vx}
-\tkzDefPoint[label={above:$\va y$}](2.3,0){vy}
-\tkzDefPoint[label={above left:$\va z$}](0,2){vz}
-\tkzDrawSegment[->](O,vx) ;
-\tkzDrawSegment[->](O,vy);
-\tkzDrawSegment[->](O,vz);
-
-\tkzDefPoint(1.2,1.1){M} ;
-\tkzDrawPoint(M);
-\tkzDrawSegment(O,M) ;
-\tkzLabelPoints[below right](M) ;
-\tkzDefPoint(1.2,-0.5){M'} ;
-\tkzDrawSegment[dashed](O,M') ;
-
-\tkzDefPointBy[projection=onto O--vy](M) \tkzGetPoint{yM}
-
-\draw[thin] (0,0) [elliparc=0:360:1.75cm and .7cm];
-\draw[thin] (0,1.6) [elliparc=0:360:1.75cm and .7cm];
-
-
-\tkzDefPointBy[translation=from O to M'](M) \tkzGetPoint{zM1}
-\tkzInterLL(O,vz)(M,zM1) \tkzGetPoint{zM}
-
-
-\tkzDrawSegment[dashed](M,zM) ;
-\tkzLabelSegment[above,pos=.5](M,zM){$r$}
-\tkzLabelSegment(O,zM){$z$}
-\tkzDrawSegment[dashed](M',M) ;
-\tkzMarkAngle[mark=none,size=.6cm,->,color=red](vx,O,M') ;
-\tkzLabelAngle[color=red,xshift=.3cm,yshift=.1cm](vx,O,M'){$\theta$} ;
-
-\tkzDefPointWith[linear,K=2](zM,M) \tkzGetPoint{M2}
-\tkzDefPointWith[linear normed](M,M2) \tkzGetPoint{ur}
-\tkzDefPointWith[colinear normed= at M](M',yM) \tkzGetPoint{utheta}
-\tkzDefPointWith[colinear normed= at M](O,zM) \tkzGetPoint{uz}
-\tkzDrawSegment[red,->,thick](M,ur);
-\tkzDrawSegment[red,->,thick](M,utheta) ;
-\tkzDrawSegment[red,->,thick](M,uz) ;
-\tkzLabelPoint[below right, red](ur){$\va u_r$} ;
-\tkzLabelPoint[above, red](utheta){$\va u_\theta$} ;
-\tkzLabelPoint[above, red](uz){$\va u_z$} ;
-
-\tkzMarkRightAngle[,size=.1,color=red](O,M',M);
-\tkzMarkRightAngle[,size=.1,color=red](O,zM,M);
-\tkzMarkRightAngle[,size=.1,color=red](ur,M,utheta);
-\tkzMarkRightAngle[,size=.1,color=red](uz,M,utheta);
-
-\end{tikzpicture}
-
-```
+Ici figure de Coordones cyclindriques
 
 :::
 
@@ -540,9 +501,311 @@ Le point $M$ est repéré par les coordonnées cylindriques ($r$, $\theta$, $z$)
 
 On utilisera les coordonnées cylindriques dès que la distance à l’axe $O_z$ joue un rôle important dans l’exercice.
 
+### Changement de système de coordonnées
 
-This is sparta
-dos pero vamos a ver
+A partir des formules de projections déterminées précedemment, il est possible d'exprimer les coordonnées cartésiennes ($x$, $y$, $z$) en fonction des coordonnées cylindriques ($r$, $\theta$, $z$) et inversemment. Ainsi :
+
+\begin{equation*}
+    \begin{cases}
+      x &= \ r \cos{\theta}  \\
+      y &= \ r \sin{\theta} \\
+      z &= \ z
+    \end{cases}       
+\end{equation*}
 
 
+
+
+
+## Coordonnées sphériques
+
+
+:::: columns
+::: {.column width="38%"}
+
+Figure coordones Spériques
+
+:::
+
+
+::: {.column width="60%"}
+
+
+:::
+
+::::
+
+
+
+On utilisera les coordonnées sphériques dès que la distance $r$ au centre O joue un rôle important dans l’exercice.\\
+
+### Changement de système de coordonnées
+
+A partir des formules de projections déterminées précedemment, il est possible d'exprimer les coordonnées cartésiennes ($x$, $y$, $z$) en fonction des coordonnées sphériques ($r$, $\theta$, $\phi$) et inversemment. Ainsi :
+\begin{equation*}
+    \begin{cases}
+      x &= \ r \sin{\theta}\cos{\phi}  \\
+      y &= \ r \sin{\theta}\sin{\phi} \\
+      z &= \ r \cos{\theta}
+    \end{cases}       
+\end{equation*}
+
+
+
+
+
+
+
+
+# Vitesse d'un point
+
+En cinématique, la vitesse peut être définie comme est une grandeur qui mesure pour un mouvement, le rapport de la distance parcourue au temps écoulé.
+
+Soit $M$ la position d'un mobile à un instant $t$. Soit $R$ un référentiel et $O$ un point fixe de ce référentiel.
+On note $\va v(M_{/R})$ le vecteur vitesse du mobile par rapport au référentiel $R$.
+
+On peut exprimer alors cette vitesse :
+
+\begin{align*}
+ \va v(M_{/R})=\left(\dfrac{d(\va{OM})}{dt}\right)_{/R}
+\end{align*}
+
+Sauf mention contraire le référentiel $R_c$ par rapport auquel nous calculerons la vitesse sera celui associé aux coordonnées cartésiennes. 
+Dans ce référentiel $R_c$, l'origine $O$ ainsi que la base ($\va u_x$, $\va u_y$, $\va u_z$) sont fixes.
+
+## Expression de la vitesse en coordonnées cartésiennes
+
+Soit ($\va u_x$, $\va u_y$, $\va u_z$) la base des coordonnées cartésiennes.
+
+\begin{align*}
+    &\va v(M_{/R_c})=\left(\frac{d(\va{OM})}{dt}\right)_{/Rc} \ \ \text{avec} \ \ \va{OM} = x \va u_x + y \va u_y + z \va u_z\\
+    &\va v(M_{/R_c})=\left(\frac{d(x \va u_x + y \va u_y + z \va u_z)}{dt}\right)_{/R}\\
+    &\va v(M_{/R_c})=\frac{dx}{dt}\va u_x + \Ccancel[red]{x\left(\frac{d(\va u_x)}{dt}\right)_{/R_c}} + \frac{dy}{dt}\va u_y + \Ccancel[red]{y\left(\frac{d(\va u_y)}{dt}\right)_{/R_c}} + \frac{dz}{dt}\va u_z +  \Ccancel[red]{z\left(\frac{d(\va u_z)}{dt}\right)_{/R_c}}\\
+
+
+    \va v(M_{/R_c})=\dfrac{dx}{dt}\va u_x + \dfrac{dy}{dt}\va u_y + \dfrac{dz}{dt}\va u_z \\
+\end{align*}
+
+Les vecteurs $\va u_x$, $\va u_y$, et $\va u_z$ et sont \textbf{constants} dans $R_c$ , donc leur dérivée est **nulle**.
+
+
+
+## Expression de la vitesse en coordonnées polaires
+La vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes.
+Elle s'exprime sur la base des coordonnées polaires ($\va u_r$, $\va u_\theta$).
+
+
+:::: columns
+::: {.column width="38%"}
+
+\begin{align*}
+    &\va v(M_{/R_c})=\left(\frac{d(\va{OM})}{dt}\right)_{/Rc} \ \ \text{avec} \ \ \va{OM} = r \va u_r\\
+    &\va v(M_{/R_c})=\left(\frac{d(r \va u_r)}{dt}\right)_{/R}\\
+    &\va v(M_{/R_c})=\frac{dr}{dt}\va u_r + r\left(\frac{d(\va u_r)}{dt}\right)_{/R_c} 
+\end{align*}
+
+:::
+
+
+::: {.column width="60%"}
+
+
+Figure ici
+:::
+
+::::
+
+
+
+
+
+
+**Problème :** le vecteur $\va u_r$ n'est \textbf{pas constant} dans $R_c$, donc sa dérivée n'est \textbf{pas nulle}.
+
+
+::: {#thm-derivation}
+
+###  Dérivation des vecteurs de la base mobile ($\va u_r$, $\va u_\theta$)
+
+\begin{align*}
+  \left(\frac{d(\va u_r)}{dt}\right)_{/Rc} &= \frac{d\theta}{dt}\va u_\theta\\
+  \left(\frac{d(\va u_\theta)}{dt}\right)_{/Rc} &= -\frac{d\theta}{dt}\va u_r
+\end{align*}
+
+
+**A connaître !**
+
+:::
+
+
+
+
+Si on applique ces expressions dans le calcul précédent, on obtient finalement : 
+\begin{align*}
+    &\va v(M_{/R_c})=\frac{dr}{dt}\va u_r + r\left(\frac{d(\va u_r)}{dt}\right)_{/R_c}\\
+    &\tikz[baseline]{
+            \node[fill=red!20,anchor=base,rounded corners]
+            {$\va v(M_{/R_c})=\dfrac{dr}{dt}\va u_r + r\dfrac{d\theta}{dt}\va u_\theta$};
+        } 
+\end{align*}
+
+
+
+
+### Remarques sur la notation
+
+On écrit $\dfrac{dr}{dt}$ et $\dfrac{d\theta}{dt}$ sans préciser le référentiel par rapport auquel on dérive car $r$ est défini par rapport à l'origine $O$, commune au repère cartésien et polaire, et $\theta$ est défini par rapport à l'axe $\va x$ qui est fixe.
+
+Les valeurs de $r(t)$ et $\theta(t)$ ***ne dépendent pas du référentiel***.
+
+On écrit $\left(\dfrac{d(\va u_r)}{dt}\right)_{/R_c}$ et $\left(\dfrac{d(\va u_\theta)}{dt}\right)_{/R_c}$ en précisant le référentiel par rapport auquel on dérive car l'expression de ces vecteurs dépend du référentiel.
+
+Dans le référentiel cartésien $R_c$, les composantes de $\va u_r$ et $\va u_\theta$ sur ($\va u_x$, $\va u_y$) sont ($\cos{\theta}$, $\sin{\theta}$) et ($-\sin{\theta}$, $\cos{\theta}$). 
+Comme $\theta$ dépend généralement du temps, la dérivée de ces composantes par rapport à $R_c$ n'est pas nulle.
+
+Dans le référentiel tournant $R_T$, les composantes de $\va u_r$ et $\va u_\theta$ sur ($\va u_r$, $\va u_\theta$) sont ($1$, $0$) et ($0$, $1$). 
+
+La dérivée par rapport à $R_T$ est nulle.
+Ainsi, la dérivation de ces vecteurs aura un résultat différent selon le référentiel de dérivation choisi. 
+Elle ***dépend du référentiel***.
+
+## Expression de la vitesse en coordonnées cylindriques
+
+La vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes.
+Elle s'exprime sur la base des coordonnées cylindriques ($\va u_r$, $\va u_\theta$, $\va u_z$).
+
+
+
+:::: columns
+::: {.column width="38%"}
+
+\begin{flalign*}
+    &\va v(M_{/R_c})=\left(\frac{d(\va{OM})}{dt}\right)_{/Rc} \ \ \text{avec} \ \ \va{OM} = r \va u_r + z \va u_z&\\
+    &\va v(M_{/R_c})=\left(\frac{d(r \va u_r + z \va u_z)}{dt}\right)_{/R}\\
+    &\va v(M_{/R_c})=\frac{dr}{dt}\va u_r + r\left(\frac{d(\va u_r)}{dt}\right)_{/R_c} + \frac{dz}{dt}\va u_z +  \Ccancel[red]{z\left(\frac{d(\va u_z)}{dt}\right)_{/R_c}}\\
+    &\tikz[baseline]{
+            \node[fill=red!20,anchor=base,rounded corners]
+            {$\va v(M_{/R_c})=\dfrac{dr}{dt}\va u_r + r\dfrac{d\theta}{dt}\va u_\theta + \dfrac{dz}{dt}\va u_z$};
+        }  
+\end{flalign*}
+
+
+:::
+
+
+::: {.column width="60%"}
+
+
+Figure ici
+:::
+
+::::
+
+
+
+
+## Expression de la vitesse en coordonnées sphériques
+
+La vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes.
+Elle s'exprime sur la base des coordonnées sphériques ($\va u_r$, $\va u_\theta$, $\va u_\phi$).
+
+
+
+:::: columns
+::: {.column width="38%"}
+
+
+\begin{flalign*}
+    &\va v(M_{/R_c})=\left(\frac{d(\va{OM})}{dt}\right)_{/Rc} \ \ \text{avec} \ \ \va{OM} = r \va u_r&\\
+    &\va v(M_{/R_c})=\left(\frac{d(r \va u_r)}{dt}\right)_{/R}\\
+    &\va v(M_{/R_c})=\frac{dr}{dt}\va u_r + r\left(\frac{d(\va u_r)}{dt}\right)_{/R_c}\\
+    &\tikz[baseline]{
+            \node[fill=red!20,anchor=base,rounded corners]
+            {$\va v(M_{/R_c})=\dfrac{dr}{dt}\va u_r + r\dfrac{d\theta}{dt}\va u_\theta + r\sin{\theta}\dfrac{d\phi}{dt}\va u_\phi$};
+        }  
+\end{flalign*}   
+
+
+:::
+
+
+::: {.column width="60%"}
+
+
+Figure ici
+:::
+
+::::
+
+
+
+# Accélération d'un point
+
+En cinématique, l'accélération peut être définie comme est une grandeur qui mesure pour un mouvement, le rapport de la variation de vitesse de l'objet en fonction du temps.
+
+Soit $M$ la position d'un mobile à un instant $t$. Soit $R$ un référentiel et $O$ un point fixe de ce référentiel.\\
+On note $\va \gamma(M_{/R})$ le vecteur accélération du mobile par rapport au référentiel $R$.\\
+On peut exprimer alors cette accélération :
+
+\begin{align*}
+    &\va \gamma(M_{/R})=\left(\frac{d(\va v(M_{/R}))}{dt}\right)_{/R}\\
+    &\tikz[baseline]{
+        \node[fill=red!20,anchor=base,rounded corners]
+        {$\va \gamma(M_{/R})=\left(\dfrac{d^2(\va{OM})}{dt^2}\right)_{/R}$};
+    } 
+\end{align*}
+
+Comme dans le cas de la vitesse, le référentiel par rapport auquel nous calculerons l'accélération sera, sauf mention contraire, celui associé aux coordonnées cartésiennes. 
+Dans ce référentiel $R_c$, l'origine $O$ ainsi que la base ($\va u_x$, $\va u_y$, $\va u_z$) sont fixes.
+
+## Expression de l'accélération en coordonnées cartésiennes
+
+Soit ($\va u_x$, $\va u_y$, $\va u_z$) la base des coordonnées cartésiennes.
+
+
+::: {.callout-tip}
+
+\begin{align*}
+
+&\va \gamma(M_{/R_c})=\left(\frac{d^2(\va{OM})}{dt^2}\right)_{/R_c} \ \ \text{avec} \ \ \va{OM} = x \va u_x + y \va u_y + z \va u_z\\
+\va \gamma(M_{/R_c})=\dfrac{d^2x}{dt^2}\va u_x + \dfrac{d^2y}{dt^2}\va u_y + \dfrac{d^2z}{dt^2}\va u_z
+
+\end{align*}
+
+:::
+
+
+On applique la même méthode de calcul que pour la vitesse.
+
+
+
+## Expression de l'accélération en coordonnées polaires
+
+L'accélération est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes.
+Elle s'exprime sur la base des coordonnées polaires ($\va u_r$, $\va u_\theta$).
+
+
+
+
+## Expression de l'accélération en coordonnées cylindriques
+
+L'accélération est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes.
+Elle s'exprime sur la base des coordonnées cylindriques ($\va u_r$, $\va u_\theta$, $\va u_z$).
+
+
+
+:::: columns
+::: {.column width="38%"}
+
+
+:::
+
+
+::: {.column width="60%"}
+
+
+Figure ici
+:::
+
+::::
 
