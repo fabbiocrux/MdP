@@ -3,12 +3,81 @@ title: "TD 1: Referentiel de mouvement"
 subtitle: "Objectif: Comprendre les différences entre les notions de coordonnées de **base de  projection** et de **référentiel**"
 ---
 
-::: {.hero-buttons}
-[Telechargez ce TD comme pdf](01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
-::: 
+\thispagestyle{fancy}
+
+# Exercice 1 - Base fixe, base mobile
+
+On se place dans un repère en coordonnées cartésiennes ($\vec u_x$,$\vec u_y$). On place un point $M$ de coordonnées ($x$,$y$).
+
+1. Faire un schéma du repère. Placer le point $M$.
+Donner l'expression du vecteur $\vec{OM}$, de la vitesse du point $M$ $\vec v_M$, et de son accélération $\vec a_M$ dans la base ($\vec u_x$,$\vec u_y$) en utilisant les coordonnées cartésiennes ($x$,$y$).
+
+2. Donner l'expression du vecteur $\vec{OM}$ dans la base mobile ($\vec u_r$,$\vec u_\theta$). Donner l'expression des vecteurs $\vec u_r$ et $\vec u_\theta$ dans la base ($\vec u_x$,$\vec u_y$). Dessiner la base mobile sur votre schéma.
+
+3. A l'aide de la question précédente, exprimer les coordonnées cartésiennes ($x$,$y$) en fonction des coordonnées polaires ($r$, $\theta$). Exprimer $\vec{OM}$ dans la base fixe ($\vec u_x$,$\vec u_y$) en utilisant les coordonnées polaires.
+
+4. Exprimer la vitesse du mobile par rapport au référentiel des coordonnées cartésiennes $R_c$, en utilisant les coordonnées polaires ($r$, $\theta$) dans la base fixe ($\vec u_x$,$\vec u_y$) puis dans la base mobile ($\vec u_r$,$\vec u_\theta$). Vérifier qu’il s’agit de la même vitesse exprimée sur deux bases différentes.
 
 
-# Exercise 1: 
+## Solutions
+### Question 1: Faire un schéma du repère
+
+
+On se place dans un repère en coordonnées cartésiennes ($\vec u_x$,$\vec u_y$). 
+On place un point $M$ de coordonnées ($x$,$y$).
+
+
+```{r, engine = 'tikz', fig.align= 'center', engine.opts = list(template = "../assets/tikz.tex"), cache=TRUE}
+\begin{tikzpicture}[scale=1.5]
+
+\tkzDefPoint[label={left:$O$}](0,0){O}
+\tkzDefPoint[label={above:$\vec x$}](2,0){vx}
+\tkzDefPoint[label={above left:$\vec y$}](0,2.85){vy}
+\tkzDrawSegment[->](O,vx) ;
+\tkzDrawSegment[->](O,vy);
+
+\tkzDefPoint(1,0){ux} ;
+\tkzDefPoint(0,1){uy} ;
+\draw (1,0.4) node[red] {$\vec u_x$} ;
+\tkzDrawSegment[red,->,thick](O,ux) ;
+\draw (-0.4,1) node[red] {$\vec u_y$} ;
+\tkzDrawSegment[red,->,thick](O,uy) ;
+
+\tkzDefPoint(1.3,2.1){M} ;
+\tkzDrawSegment(O,M) ;
+\tkzDrawPoint(M);
+\tkzLabelPoints[above right](M) ;
+\tkzDefPointBy[projection=onto O--vx](M) \tkzGetPoint{xM}
+\tkzDefPointBy[projection=onto O--vy](M) \tkzGetPoint{yM}
+\tkzLabelPoint[below](xM){$x$} ;
+\tkzLabelPoint[above left](yM){$y$} ;
+\tkzDrawSegment[dashed](M,xM) ;
+\tkzDrawSegment[dashed](M,yM) ;
+\end{tikzpicture}
+```
+
+
+
+### Question 2: expression du vecteur $\vec{OM}$
+
+En coordonnées cartésiennes:
+
+\begin{align*}
+    \vec{OM} &= x \vec u_x + y \vec u_y\\
+    \vec{v(M)} &= \dfrac{dx}{dt} \vec u_x + \dfrac{dy}{dt} \vec u_y\\
+    \vec{a(M)} &= \dfrac{d^2x}{dt^2} \vec u_x + \dfrac{d^2y}{dt^2} \vec u_y
+\end{align*}
+
+### Question 3: expression du vecteur $\vec{OM}$
+
+En coordonnées polaires ($r$, $\theta$):
+
+\begin{align*}
+    \vec{OM} &= r \vec u_r \\
+    \vec u_r &= \cos{\theta} \vec u_x + \sin{\theta} \vec u_y \ \text{;} \  \vec u_\theta = \sin{\theta} \vec u_x + \cos{\theta} \vec u_y
+\end{align*}
+
+
 
 
 # Exercise 3: Combinaison mouvement lineaire et mouvement 
@@ -24,79 +93,3 @@ Si l'on considère une vitesse liée à un référentiel fixe, il faut comprendr
 
 >Rappel: Un vecteur peut changer dans le termps en "*tournant*", il faut toujours savoir dans quel réferentiel on dérive un vecteur
 
-### Problème
-
-
-### Analyse Cartesiène
-
-On note $R_{C}$ le référentiel associé aux coordonnées cartésiennes.
-La vitesse angulaire $\omega$, exprimé en $\frac{rad}{s}$, correspond à la vittese angulaire du disque par rapport au referentiel $R_{C}$.
-Pendant un temp $dt$, le disque tourne de $d\theta$, donc cela correspond à:
-
-$$
-\dfrac{d\theta}{dt} = \omega
-$$
-
-en faisant l'integral, nous avons:
-
-$$
-\theta = \omega t + \text{const} \quad\rightarrow\quad \text{const} = 0 \text{ car } \theta = 0  \text{ à } t=0
-$$
-
-
-Maintenant, $v_{0}, exprimée en $\dfrac{m}{s}$ $ correspond à la vitesse de la fourmi par rapport au disque.
-Dans  $R_{tournant}$, le mouvement de la fourmi est rectiligne.
-Pendant $dt$, la fourmi parcourt $dr$ dans $R_{tournant}$, donc:
-
-$$
-\dfrac{dr}{dt} = v_{0}
-$$
-
-en faisant l'integral, nous avons:
-
-$$
-r = v_{0} t + \text{const} \quad\rightarrow\quad \text{const} = 0 \text{ car } r = 0  \text{ à } t = 0
-$$
-
-
-En fait, ce n'est pas rigoureaux car $\theta$ ne peut pas être définis à  $t=0$.
-Finalement
-
-$$
-r = \dfrac{v_{0}}{\omega}\theta
-$$
-
-
-```{r}
-#| fig-align: center
-#| echo: false
-#| message: false
-#| fig-width: 5
-#| fig-heigth: 5
-
-library(tidyverse)
-t <- seq(0, 4*pi, by = pi / 180)
- x = t*cos(t); y = t*sin(t)
- tibble(x,y) %>% 
- ggplot(aes(x=x,y=y)) + 
-    geom_path() +
-    theme_minimal() +
-    labs(
-       title = "Parcours de la fourmi"
-    )
- 
-```
-
-
-
-
-
-
-
-
-
-
-Entonces thi is the other
-
-
-## References bibliographiques 

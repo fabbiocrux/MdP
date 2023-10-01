@@ -262,6 +262,19 @@
       ],
       "Hash": "bb097fccb22d156624fd07cd2894ddb6"
     },
+    "countdown": {
+      "Package": "countdown",
+      "Version": "0.4.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "htmltools",
+        "prismatic",
+        "utils",
+        "whisker"
+      ],
+      "Hash": "b44ad5a5e287637c3b8ca0e9bb64bb18"
+    },
     "cpp11": {
       "Package": "cpp11",
       "Version": "0.4.6",
@@ -631,6 +644,16 @@
       ],
       "Hash": "9b302fe352f9cfc5dcf0a4139af3a565"
     },
+    "here": {
+      "Package": "here",
+      "Version": "1.0.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "rprojroot"
+      ],
+      "Hash": "24b224366f9c2e7534d2344d10d59211"
+    },
     "highr": {
       "Package": "highr",
       "Version": "0.10",
@@ -936,6 +959,19 @@
       ],
       "Hash": "6b01fc98b1e86c4f705ce9dcfd2f57c7"
     },
+    "prismatic": {
+      "Package": "prismatic",
+      "Version": "1.1.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R",
+        "farver",
+        "grDevices",
+        "graphics"
+      ],
+      "Hash": "faa2193fdec94a45b4390aefc1280a62"
+    },
     "processx": {
       "Package": "processx",
       "Version": "3.8.2",
@@ -1130,6 +1166,16 @@
         "yaml"
       ],
       "Hash": "d65e35823c817f09f4de424fcdfa812a"
+    },
+    "rprojroot": {
+      "Package": "rprojroot",
+      "Version": "2.0.3",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Requirements": [
+        "R"
+      ],
+      "Hash": "1de7ab598047a87bba48434ba35d497d"
     },
     "rstudioapi": {
       "Package": "rstudioapi",
@@ -1462,6 +1508,13 @@
         "withr"
       ],
       "Hash": "8318e64ffb3a70e652494017ec455561"
+    },
+    "whisker": {
+      "Package": "whisker",
+      "Version": "0.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c6abfa47a46d281a7d5159d0a8891e88"
     },
     "withr": {
       "Package": "withr",

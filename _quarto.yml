@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  preview: 
+    port: 4040
+
 
 website:
   title: "Mécanique du Point"

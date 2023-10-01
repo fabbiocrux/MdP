@@ -178,13 +178,16 @@ window.MathJax = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#exercise-1" id="toc-exercise-1" class="nav-link active" data-scroll-target="#exercise-1"><span class="header-section-number">1</span> Exercise 1:</a></li>
-  <li><a href="#exercise-3-combinaison-mouvement-lineaire-et-mouvement" id="toc-exercise-3-combinaison-mouvement-lineaire-et-mouvement" class="nav-link" data-scroll-target="#exercise-3-combinaison-mouvement-lineaire-et-mouvement"><span class="header-section-number">2</span> Exercise 3: Combinaison mouvement lineaire et mouvement</a>
+  <li><a href="#exercice-1---base-fixe-base-mobile" id="toc-exercice-1---base-fixe-base-mobile" class="nav-link active" data-scroll-target="#exercice-1---base-fixe-base-mobile"><span class="header-section-number">1</span> Exercice 1 - Base fixe, base mobile</a>
   <ul class="collapse">
-  <li><a href="#problème" id="toc-problème" class="nav-link" data-scroll-target="#problème"><span class="header-section-number">2.0.1</span> Problème</a></li>
-  <li><a href="#analyse-cartesiène" id="toc-analyse-cartesiène" class="nav-link" data-scroll-target="#analyse-cartesiène"><span class="header-section-number">2.0.2</span> Analyse Cartesiène</a></li>
-  <li><a href="#references-bibliographiques" id="toc-references-bibliographiques" class="nav-link" data-scroll-target="#references-bibliographiques"><span class="header-section-number">2.1</span> References bibliographiques</a></li>
+  <li><a href="#solutions" id="toc-solutions" class="nav-link" data-scroll-target="#solutions"><span class="header-section-number">1.1</span> Solutions</a>
+  <ul class="collapse">
+  <li><a href="#question-1-faire-un-schéma-du-repère" id="toc-question-1-faire-un-schéma-du-repère" class="nav-link" data-scroll-target="#question-1-faire-un-schéma-du-repère"><span class="header-section-number">1.1.1</span> Question 1: Faire un schéma du repère</a></li>
+  <li><a href="#question-2-expression-du-vecteur-vecom" id="toc-question-2-expression-du-vecteur-vecom" class="nav-link" data-scroll-target="#question-2-expression-du-vecteur-vecom"><span class="header-section-number">1.1.2</span> Question 2: expression du vecteur <span class="math inline">\(\vec{OM}\)</span></a></li>
+  <li><a href="#question-3-expression-du-vecteur-vecom" id="toc-question-3-expression-du-vecteur-vecom" class="nav-link" data-scroll-target="#question-3-expression-du-vecteur-vecom"><span class="header-section-number">1.1.3</span> Question 3: expression du vecteur <span class="math inline">\(\vec{OM}\)</span></a></li>
   </ul></li>
+  </ul></li>
+  <li><a href="#exercise-3-combinaison-mouvement-lineaire-et-mouvement" id="toc-exercise-3-combinaison-mouvement-lineaire-et-mouvement" class="nav-link" data-scroll-target="#exercise-3-combinaison-mouvement-lineaire-et-mouvement"><span class="header-section-number">2</span> Exercise 3: Combinaison mouvement lineaire et mouvement</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="01-TD.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -209,11 +212,48 @@ window.MathJax = {
 
 </header>
 
-<div class="hero-buttons">
-<p><a href="01-TD.pdf" class="btn-action-primary btn-action btn btn-success" role="button">Telechargez ce TD comme pdf</a></p>
+<section id="exercice-1---base-fixe-base-mobile" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Exercice 1 - Base fixe, base mobile</h1>
+<p>On se place dans un repère en coordonnées cartésiennes (<span class="math inline">\(\vec u_x\)</span>,<span class="math inline">\(\vec u_y\)</span>). On place un point <span class="math inline">\(M\)</span> de coordonnées (<span class="math inline">\(x\)</span>,<span class="math inline">\(y\)</span>).</p>
+<ol type="1">
+<li><p>Faire un schéma du repère. Placer le point <span class="math inline">\(M\)</span>. Donner l’expression du vecteur <span class="math inline">\(\vec{OM}\)</span>, de la vitesse du point <span class="math inline">\(M\)</span> <span class="math inline">\(\vec v_M\)</span>, et de son accélération <span class="math inline">\(\vec a_M\)</span> dans la base (<span class="math inline">\(\vec u_x\)</span>,<span class="math inline">\(\vec u_y\)</span>) en utilisant les coordonnées cartésiennes (<span class="math inline">\(x\)</span>,<span class="math inline">\(y\)</span>).</p></li>
+<li><p>Donner l’expression du vecteur <span class="math inline">\(\vec{OM}\)</span> dans la base mobile (<span class="math inline">\(\vec u_r\)</span>,<span class="math inline">\(\vec u_\theta\)</span>). Donner l’expression des vecteurs <span class="math inline">\(\vec u_r\)</span> et <span class="math inline">\(\vec u_\theta\)</span> dans la base (<span class="math inline">\(\vec u_x\)</span>,<span class="math inline">\(\vec u_y\)</span>). Dessiner la base mobile sur votre schéma.</p></li>
+<li><p>A l’aide de la question précédente, exprimer les coordonnées cartésiennes (<span class="math inline">\(x\)</span>,<span class="math inline">\(y\)</span>) en fonction des coordonnées polaires (<span class="math inline">\(r\)</span>, <span class="math inline">\(\theta\)</span>). Exprimer <span class="math inline">\(\vec{OM}\)</span> dans la base fixe (<span class="math inline">\(\vec u_x\)</span>,<span class="math inline">\(\vec u_y\)</span>) en utilisant les coordonnées polaires.</p></li>
+<li><p>Exprimer la vitesse du mobile par rapport au référentiel des coordonnées cartésiennes <span class="math inline">\(R_c\)</span>, en utilisant les coordonnées polaires (<span class="math inline">\(r\)</span>, <span class="math inline">\(\theta\)</span>) dans la base fixe (<span class="math inline">\(\vec u_x\)</span>,<span class="math inline">\(\vec u_y\)</span>) puis dans la base mobile (<span class="math inline">\(\vec u_r\)</span>,<span class="math inline">\(\vec u_\theta\)</span>). Vérifier qu’il s’agit de la même vitesse exprimée sur deux bases différentes.</p></li>
+</ol>
+<section id="solutions" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="solutions"><span class="header-section-number">1.1</span> Solutions</h2>
+<section id="question-1-faire-un-schéma-du-repère" class="level3" data-number="1.1.1">
+<h3 data-number="1.1.1" class="anchored" data-anchor-id="question-1-faire-un-schéma-du-repère"><span class="header-section-number">1.1.1</span> Question 1: Faire un schéma du repère</h3>
+<p>On se place dans un repère en coordonnées cartésiennes (<span class="math inline">\(\vec u_x\)</span>,<span class="math inline">\(\vec u_y\)</span>). On place un point <span class="math inline">\(M\)</span> de coordonnées (<span class="math inline">\(x\)</span>,<span class="math inline">\(y\)</span>).</p>
+<div class="cell" data-layout-align="center" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="01-TD_cache/html/unnamed-chunk-1_da2a208f2ef5e901424535d0a6e0a6f6">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="01-TD_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
 </div>
-<section id="exercise-1" class="level1" data-number="1">
-<h1 data-number="1"><span class="header-section-number">1</span> Exercise 1:</h1>
+</div>
+</div>
+</section>
+<section id="question-2-expression-du-vecteur-vecom" class="level3" data-number="1.1.2">
+<h3 data-number="1.1.2" class="anchored" data-anchor-id="question-2-expression-du-vecteur-vecom"><span class="header-section-number">1.1.2</span> Question 2: expression du vecteur <span class="math inline">\(\vec{OM}\)</span></h3>
+<p>En coordonnées cartésiennes:</p>
+<p><span class="math display">\[\begin{align*}
+    \vec{OM} &amp;= x \vec u_x + y \vec u_y\\
+    \vec{v(M)} &amp;= \dfrac{dx}{dt} \vec u_x + \dfrac{dy}{dt} \vec u_y\\
+    \vec{a(M)} &amp;= \dfrac{d^2x}{dt^2} \vec u_x + \dfrac{d^2y}{dt^2} \vec u_y
+\end{align*}\]</span></p>
+</section>
+<section id="question-3-expression-du-vecteur-vecom" class="level3" data-number="1.1.3">
+<h3 data-number="1.1.3" class="anchored" data-anchor-id="question-3-expression-du-vecteur-vecom"><span class="header-section-number">1.1.3</span> Question 3: expression du vecteur <span class="math inline">\(\vec{OM}\)</span></h3>
+<p>En coordonnées polaires (<span class="math inline">\(r\)</span>, <span class="math inline">\(\theta\)</span>):</p>
+<p><span class="math display">\[\begin{align*}
+    \vec{OM} &amp;= r \vec u_r \\
+    \vec u_r &amp;= \cos{\theta} \vec u_x + \sin{\theta} \vec u_y \ \text{;} \  \vec u_\theta = \sin{\theta} \vec u_x + \cos{\theta} \vec u_y
+\end{align*}\]</span></p>
+</section>
+</section>
 </section>
 <section id="exercise-3-combinaison-mouvement-lineaire-et-mouvement" class="level1" data-number="2">
 <h1 data-number="2"><span class="header-section-number">2</span> Exercise 3: Combinaison mouvement lineaire et mouvement</h1>
@@ -235,47 +275,8 @@ Tip
 <blockquote class="blockquote">
 <p>Rappel: Un vecteur peut changer dans le termps en “<em>tournant</em>”, il faut toujours savoir dans quel réferentiel on dérive un vecteur</p>
 </blockquote>
-<section id="problème" class="level3" data-number="2.0.1">
-<h3 data-number="2.0.1" class="anchored" data-anchor-id="problème"><span class="header-section-number">2.0.1</span> Problème</h3>
-</section>
-<section id="analyse-cartesiène" class="level3" data-number="2.0.2">
-<h3 data-number="2.0.2" class="anchored" data-anchor-id="analyse-cartesiène"><span class="header-section-number">2.0.2</span> Analyse Cartesiène</h3>
-<p>On note <span class="math inline">\(R_{C}\)</span> le référentiel associé aux coordonnées cartésiennes. La vitesse angulaire <span class="math inline">\(\omega\)</span>, exprimé en <span class="math inline">\(\frac{rad}{s}\)</span>, correspond à la vittese angulaire du disque par rapport au referentiel <span class="math inline">\(R_{C}\)</span>. Pendant un temp <span class="math inline">\(dt\)</span>, le disque tourne de <span class="math inline">\(d\theta\)</span>, donc cela correspond à:</p>
-<p><span class="math display">\[
-\dfrac{d\theta}{dt} = \omega
-\]</span></p>
-<p>en faisant l’integral, nous avons:</p>
-<p><span class="math display">\[
-\theta = \omega t + \text{const} \quad\rightarrow\quad \text{const} = 0 \text{ car } \theta = 0  \text{ à } t=0
-\]</span></p>
-<p>Maintenant, $v_{0}, exprimée en <span class="math inline">\(\dfrac{m}{s}\)</span> $ correspond à la vitesse de la fourmi par rapport au disque. Dans <span class="math inline">\(R_{tournant}\)</span>, le mouvement de la fourmi est rectiligne. Pendant <span class="math inline">\(dt\)</span>, la fourmi parcourt <span class="math inline">\(dr\)</span> dans <span class="math inline">\(R_{tournant}\)</span>, donc:</p>
-<p><span class="math display">\[
-\dfrac{dr}{dt} = v_{0}
-\]</span></p>
-<p>en faisant l’integral, nous avons:</p>
-<p><span class="math display">\[
-r = v_{0} t + \text{const} \quad\rightarrow\quad \text{const} = 0 \text{ car } r = 0  \text{ à } t = 0
-\]</span></p>
-<p>En fait, ce n’est pas rigoureaux car <span class="math inline">\(\theta\)</span> ne peut pas être définis à <span class="math inline">\(t=0\)</span>. Finalement</p>
-<p><span class="math display">\[
-r = \dfrac{v_{0}}{\omega}\theta
-\]</span></p>
-<div class="cell" data-layout-align="center" data-fig-heigth="5" data-hash="01-TD_cache/html/unnamed-chunk-1_e0ca41cc660e3a09044f5ee12ad2ef9f">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="01-TD_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid figure-img" width="480"></p>
-</figure>
-</div>
-</div>
-</div>
-<p>Entonces thi is the other</p>
-</section>
-<section id="references-bibliographiques" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="references-bibliographiques"><span class="header-section-number">2.1</span> References bibliographiques</h2>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

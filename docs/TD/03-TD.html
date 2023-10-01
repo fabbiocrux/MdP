@@ -180,6 +180,7 @@ window.MathJax = {
   <li><a href="#exercice-1---arme-à-lancienne" id="toc-exercice-1---arme-à-lancienne" class="nav-link active" data-scroll-target="#exercice-1---arme-à-lancienne"><span class="header-section-number">1</span> Exercice 1 - Arme à l’ancienne</a>
   <ul class="collapse">
   <li><a href="#partie-b" id="toc-partie-b" class="nav-link" data-scroll-target="#partie-b"><span class="header-section-number">1.2</span> Partie B</a></li>
+  <li><a href="#solutions-partie-a" id="toc-solutions-partie-a" class="nav-link" data-scroll-target="#solutions-partie-a"><span class="header-section-number">1.3</span> Solutions: Partie A</a></li>
   </ul></li>
   <li><a href="#exercice-2---association-de-deux-ressorts" id="toc-exercice-2---association-de-deux-ressorts" class="nav-link" data-scroll-target="#exercice-2---association-de-deux-ressorts"><span class="header-section-number">2</span> Exercice 2 - Association de deux ressorts</a></li>
   </ul>
@@ -238,6 +239,60 @@ window.MathJax = {
 <li><p>A l’aide du PFD, déterminer l’équation de la trajectoire <span class="math inline">\(y(x)\)</span>.</p></li>
 <li><p>En déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol.</p></li>
 </ol>
+</section>
+<section id="solutions-partie-a" class="level3" data-number="1.3">
+<h3 data-number="1.3" class="anchored" data-anchor-id="solutions-partie-a"><span class="header-section-number">1.3</span> Solutions: Partie A</h3>
+<section id="question" class="level4" data-number="1.3.1">
+<h4 data-number="1.3.1" class="anchored" data-anchor-id="question"><span class="header-section-number">1.3.1</span> Question</h4>
+<p>Il s’agit d’un mouvement de rotation.</p>
+<section id="question-2" class="level5" data-number="1.3.1.1">
+<h5 data-number="1.3.1.1" class="anchored" data-anchor-id="question-2"><span class="header-section-number">1.3.1.1</span> Question 2</h5>
+<p><span class="math display">\[
+    \vec{BM} = b (\cos{\phi} \vec u_r + \sin{\phi} \vec u_\phi)
+\]</span></p>
+<p>Ainsi :</p>
+<p><span class="math display">\[
+    v(M_{/R_B}) = b \dot{\phi} (-\sin{\phi} \vec u_r + \cos{\phi} \vec u_\phi)
+\]</span></p>
+</section>
+</section>
+<section id="question-3" class="level4" data-number="1.3.2">
+<h4 data-number="1.3.2" class="anchored" data-anchor-id="question-3"><span class="header-section-number">1.3.2</span> Question 3</h4>
+<p><span class="math display">\[
+    \vec{OM} = \vec{OB} + \vec{BM}= (a+b \cos{\phi}) \vec u_r + b\sin{\phi} \vec u_\phi
+\]</span></p>
+<p>Ainsi on peut exprimer la vitesse:</p>
+<p><span class="math display">\[\begin{align*}
+    v(M_{/R}) &amp;= \dfrac{d\vec{OM}}{dt}_{/R}= \dfrac{d((a+b \cos{\phi}) \vec u_r + b\sin{\phi} \vec u_\phi)}{dt}_{/R}\\
+    &amp;= -b\dot{\phi}\sin{\phi} \vec u_r +(a+b \cos{\phi})\dot{\theta}\vec u_\phi+ b\dot{\phi}\cos{\phi} \vec u_\phi - b \sin{\phi}\dot{\theta}\vec u_r\\
+    &amp;=b\dot{\theta}(-\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + b\dot{\phi}(\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + a\dot{\theta}\vec u_\phi
+\end{align*}\]</span></p>
+<p>Le projectile est est lâché lorsque <span class="math inline">\(\theta=\pi\)</span> et <span class="math inline">\(\phi=0\)</span>. On a : <span class="math display">\[\begin{align*}
+    v(M_{/R}) &amp;=b\dot{\theta}(-\sin{0}\vec u_r+\cos{0}\vec u_\phi) + b\dot{\phi}(\sin{0}\vec u_r+\cos{0}\vec u_\phi) + a\dot{\theta}\vec u_\phi\\
+    &amp;= (a\dot{\theta}+b(\dot{\theta}+\dot{\phi}))\vec u_\phi
+\end{align*}\]</span></p>
+</section>
+<section id="question-5" class="level4" data-number="1.3.3">
+<h4 data-number="1.3.3" class="anchored" data-anchor-id="question-5"><span class="header-section-number">1.3.3</span> Question 5</h4>
+<p>S’il n’y avait qu’un seul bras rigide de longueur <span class="math inline">\(a + b\)</span>, alors le mouvement de <span class="math inline">\(M\)</span> serait circulaire et de vitesse égale à <span class="math inline">\((a + b)\dot{\theta}\)</span>. Le fait qu’il y ait une articulation augment la vitesse de <span class="math inline">\(b\dot{\phi}\)</span>.</p>
+<section id="question-6" class="level5" data-number="1.3.3.1">
+<h5 data-number="1.3.3.1" class="anchored" data-anchor-id="question-6"><span class="header-section-number">1.3.3.1</span> Question 6</h5>
+<p>On applique le PFD, on obtient :</p>
+<p><span class="math display">\[
+y(x)=-\dfrac{g(\dfrac{x}{v_0}})^2{2}+h_0
+\]</span></p>
+</section>
+</section>
+<section id="question-7" class="level4" data-number="1.3.4">
+<h4 data-number="1.3.4" class="anchored" data-anchor-id="question-7"><span class="header-section-number">1.3.4</span> Question 7</h4>
+<p><span class="math display">\[
+y(t_{max})=0\iff t_{max}=\sqrt{\dfrac{2h_0}{g}}
+\]</span></p>
+<p>on a finalement :</p>
+<p><span class="math display">\[
+x_{max}=v_0\sqrt{\dfrac{2h_0}{g}}
+\]</span></p>
+</section>
 </section>
 </section>
 <section id="exercice-2---association-de-deux-ressorts" class="level2" data-number="2">

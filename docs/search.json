@@ -1,80 +1,10 @@
 [
   {
-    "objectID": "CM.html#notes",
-    "href": "CM.html#notes",
-    "title": "Cours Magistraux",
-    "section": "2 Notes",
-    "text": "2 Notes"
-  },
-  {
-    "objectID": "CM.html#bibliographie",
-    "href": "CM.html#bibliographie",
-    "title": "Cours Magistraux",
-    "section": "3 Bibliographie",
-    "text": "3 Bibliographie"
-  },
-  {
-    "objectID": "TD/01-TD.html",
-    "href": "TD/01-TD.html",
-    "title": "TD 1: Referentiel de mouvement",
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
     "section": "",
-    "text": "Telechargez ce TD comme pdf"
-  },
-  {
-    "objectID": "TD/01-TD.html#references-bibliographiques",
-    "href": "TD/01-TD.html#references-bibliographiques",
-    "title": "TD 1: Referentiel de mouvement",
-    "section": "2.1 References bibliographiques",
-    "text": "2.1 References bibliographiques"
-  },
-  {
-    "objectID": "TD/03-TD.html#lecture-obligatoire",
-    "href": "TD/03-TD.html#lecture-obligatoire",
-    "title": "TD 3: YYYY",
-    "section": "Lecture obligatoire",
-    "text": "Lecture obligatoire"
-  },
-  {
-    "objectID": "TD/03-TD.html#references-bibliographiques",
-    "href": "TD/03-TD.html#references-bibliographiques",
-    "title": "TD 3: YYYY",
-    "section": "References bibliographiques",
-    "text": "References bibliographiques"
-  },
-  {
-    "objectID": "TD/02-TD.html#lecture-obligatoire",
-    "href": "TD/02-TD.html#lecture-obligatoire",
-    "title": "TD 2: XXX",
-    "section": "2 Lecture obligatoire",
-    "text": "2 Lecture obligatoire"
-  },
-  {
-    "objectID": "TD/02-TD.html#references-bibliographiques",
-    "href": "TD/02-TD.html#references-bibliographiques",
-    "title": "TD 2: XXX",
-    "section": "3 References bibliographiques",
-    "text": "3 References bibliographiques"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "\n             Mécanique du Point\n         ",
-    "section": "",
-    "text": "Mécanique du Point\n         \n         \n             Introduction à la Mécanique pour Ingénieurs\n         \n         \n             La vitesse n’a jamais tué personne. Se retrouver brusquement immobile, c’est ça qui vous tue. - Jeremy Clarkson, Top Gear Université de Lorraine\n         \n     \n     \n       \n         \n         \n         \n       \n     \n \n\n\n\n\n\n\n0.1 Instructor\n\n   Guillaume Pronost\n   Dr. Fabio A Cruz\n   ENSGSI\n   fabio.cruz@univ-lorraine.fr\n   andrewheiss\n   Schedule an appointment\n\n\n\n0.2 Course details\n\n   Thursdays\n   January 9–May 2, 2023\n   7:15–9:45 PM\n   ENSGSI\n   Slack\n\n\n\n0.3 Contacting me\nE-mail and Slack are the best ways to get in contact with me. I will try to respond to all course-related e-mails and Slack messages within 24 hours (really), but also remember that life can be busy and chaotic for everyone (including me!), so if I don’t respond right away, don’t worry!\n\n\n\nCours Magistraux Guide de Travaux Dirigés\n\n\n\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "CM/03-energetique.html",
-    "href": "CM/03-energetique.html",
-    "title": "Energetique",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "CM/04-mecanique.html",
-    "href": "CM/04-mecanique.html",
-    "title": "Mécanique du Solide Indeformable",
-    "section": "",
-    "text": "Back to top"
+    "text": "References\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "CM/slides/chapter-1/index.html#technology-readiness-maturity",
@@ -84,172 +14,18 @@
     "text": "1.1 Technology Readiness → Maturity\nThe industrial emergence mapping framework.\n\nPhaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. https://doi.org/10.1016/j.techfore.2010.06.018"
   },
   {
-    "objectID": "CM/02-dynamique.html",
-    "href": "CM/02-dynamique.html",
-    "title": "Dynamique",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "CM/01-cinematique.html",
-    "href": "CM/01-cinematique.html",
-    "title": "Cinematique de Point",
-    "section": "",
-    "text": "$$\n$$"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#lecture-obligatoire",
-    "href": "CM/01-cinematique.html#lecture-obligatoire",
-    "title": "Cinematique de Point",
-    "section": "",
-    "text": "Chapitre 1 de .."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#slides-avec-des-idées-clés",
-    "href": "CM/01-cinematique.html#slides-avec-des-idées-clés",
-    "title": "Cinematique de Point",
-    "section": "1.1 Slides avec des idées clés",
-    "text": "1.1 Slides avec des idées clés"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#quest-ce-que-cest-la-cinématique",
-    "href": "CM/01-cinematique.html#quest-ce-que-cest-la-cinématique",
-    "title": "Cinematique de Point",
-    "section": "",
-    "text": "La cinématique est une branche de la mécanique qui exprime sous forme mathématique le mouvement des corps. La cinématique du point constitue l’étude du mouvement d’un point indépendamment des causes qui ont engendré ce mouvement.\n\n\n\n\n\n\nPoint matériel\n\n\n\nIl arrive souvent que l’on puisse décrire et prédire le mouvement d’un objet par les lois de la dynamique, en associant l’objet à un unique point géométrique auquel on attribue la masse \\(m\\) de l’objet. C’est ce qu’on appelle un point matériel.\nCe point matériel constitue un modèle de l’objet étudié. Il s’agit donc d’une approximation permettant une application simple de lois physiques sur cet objet. La modélisation du comportement de l’objet sous la forme d’un point matériel constitue une approximation de son comportement réel."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#comparaison-des-vecteurs",
-    "href": "CM/01-cinematique.html#comparaison-des-vecteurs",
-    "title": "Cinematique de Point",
-    "section": "3.1 Comparaison des vecteurs",
-    "text": "3.1 Comparaison des vecteurs\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont colinéaires si et seulement si il existe un nombre réel \\(k\\) tel que \\(\\va v = k*\\va u\\). Autrement dit, deux vecteurs sont colinéaires si l’un est un multiple de l’autre.\nLe produit scalaire de deux vecteurs \\(\\va u\\) et \\(\\va v\\) peut être défini comme:\n\\[\n\\newcommand\\mcy{{\\mathcal{y}}}\n\\va u .\\va v = \\left|\\left|\\va u\\right|\\right| \\left|\\left|\\va v\\right|\\right| \\cos{\\theta}\n\\]\noù \\(\\theta\\) est l’angle formé entre \\(\\va u\\) et \\(\\va v\\)\nDeux vecteurs non nuls \\(\\va u\\) et \\(\\va v\\) sont si et seulement si leur produit scalaire est nul : \\(\\va u .\\va v = 0\\)"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#base-dun-espace-vectoriel",
-    "href": "CM/01-cinematique.html#base-dun-espace-vectoriel",
-    "title": "Cinematique de Point",
-    "section": "3.2 Base d’un espace vectoriel",
-    "text": "3.2 Base d’un espace vectoriel\nSoit \\(E\\) un espace vectoriel.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite libre et ses vecteurs sont dit liénairements indépendants, lorsque\n\\[\\begin{align*}\n\n\\forall \\ \\lambda_1,\\ \\lambda_2,\\ ...,\\ \\lambda_n \\in E,\\ \\lambda_1 \\va i_1 + \\lambda_2 \\va i_2 + ... + \\lambda_n \\va i_n = \\va 0 \\implies \\lambda_1= \\lambda_2= ...=\\lambda_n = 0\n\n\\end{align*}\\]\nUne famille qui n’est pas libre est dite liée.\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite génératrice lorsque tout vecteur \\(\\va v \\in E\\) est combinaison des vecteurs de \\(F\\).\nUne famille de vecteurs \\(F\\) = (\\(\\va i_1\\), \\(\\va i_2\\), … \\(\\va i_n\\)) de \\(E\\) est dite base de \\(E\\) lorsque qu’elle est libre et génératrice."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#repère-orthonormé-direct-en-dimension-2-et-3",
-    "href": "CM/01-cinematique.html#repère-orthonormé-direct-en-dimension-2-et-3",
-    "title": "Cinematique de Point",
-    "section": "4.1 Repère orthonormé direct en dimension 2 et 3",
-    "text": "4.1 Repère orthonormé direct en dimension 2 et 3\nDans ce chapitre et les suivants, on s’interessera uniquement à des espaces de dimension 2 (problème plan) et de dimension 3 (problème en 3D). Dans ce contexte, les différents repères utilisés seront toujours des repères orthonormés directs.\nUn repère (\\(A\\), \\(\\va i_1\\), … \\(\\va i_n\\)) est dit orthonormé si tout les vecteurs (\\(\\va i_1\\), … \\(\\va i_n\\)) composant ce repère sont des vecteurs unitaires, c’est-à-dire qu’ils sont de norme 1 :\n\\[\\begin{align*}\n\\left|\\left|\\va i_1\\right|\\right|= ... =\\left|\\left|\\va i_n\\right|\\right|= 1\n\\end{align*}\\]\nUn repère (\\(A\\), \\(\\va i_1\\), … \\(\\va i_n\\)) de dimension 2 ou 3 est dit direct si il respecte la règle dite du “bonhomme d’Ampère” ou de la “main droite”. Dans le cas contraire, le repère est dit indirect."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#repérage-dun-point-matériel",
-    "href": "CM/01-cinematique.html#repérage-dun-point-matériel",
-    "title": "Cinematique de Point",
-    "section": "4.2 Repérage d’un point matériel",
-    "text": "4.2 Repérage d’un point matériel"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#référentiel",
-    "href": "CM/01-cinematique.html#référentiel",
-    "title": "Cinematique de Point",
-    "section": "4.3 Référentiel",
-    "text": "4.3 Référentiel\nPour commence à discuter du mouvement d’un corps ou d’un point, il est nécessaire de définir par rapport à quoi le mouvement sera mesuré.\nUn référentiel est un solide servant de référence pour décrire le mouvement des objets. Les vitesses et accélérations sont définies par rapport à ce référentiel.\nSauf indication contraire, nous utiliserons le référentiel terrestre.\nExemples de référentiels :\n\nLe référentiel héliocentrique (ou référentiel de Kepler)\nLe référentiel géocentrique\nLe référentiel terrestre\n\nNous supposerons qu’il existe un temps absolu : deux observateurs en mouvement relatifs peuvent attribuer les mêmes dates aux mêmes événements."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#trajectoire-dun-point",
-    "href": "CM/01-cinematique.html#trajectoire-dun-point",
-    "title": "Cinematique de Point",
-    "section": "4.4 Trajectoire d’un point",
-    "text": "4.4 Trajectoire d’un point\nOn appelle trajectoire d’un point, dans un référentiel, l’ensemble des positions successives occupées par ce point au cours du temps.\nSoit \\(O\\) un point particulier du référentiel et \\(M\\) la position du point matériel. La fonction \\(\\overrightarrow{OM}(t)\\) donne la position du point matériel \\(M\\) au cours du temps \\(t\\). On la nomme équation horaire.\nDéterminer cette fonction \\(\\overrightarrow{OM}(t)\\) représente l’objectif principal de la mécanique du point."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#position-dun-point-en-2-dimensions",
-    "href": "CM/01-cinematique.html#position-dun-point-en-2-dimensions",
-    "title": "Cinematique de Point",
-    "section": "4.5 Position d’un point en 2 dimensions",
-    "text": "4.5 Position d’un point en 2 dimensions\nOn place un observateur à un point \\(O\\) du référentiel, nommé origine. On cherche à exprimer la position d’un point matériel \\(M\\) par rapport à un repère orthonormé direct (\\(O\\), \\(\\va u_1\\), \\(\\va u_2\\)).\n\n4.5.1 Coordonnées cartésiennes\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées cartésiennes (\\(x\\), \\(y\\))\n\\[\\begin{align*}\n\\va{OM} &= x \\va u_x + y \\va u_y \\\\ x, y \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées cartésiennes permet de décrire les coordonnées d’un point \\(M(x, y)\\) et les composantes d’un vecteur \\(\\va V(V_x, V_y)\\) sur la base (\\(\\va u_x\\), \\(\\va u_y\\)).\\\nDans la suite, le référentiel \\(R_c\\) associé aux coordonnées cartésiennes sera considéré comme fixe.\nIl se peut que les coordonnées cartésiennes ne soient pas les plus commodes pour décrire la position d’un point matériel. C’est notamment le cas lorsqu’on veut décrire un mouvement de rotation, tel qu’un mouvement sur une sphère ou un cylindre.\n\n\n4.5.2 Coordonnées polaires\n\n\n\n\n\n\n\n\nLe point \\(M\\) est repéré par les coordonnées polaires (\\(r\\), \\(\\theta\\)) \\[\\begin{align*}\n\\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[\n\\end{align*}\\]\n\n\nLe repère associé aux coordonnées polaires permet de décrire les coordonnées d’un point \\(M ( r, \\theta)\\) et les composantes d’un vecteur \\(\\va V(V_r, V_\\theta)\\) sur la base (\\(\\va u_r\\), \\(\\va u_\\theta\\)).\nIl est important de remarquer que la base dépend de la coordonnée \\(\\theta\\) du point \\(M\\).\nEn général, les coordonnées cartésiennes sont associées au référentiel terrestre, considéré comme galiléen. Les coordonnées polaires, quant à elles, sont particulièrement adaptées à l’étude des mouvements de rotation. La base est souvent appelée base mobile. On dit qu’elle est associée au référentiel tournant \\(R_T\\).\n\nTheorem 1 (Changement de base) On s’interesse à une base fixe (\\(\\va u_x\\), \\(\\va u_y\\)) et à une base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\)). Tout les vecteurs des bases sont unitaires. On a donc :\n\\[\\begin{align*}\n\n\\left|\\left|\\va u_x\\right|\\right|=\\left|\\left|\\va u_y\\right|\\right|=\\left|\\left|\\va u_r\\right|\\right|=\\left|\\left|\\va u_\\theta\\right|\\right|=1\n\n\\end{align*}\\]\n\n\n\\[\\begin{align*}\n\\va u_r &= \\va u_{r_x} + \\va u_{r_y} \\\\\n\\va u_r &= \\cos{\\theta}\\va u_x + \\sin{\\theta}\\va u_y\\\\\n&\\\\\n\\va u_\\theta &= \\va u_{\\theta_x} + \\va u_{\\theta_y} \\\\\n\\va u_\\theta &= -\\sin{\\theta}\\va u_x + \\cos{\\theta}\\va u_y\n\\end{align*}\\]\n\n\n\n\n\n\n\n\\[\\begin{align*}\n\\va u_x &= \\va u_{x_r} + \\va u_{x_\\theta} \\\\\n\\va u_x &= \\cos{\\theta}\\va u_r - \\sin{\\theta}\\va u_\\theta\\\\\n&\\\\\n\\va u_y &= \\va u_{y_r} + \\va u_{y_\\theta} \\\\\n\\va u_y &= \\sin{\\theta}\\va u_r + \\cos{\\theta}\\va u_\\theta\n\\end{align*}\\]\n\n\n\n\n\n\n\n\n\nOn a pu voir que différents systèmes de coordonnées permettaient de représenter la position du point \\(M\\). Ainsi :\n\\[\\begin{align*}\n\\overrightarrow{OM} &= x \\va u_x + y \\va u_y \\\\\n& \\text{et}\\\\\n\\overrightarrow{OM} &= r \\va u_r\n\\end{align*}\\]\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\)) en fonction des coordonnées polaires (\\(r\\), \\(\\theta\\)) et inversemment. Ainsi :\n\\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\cos{\\theta}  \\\\\n      y &= \\ r \\sin{\\theta}\n    \\end{cases}       \n\\end{equation*}\\]"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#coordonnées-cylindriques",
-    "href": "CM/01-cinematique.html#coordonnées-cylindriques",
-    "title": "Cinematique de Point",
-    "section": "5.1 Coordonnées cylindriques",
-    "text": "5.1 Coordonnées cylindriques\n\n\nIci figure de Coordones cyclindriques\n\nLe point \\(M\\) est repéré par les coordonnées cylindriques (\\(r\\), \\(\\theta\\), \\(z\\))\n\\[\\begin{align*}\n  \\va{OM} &= r \\va u_r  \\\\ r \\ &\\in \\ [0, +\\infty[ \\\\ \\theta \\ &\\in \\ [0, 2\\pi[ \\\\ z \\ &\\in \\ ]-\\infty, +\\infty[\n\\end{align*}\\]\n\n\nOn utilisera les coordonnées cylindriques dès que la distance à l’axe \\(O_z\\) joue un rôle important dans l’exercice.\n\n5.1.1 Changement de système de coordonnées\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\), \\(z\\)) en fonction des coordonnées cylindriques (\\(r\\), \\(\\theta\\), \\(z\\)) et inversemment. Ainsi :\n\\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\cos{\\theta}  \\\\\n      y &= \\ r \\sin{\\theta} \\\\\n      z &= \\ z\n    \\end{cases}       \n\\end{equation*}\\]"
-  },
-  {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "References\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#coordonnées-sphériques",
-    "href": "CM/01-cinematique.html#coordonnées-sphériques",
-    "title": "Cinematique de Point",
-    "section": "5.2 Coordonnées sphériques",
-    "text": "5.2 Coordonnées sphériques\n\n\nFigure coordones Spériques\n\n\n\n\nOn utilisera les coordonnées sphériques dès que la distance \\(r\\) au centre O joue un rôle important dans l’exercice.\\\n\n5.2.1 Changement de système de coordonnées\nA partir des formules de projections déterminées précedemment, il est possible d’exprimer les coordonnées cartésiennes (\\(x\\), \\(y\\), \\(z\\)) en fonction des coordonnées sphériques (\\(r\\), \\(\\theta\\), \\(\\phi\\)) et inversemment. Ainsi : \\[\\begin{equation*}\n    \\begin{cases}\n      x &= \\ r \\sin{\\theta}\\cos{\\phi}  \\\\\n      y &= \\ r \\sin{\\theta}\\sin{\\phi} \\\\\n      z &= \\ r \\cos{\\theta}\n    \\end{cases}       \n\\end{equation*}\\]"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cartésiennes",
-    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cartésiennes",
-    "title": "Cinematique de Point",
-    "section": "6.1 Expression de la vitesse en coordonnées cartésiennes",
-    "text": "6.1 Expression de la vitesse en coordonnées cartésiennes\nSoit (\\(\\va u_x\\), \\(\\va u_y\\), \\(\\va u_z\\)) la base des coordonnées cartésiennes.\n\\[\\begin{align*}\n    &\\va v(M_{/R_c})=\\left(\\frac{d(\\va{OM})}{dt}\\right)_{/Rc} \\ \\ \\text{avec} \\ \\ \\va{OM} = x \\va u_x + y \\va u_y + z \\va u_z\\\\\n    &\\va v(M_{/R_c})=\\left(\\frac{d(x \\va u_x + y \\va u_y + z \\va u_z)}{dt}\\right)_{/R}\\\\\n    &\\va v(M_{/R_c})=\\frac{dx}{dt}\\va u_x +\n    \\let\\OldcancelColor\\CancelColor\n    \\renewcommand\\CancelColor{\\color{red}}\n    \\cancel{x\\left(\\frac{d(\\va u_x)}{dt}\\right)_{/R_c}}\n    \\renewcommand\\CancelColor{\\OldcancelColor}\n+ \\frac{dy}{dt}\\va u_y +\n    \\let\\OldcancelColor\\CancelColor\n    \\renewcommand\\CancelColor{\\color{red}}\n    \\cancel{y\\left(\\frac{d(\\va u_y)}{dt}\\right)_{/R_c}}\n    \\renewcommand\\CancelColor{\\OldcancelColor}\n+ \\frac{dz}{dt}\\va u_z +  \n    \\let\\OldcancelColor\\CancelColor\n    \\renewcommand\\CancelColor{\\color{red}}\n    \\cancel{z\\left(\\frac{d(\\va u_z)}{dt}\\right)_{/R_c}}\n    \\renewcommand\\CancelColor{\\OldcancelColor}\n\\\\\n\n\n    \\va v(M_{/R_c})=\\dfrac{dx}{dt}\\va u_x + \\dfrac{dy}{dt}\\va u_y + \\dfrac{dz}{dt}\\va u_z \\\\\n\\end{align*}\\]\nLes vecteurs \\(\\va u_x\\), \\(\\va u_y\\), et \\(\\va u_z\\) et sont dans \\(R_c\\) , donc leur dérivée est nulle."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-polaires",
-    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-polaires",
-    "title": "Cinematique de Point",
-    "section": "6.2 Expression de la vitesse en coordonnées polaires",
-    "text": "6.2 Expression de la vitesse en coordonnées polaires\nLa vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées polaires (\\(\\va u_r\\), \\(\\va u_\\theta\\)).\n\n\n\\[\\begin{align*}\n    &\\va v(M_{/R_c})=\\left(\\frac{d(\\va{OM})}{dt}\\right)_{/Rc} \\ \\ \\text{avec} \\ \\ \\va{OM} = r \\va u_r\\\\\n    &\\va v(M_{/R_c})=\\left(\\frac{d(r \\va u_r)}{dt}\\right)_{/R}\\\\\n    &\\va v(M_{/R_c})=\\frac{dr}{dt}\\va u_r + r\\left(\\frac{d(\\va u_r)}{dt}\\right)_{/R_c}\n\\end{align*}\\]\n\nFigure ici\n\n\nProblème : le vecteur \\(\\va u_r\\) n’est dans \\(R_c\\), donc sa dérivée n’est .\n\nTheorem 2 (Dérivation des vecteurs de la base mobile (\\(\\va u_r\\), \\(\\va u_\\theta\\))) \\[\\begin{align*}\n  \\left(\\frac{d(\\va u_r)}{dt}\\right)_{/Rc} &= \\frac{d\\theta}{dt}\\va u_\\theta\\\\\n  \\left(\\frac{d(\\va u_\\theta)}{dt}\\right)_{/Rc} &= -\\frac{d\\theta}{dt}\\va u_r\n\\end{align*}\\]\nA connaître !\n\nSi on applique ces expressions dans le calcul précédent, on obtient finalement : \\[\\begin{align*}\n    &\\va v(M_{/R_c})=\\frac{dr}{dt}\\va u_r + r\\left(\\frac{d(\\va u_r)}{dt}\\right)_{/R_c}\\\\\n    &\\tikz[baseline]{\n            \\node[fill=red!20,anchor=base,rounded corners]\n            {$\\va v(M_{/R_c})=\\dfrac{dr}{dt}\\va u_r + r\\dfrac{d\\theta}{dt}\\va u_\\theta$};\n        }\n\\end{align*}\\]\n\n6.2.1 Remarques sur la notation\nOn écrit \\(\\dfrac{dr}{dt}\\) et \\(\\dfrac{d\\theta}{dt}\\) sans préciser le référentiel par rapport auquel on dérive car \\(r\\) est défini par rapport à l’origine \\(O\\), commune au repère cartésien et polaire, et \\(\\theta\\) est défini par rapport à l’axe \\(\\va x\\) qui est fixe.\nLes valeurs de \\(r(t)\\) et \\(\\theta(t)\\) ne dépendent pas du référentiel.\nOn écrit \\(\\left(\\dfrac{d(\\va u_r)}{dt}\\right)_{/R_c}\\) et \\(\\left(\\dfrac{d(\\va u_\\theta)}{dt}\\right)_{/R_c}\\) en précisant le référentiel par rapport auquel on dérive car l’expression de ces vecteurs dépend du référentiel.\nDans le référentiel cartésien \\(R_c\\), les composantes de \\(\\va u_r\\) et \\(\\va u_\\theta\\) sur (\\(\\va u_x\\), \\(\\va u_y\\)) sont (\\(\\cos{\\theta}\\), \\(\\sin{\\theta}\\)) et (\\(-\\sin{\\theta}\\), \\(\\cos{\\theta}\\)). Comme \\(\\theta\\) dépend généralement du temps, la dérivée de ces composantes par rapport à \\(R_c\\) n’est pas nulle.\nDans le référentiel tournant \\(R_T\\), les composantes de \\(\\va u_r\\) et \\(\\va u_\\theta\\) sur (\\(\\va u_r\\), \\(\\va u_\\theta\\)) sont (\\(1\\), \\(0\\)) et (\\(0\\), \\(1\\)).\nLa dérivée par rapport à \\(R_T\\) est nulle. Ainsi, la dérivation de ces vecteurs aura un résultat différent selon le référentiel de dérivation choisi. Elle dépend du référentiel."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cylindriques",
-    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-cylindriques",
-    "title": "Cinematique de Point",
-    "section": "6.3 Expression de la vitesse en coordonnées cylindriques",
-    "text": "6.3 Expression de la vitesse en coordonnées cylindriques\nLa vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées cylindriques (\\(\\va u_r\\), \\(\\va u_\\theta\\), \\(\\va u_z\\)).\n\n\n\n\nFigure ici"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-sphériques",
-    "href": "CM/01-cinematique.html#expression-de-la-vitesse-en-coordonnées-sphériques",
-    "title": "Cinematique de Point",
-    "section": "6.4 Expression de la vitesse en coordonnées sphériques",
-    "text": "6.4 Expression de la vitesse en coordonnées sphériques\nLa vitesse est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées sphériques (\\(\\va u_r\\), \\(\\va u_\\theta\\), \\(\\va u_\\phi\\)).\n\n\n\n\nFigure ici"
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cartésiennes",
-    "href": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cartésiennes",
-    "title": "Cinematique de Point",
-    "section": "7.1 Expression de l’accélération en coordonnées cartésiennes",
-    "text": "7.1 Expression de l’accélération en coordonnées cartésiennes\nSoit (\\(\\va u_x\\), \\(\\va u_y\\), \\(\\va u_z\\)) la base des coordonnées cartésiennes.\n\n\n\n\n\n\nTip\n\n\n\n\\[\\begin{align*}\n\n&\\va \\gamma(M_{/R_c})=\\left(\\frac{d^2(\\va{OM})}{dt^2}\\right)_{/R_c} \\ \\ \\text{avec} \\ \\ \\va{OM} = x \\va u_x + y \\va u_y + z \\va u_z\\\\\n\\va \\gamma(M_{/R_c})=\\dfrac{d^2x}{dt^2}\\va u_x + \\dfrac{d^2y}{dt^2}\\va u_y + \\dfrac{d^2z}{dt^2}\\va u_z\n\n\\end{align*}\\]\n\n\nOn applique la même méthode de calcul que pour la vitesse."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-polaires",
-    "href": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-polaires",
-    "title": "Cinematique de Point",
-    "section": "7.2 Expression de l’accélération en coordonnées polaires",
-    "text": "7.2 Expression de l’accélération en coordonnées polaires\nL’accélération est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées polaires (\\(\\va u_r\\), \\(\\va u_\\theta\\))."
-  },
-  {
-    "objectID": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cylindriques",
-    "href": "CM/01-cinematique.html#expression-de-laccélération-en-coordonnées-cylindriques",
-    "title": "Cinematique de Point",
-    "section": "7.3 Expression de l’accélération en coordonnées cylindriques",
-    "text": "7.3 Expression de l’accélération en coordonnées cylindriques\nL’accélération est ici calculée par rapport au référentiel associé aux coordonnées cartésiennes. Elle s’exprime sur la base des coordonnées cylindriques (\\(\\va u_r\\), \\(\\va u_\\theta\\), \\(\\va u_z\\)).\n\n\n\n\nFigure ici"
-  },
-  {
     "objectID": "TD/03-TD.html",
     "href": "TD/03-TD.html",
     "title": "TD 4:",
     "section": "",
-    "text": "L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre \\(AB\\) à laquelle est fixée un contrepoids en \\(A\\). En \\(B\\) est attachée une corde au bout de laquelle une poche contient le projectile \\(M\\).\nSoit \\(R(O,x,y,z)\\) le repère lié au sol et \\(R_B(B,x_1,y_1,z_1)\\) le repère lié à la poutre. Le mouvement a lieu dans le plan \\((Oxy)\\). La base polaire \\((\\vec u_r, \\vec u_\\varphi)\\) est liée à \\(RB\\). On donne \\(OB = a\\) et \\(BM = b\\).\n\n\n\n\n\n\nQuel est le mouvement de \\(R_b\\) par rapport à \\(R\\)?.\nOn suppose que la corde \\(BM\\) reste tendue. Donner l’expression de \\(\\vec{BM}\\). En déduire l’expression de \\(\\vec v(M_{/R_B})\\).\nDeterminer l’expression du vecteur \\(\\vec{OM}\\). En déduire l’expression de \\(\\vec{ v(M_{/R})}\\).\n\nLe projectile est est lâché lorsque \\(\\theta=\\pi\\) et \\(\\varphi=0\\).\n\nDéterminer l’expression de \\(\\vec v(M_{/R})\\), en fonction de \\(a\\), \\(b\\), \\(\\dot{\\varphi}\\), \\(\\dot{\\theta}\\).\nMontrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur \\(a+b\\).\n\n\n\n\n\n\n\n\n\n\nOn étudie désormais le projectile \\(M\\) laché avec une vitesse horizontale \\(v_0=200km/h\\), depuis la hauteur totale du trébuchet \\(H=16m\\). On se place dans un repère orthonormé (\\(\\vec u_x\\), \\(\\vec u_y\\)). On considère que le projectile a une masse \\(m=100kg\\). Les frottements sont négligés.\n\nA l’aide du PFD, déterminer l’équation de la trajectoire \\(y(x)\\).\nEn déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol."
+    "text": "L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre \\(AB\\) à laquelle est fixée un contrepoids en \\(A\\). En \\(B\\) est attachée une corde au bout de laquelle une poche contient le projectile \\(M\\).\nSoit \\(R(O,x,y,z)\\) le repère lié au sol et \\(R_B(B,x_1,y_1,z_1)\\) le repère lié à la poutre. Le mouvement a lieu dans le plan \\((Oxy)\\). La base polaire \\((\\vec u_r, \\vec u_\\varphi)\\) est liée à \\(RB\\). On donne \\(OB = a\\) et \\(BM = b\\).\n\n\n\n\n\n\nQuel est le mouvement de \\(R_b\\) par rapport à \\(R\\)?.\nOn suppose que la corde \\(BM\\) reste tendue. Donner l’expression de \\(\\vec{BM}\\). En déduire l’expression de \\(\\vec v(M_{/R_B})\\).\nDeterminer l’expression du vecteur \\(\\vec{OM}\\). En déduire l’expression de \\(\\vec{ v(M_{/R})}\\).\n\nLe projectile est est lâché lorsque \\(\\theta=\\pi\\) et \\(\\varphi=0\\).\n\nDéterminer l’expression de \\(\\vec v(M_{/R})\\), en fonction de \\(a\\), \\(b\\), \\(\\dot{\\varphi}\\), \\(\\dot{\\theta}\\).\nMontrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur \\(a+b\\).\n\n\n\n\n\n\n\n\n\n\nOn étudie désormais le projectile \\(M\\) laché avec une vitesse horizontale \\(v_0=200km/h\\), depuis la hauteur totale du trébuchet \\(H=16m\\). On se place dans un repère orthonormé (\\(\\vec u_x\\), \\(\\vec u_y\\)). On considère que le projectile a une masse \\(m=100kg\\). Les frottements sont négligés.\n\nA l’aide du PFD, déterminer l’équation de la trajectoire \\(y(x)\\).\nEn déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol.\n\n\n\n\n\n\nIl s’agit d’un mouvement de rotation.\n\n\n\\[\n    \\vec{BM} = b (\\cos{\\phi} \\vec u_r + \\sin{\\phi} \\vec u_\\phi)\n\\]\nAinsi :\n\\[\n    v(M_{/R_B}) = b \\dot{\\phi} (-\\sin{\\phi} \\vec u_r + \\cos{\\phi} \\vec u_\\phi)\n\\]\n\n\n\n\n\\[\n    \\vec{OM} = \\vec{OB} + \\vec{BM}= (a+b \\cos{\\phi}) \\vec u_r + b\\sin{\\phi} \\vec u_\\phi\n\\]\nAinsi on peut exprimer la vitesse:\n\\[\\begin{align*}\n    v(M_{/R}) &= \\dfrac{d\\vec{OM}}{dt}_{/R}= \\dfrac{d((a+b \\cos{\\phi}) \\vec u_r + b\\sin{\\phi} \\vec u_\\phi)}{dt}_{/R}\\\\\n    &= -b\\dot{\\phi}\\sin{\\phi} \\vec u_r +(a+b \\cos{\\phi})\\dot{\\theta}\\vec u_\\phi+ b\\dot{\\phi}\\cos{\\phi} \\vec u_\\phi - b \\sin{\\phi}\\dot{\\theta}\\vec u_r\\\\\n    &=b\\dot{\\theta}(-\\sin{\\phi}\\vec u_r+\\cos{\\phi}\\vec u_\\phi) + b\\dot{\\phi}(\\sin{\\phi}\\vec u_r+\\cos{\\phi}\\vec u_\\phi) + a\\dot{\\theta}\\vec u_\\phi\n\\end{align*}\\]\nLe projectile est est lâché lorsque \\(\\theta=\\pi\\) et \\(\\phi=0\\). On a : \\[\\begin{align*}\n    v(M_{/R}) &=b\\dot{\\theta}(-\\sin{0}\\vec u_r+\\cos{0}\\vec u_\\phi) + b\\dot{\\phi}(\\sin{0}\\vec u_r+\\cos{0}\\vec u_\\phi) + a\\dot{\\theta}\\vec u_\\phi\\\\\n    &= (a\\dot{\\theta}+b(\\dot{\\theta}+\\dot{\\phi}))\\vec u_\\phi\n\\end{align*}\\]\n\n\n\nS’il n’y avait qu’un seul bras rigide de longueur \\(a + b\\), alors le mouvement de \\(M\\) serait circulaire et de vitesse égale à \\((a + b)\\dot{\\theta}\\). Le fait qu’il y ait une articulation augment la vitesse de \\(b\\dot{\\phi}\\).\n\n\nOn applique le PFD, on obtient :\n\\[\ny(x)=-\\dfrac{g(\\dfrac{x}{v_0}})^2{2}+h_0\n\\]\n\n\n\n\n\\[\ny(t_{max})=0\\iff t_{max}=\\sqrt{\\dfrac{2h_0}{g}}\n\\]\non a finalement :\n\\[\nx_{max}=v_0\\sqrt{\\dfrac{2h_0}{g}}\n\\]"
   },
   {
     "objectID": "TD/03-TD.html#exercice-1---arme-à-lancienne",
     "href": "TD/03-TD.html#exercice-1---arme-à-lancienne",
     "title": "TD 4:",
     "section": "",
-    "text": "L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre \\(AB\\) à laquelle est fixée un contrepoids en \\(A\\). En \\(B\\) est attachée une corde au bout de laquelle une poche contient le projectile \\(M\\).\nSoit \\(R(O,x,y,z)\\) le repère lié au sol et \\(R_B(B,x_1,y_1,z_1)\\) le repère lié à la poutre. Le mouvement a lieu dans le plan \\((Oxy)\\). La base polaire \\((\\vec u_r, \\vec u_\\varphi)\\) est liée à \\(RB\\). On donne \\(OB = a\\) et \\(BM = b\\).\n\n\n\n\n\n\nQuel est le mouvement de \\(R_b\\) par rapport à \\(R\\)?.\nOn suppose que la corde \\(BM\\) reste tendue. Donner l’expression de \\(\\vec{BM}\\). En déduire l’expression de \\(\\vec v(M_{/R_B})\\).\nDeterminer l’expression du vecteur \\(\\vec{OM}\\). En déduire l’expression de \\(\\vec{ v(M_{/R})}\\).\n\nLe projectile est est lâché lorsque \\(\\theta=\\pi\\) et \\(\\varphi=0\\).\n\nDéterminer l’expression de \\(\\vec v(M_{/R})\\), en fonction de \\(a\\), \\(b\\), \\(\\dot{\\varphi}\\), \\(\\dot{\\theta}\\).\nMontrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur \\(a+b\\).\n\n\n\n\n\n\n\n\n\n\nOn étudie désormais le projectile \\(M\\) laché avec une vitesse horizontale \\(v_0=200km/h\\), depuis la hauteur totale du trébuchet \\(H=16m\\). On se place dans un repère orthonormé (\\(\\vec u_x\\), \\(\\vec u_y\\)). On considère que le projectile a une masse \\(m=100kg\\). Les frottements sont négligés.\n\nA l’aide du PFD, déterminer l’équation de la trajectoire \\(y(x)\\).\nEn déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol."
+    "text": "L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre \\(AB\\) à laquelle est fixée un contrepoids en \\(A\\). En \\(B\\) est attachée une corde au bout de laquelle une poche contient le projectile \\(M\\).\nSoit \\(R(O,x,y,z)\\) le repère lié au sol et \\(R_B(B,x_1,y_1,z_1)\\) le repère lié à la poutre. Le mouvement a lieu dans le plan \\((Oxy)\\). La base polaire \\((\\vec u_r, \\vec u_\\varphi)\\) est liée à \\(RB\\). On donne \\(OB = a\\) et \\(BM = b\\).\n\n\n\n\n\n\nQuel est le mouvement de \\(R_b\\) par rapport à \\(R\\)?.\nOn suppose que la corde \\(BM\\) reste tendue. Donner l’expression de \\(\\vec{BM}\\). En déduire l’expression de \\(\\vec v(M_{/R_B})\\).\nDeterminer l’expression du vecteur \\(\\vec{OM}\\). En déduire l’expression de \\(\\vec{ v(M_{/R})}\\).\n\nLe projectile est est lâché lorsque \\(\\theta=\\pi\\) et \\(\\varphi=0\\).\n\nDéterminer l’expression de \\(\\vec v(M_{/R})\\), en fonction de \\(a\\), \\(b\\), \\(\\dot{\\varphi}\\), \\(\\dot{\\theta}\\).\nMontrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur \\(a+b\\).\n\n\n\n\n\n\n\n\n\n\nOn étudie désormais le projectile \\(M\\) laché avec une vitesse horizontale \\(v_0=200km/h\\), depuis la hauteur totale du trébuchet \\(H=16m\\). On se place dans un repère orthonormé (\\(\\vec u_x\\), \\(\\vec u_y\\)). On considère que le projectile a une masse \\(m=100kg\\). Les frottements sont négligés.\n\nA l’aide du PFD, déterminer l’équation de la trajectoire \\(y(x)\\).\nEn déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol.\n\n\n\n\n\n\nIl s’agit d’un mouvement de rotation.\n\n\n\\[\n    \\vec{BM} = b (\\cos{\\phi} \\vec u_r + \\sin{\\phi} \\vec u_\\phi)\n\\]\nAinsi :\n\\[\n    v(M_{/R_B}) = b \\dot{\\phi} (-\\sin{\\phi} \\vec u_r + \\cos{\\phi} \\vec u_\\phi)\n\\]\n\n\n\n\n\\[\n    \\vec{OM} = \\vec{OB} + \\vec{BM}= (a+b \\cos{\\phi}) \\vec u_r + b\\sin{\\phi} \\vec u_\\phi\n\\]\nAinsi on peut exprimer la vitesse:\n\\[\\begin{align*}\n    v(M_{/R}) &= \\dfrac{d\\vec{OM}}{dt}_{/R}= \\dfrac{d((a+b \\cos{\\phi}) \\vec u_r + b\\sin{\\phi} \\vec u_\\phi)}{dt}_{/R}\\\\\n    &= -b\\dot{\\phi}\\sin{\\phi} \\vec u_r +(a+b \\cos{\\phi})\\dot{\\theta}\\vec u_\\phi+ b\\dot{\\phi}\\cos{\\phi} \\vec u_\\phi - b \\sin{\\phi}\\dot{\\theta}\\vec u_r\\\\\n    &=b\\dot{\\theta}(-\\sin{\\phi}\\vec u_r+\\cos{\\phi}\\vec u_\\phi) + b\\dot{\\phi}(\\sin{\\phi}\\vec u_r+\\cos{\\phi}\\vec u_\\phi) + a\\dot{\\theta}\\vec u_\\phi\n\\end{align*}\\]\nLe projectile est est lâché lorsque \\(\\theta=\\pi\\) et \\(\\phi=0\\). On a : \\[\\begin{align*}\n    v(M_{/R}) &=b\\dot{\\theta}(-\\sin{0}\\vec u_r+\\cos{0}\\vec u_\\phi) + b\\dot{\\phi}(\\sin{0}\\vec u_r+\\cos{0}\\vec u_\\phi) + a\\dot{\\theta}\\vec u_\\phi\\\\\n    &= (a\\dot{\\theta}+b(\\dot{\\theta}+\\dot{\\phi}))\\vec u_\\phi\n\\end{align*}\\]\n\n\n\nS’il n’y avait qu’un seul bras rigide de longueur \\(a + b\\), alors le mouvement de \\(M\\) serait circulaire et de vitesse égale à \\((a + b)\\dot{\\theta}\\). Le fait qu’il y ait une articulation augment la vitesse de \\(b\\dot{\\phi}\\).\n\n\nOn applique le PFD, on obtient :\n\\[\ny(x)=-\\dfrac{g(\\dfrac{x}{v_0}})^2{2}+h_0\n\\]\n\n\n\n\n\\[\ny(t_{max})=0\\iff t_{max}=\\sqrt{\\dfrac{2h_0}{g}}\n\\]\non a finalement :\n\\[\nx_{max}=v_0\\sqrt{\\dfrac{2h_0}{g}}\n\\]"
   },
   {
     "objectID": "TD/03-TD.html#exercice-2---association-de-deux-ressorts",
@@ -257,5 +33,40 @@
     "title": "TD 4:",
     "section": "2 Exercice 2 - Association de deux ressorts",
     "text": "2 Exercice 2 - Association de deux ressorts\nOn place un bloc \\(M\\) de masse \\(m= 700g\\) sur un rail horizontal et on le fixe aux extrémités de deux ressorts semblables \\(R_1\\) et \\(R_2\\) de mêmes constantes de raideur \\(k= 20N/m\\). La longueur initiale de chaque ressort est \\(l_{01} = l_{02} = 18cm\\) et à l’équilibre, ils ont même allongement \\(\\Delta l_1 = \\Delta l_2 = 2cm\\).\nOn considère que dans cette position, le point \\(M\\) et l’origine du repère \\(O\\) sont confondus.\n\n\n\n\n\nOn écarte le bloc de sa position d’équilibre de \\(4cm\\) dans le sens des \\(x\\) positifs, puis on le lache sans vitesse initiale, à l’instant \\(t=0\\). On considèrera les frottements comme négligeables.\n\nDéterminer les expressions des allongements de \\(\\Delta l_1\\) et \\(\\Delta l_2\\) pour chaque ressort en fonction de \\(x\\) l’abscisse de \\(M\\).\nAppliquer le PFD sur le système. En déduire l’équation différentielle du mouvement de \\(M\\).\nRésoudre l’équation différentielle du mouvement de \\(M\\). Comment se comporte le bloc \\(M\\) dans le temps?\n\nOn immerge le système dans un liquide. Sachant que la force de frottement appliquée par le liquide sur la plaque au cours du mouvement du bloc est de la forme \\(\\vec F_f=-\\alpha \\vec v\\), avec \\(\\alpha\\) une constante positive et \\(\\vec v\\) le vecteur vitesse de M.\n\nAppliquer le PFD sur le système. En déduire l’équation différentielle du mouvement de \\(M\\).\nRésoudre l’équation différentielle du mouvement de \\(M\\). Comment se comporte le bloc \\(M\\) dans le temps?\nA partir de quel instant \\(t_1\\) les oscillations du système restent-t-elles dans une fourchette de \\(1cm\\) autour du point \\(O\\)?"
+  },
+  {
+    "objectID": "CM/02-dynamique.html",
+    "href": "CM/02-dynamique.html",
+    "title": "Dynamique",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "TD/01-TD.html",
+    "href": "TD/01-TD.html",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "",
+    "text": "On se place dans un repère en coordonnées cartésiennes (\\(\\vec u_x\\),\\(\\vec u_y\\)). On place un point \\(M\\) de coordonnées (\\(x\\),\\(y\\)).\n\nFaire un schéma du repère. Placer le point \\(M\\). Donner l’expression du vecteur \\(\\vec{OM}\\), de la vitesse du point \\(M\\) \\(\\vec v_M\\), et de son accélération \\(\\vec a_M\\) dans la base (\\(\\vec u_x\\),\\(\\vec u_y\\)) en utilisant les coordonnées cartésiennes (\\(x\\),\\(y\\)).\nDonner l’expression du vecteur \\(\\vec{OM}\\) dans la base mobile (\\(\\vec u_r\\),\\(\\vec u_\\theta\\)). Donner l’expression des vecteurs \\(\\vec u_r\\) et \\(\\vec u_\\theta\\) dans la base (\\(\\vec u_x\\),\\(\\vec u_y\\)). Dessiner la base mobile sur votre schéma.\nA l’aide de la question précédente, exprimer les coordonnées cartésiennes (\\(x\\),\\(y\\)) en fonction des coordonnées polaires (\\(r\\), \\(\\theta\\)). Exprimer \\(\\vec{OM}\\) dans la base fixe (\\(\\vec u_x\\),\\(\\vec u_y\\)) en utilisant les coordonnées polaires.\nExprimer la vitesse du mobile par rapport au référentiel des coordonnées cartésiennes \\(R_c\\), en utilisant les coordonnées polaires (\\(r\\), \\(\\theta\\)) dans la base fixe (\\(\\vec u_x\\),\\(\\vec u_y\\)) puis dans la base mobile (\\(\\vec u_r\\),\\(\\vec u_\\theta\\)). Vérifier qu’il s’agit de la même vitesse exprimée sur deux bases différentes.\n\n\n\n\n\nOn se place dans un repère en coordonnées cartésiennes (\\(\\vec u_x\\),\\(\\vec u_y\\)). On place un point \\(M\\) de coordonnées (\\(x\\),\\(y\\)).\n\n\n\n\n\n\n\n\n\n\n\n\nEn coordonnées cartésiennes:\n\\[\\begin{align*}\n    \\vec{OM} &= x \\vec u_x + y \\vec u_y\\\\\n    \\vec{v(M)} &= \\dfrac{dx}{dt} \\vec u_x + \\dfrac{dy}{dt} \\vec u_y\\\\\n    \\vec{a(M)} &= \\dfrac{d^2x}{dt^2} \\vec u_x + \\dfrac{d^2y}{dt^2} \\vec u_y\n\\end{align*}\\]\n\n\n\nEn coordonnées polaires (\\(r\\), \\(\\theta\\)):\n\\[\\begin{align*}\n    \\vec{OM} &= r \\vec u_r \\\\\n    \\vec u_r &= \\cos{\\theta} \\vec u_x + \\sin{\\theta} \\vec u_y \\ \\text{;} \\  \\vec u_\\theta = \\sin{\\theta} \\vec u_x + \\cos{\\theta} \\vec u_y\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "TD/01-TD.html#references-bibliographiques",
+    "href": "TD/01-TD.html#references-bibliographiques",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "2.1 References bibliographiques",
+    "text": "2.1 References bibliographiques"
+  },
+  {
+    "objectID": "TD/01-TD.html#solutions",
+    "href": "TD/01-TD.html#solutions",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "",
+    "text": "On se place dans un repère en coordonnées cartésiennes (\\(\\vec u_x\\),\\(\\vec u_y\\)). On place un point \\(M\\) de coordonnées (\\(x\\),\\(y\\)).\n\n\n\n\n\n\n\n\n\n\n\n\nEn coordonnées cartésiennes:\n\\[\\begin{align*}\n    \\vec{OM} &= x \\vec u_x + y \\vec u_y\\\\\n    \\vec{v(M)} &= \\dfrac{dx}{dt} \\vec u_x + \\dfrac{dy}{dt} \\vec u_y\\\\\n    \\vec{a(M)} &= \\dfrac{d^2x}{dt^2} \\vec u_x + \\dfrac{d^2y}{dt^2} \\vec u_y\n\\end{align*}\\]\n\n\n\nEn coordonnées polaires (\\(r\\), \\(\\theta\\)):\n\\[\\begin{align*}\n    \\vec{OM} &= r \\vec u_r \\\\\n    \\vec u_r &= \\cos{\\theta} \\vec u_x + \\sin{\\theta} \\vec u_y \\ \\text{;} \\  \\vec u_\\theta = \\sin{\\theta} \\vec u_x + \\cos{\\theta} \\vec u_y\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "TD/01-TD.html#solution",
+    "href": "TD/01-TD.html#solution",
+    "title": "TD 1: Referentiel de mouvement",
+    "section": "",
+    "text": "On se place dans un repère en coordonnées cartésiennes (\\(\\vec u_x\\),\\(\\vec u_y\\)). On place un point \\(M\\) de coordonnées (\\(x\\),\\(y\\)).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExpression du vecteur \\(\\vec{OM}\\) en coordonnées cartésiennes:\n\\[\\begin{align*}\n    \\vec{OM} &= x \\vec u_x + y \\vec u_y\\\\\n    \\vec{v(M)} &= \\dfrac{dx}{dt} \\vec u_x + \\dfrac{dy}{dt} \\vec u_y\\\\\n    \\vec{a(M)} &= \\dfrac{d^2x}{dt^2} \\vec u_x + \\dfrac{d^2y}{dt^2} \\vec u_y\n\\end{align*}\\]\n\n\n\n\n\nEn coordonnées polaires (\\(r\\), \\(\\theta\\)):\n\\[\\begin{align*}\n    \\vec{OM} &= r \\vec u_r \\\\\n    \\vec u_r &= \\cos{\\theta} \\vec u_x + \\sin{\\theta} \\vec u_y \\ \\text{;} \\  \\vec u_\\theta = \\sin{\\theta} \\vec u_x + \\cos{\\theta} \\vec u_y\n\\end{align*}\\]"
   }
 ]

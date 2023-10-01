@@ -14,7 +14,6 @@ La base polaire $(\vec u_r, \vec u_\varphi)$ est liée à $RB$. On donne $OB = a
 
 
 :::: {layout="[ 70, 30 ]"}
-
 ::: {#first-column}
 
 ### Partie A
@@ -31,7 +30,6 @@ Le projectile est est lâché lorsque $\theta=\pi$ et $\varphi=0$.
 ::: {#second-column}
 ![](Figures/TD5im12.jpeg)
 :::
-
 ::::
 
 
@@ -47,6 +45,71 @@ On considère que le projectile a une masse $m=100kg$. Les frottements sont nég
 6. A l'aide du PFD, déterminer l'équation de la trajectoire $y(x)$.
 
 7. En déduire la distance que parcourt horizontalement le projectile avant de s'écraser au sol.
+
+
+### Solutions: Partie A
+
+
+#### Question 
+
+Il s'agit d'un mouvement de rotation.
+
+##### Question 2
+
+$$
+    \vec{BM} = b (\cos{\phi} \vec u_r + \sin{\phi} \vec u_\phi)
+$$
+
+Ainsi : 
+
+$$
+    v(M_{/R_B}) = b \dot{\phi} (-\sin{\phi} \vec u_r + \cos{\phi} \vec u_\phi)
+$$
+
+#### Question 3
+$$
+    \vec{OM} = \vec{OB} + \vec{BM}= (a+b \cos{\phi}) \vec u_r + b\sin{\phi} \vec u_\phi
+$$
+
+Ainsi on peut exprimer la vitesse:
+
+\begin{align*}
+    v(M_{/R}) &= \dfrac{d\vec{OM}}{dt}_{/R}= \dfrac{d((a+b \cos{\phi}) \vec u_r + b\sin{\phi} \vec u_\phi)}{dt}_{/R}\\
+    &= -b\dot{\phi}\sin{\phi} \vec u_r +(a+b \cos{\phi})\dot{\theta}\vec u_\phi+ b\dot{\phi}\cos{\phi} \vec u_\phi - b \sin{\phi}\dot{\theta}\vec u_r\\
+    &=b\dot{\theta}(-\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + b\dot{\phi}(\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + a\dot{\theta}\vec u_\phi
+\end{align*}
+
+\subsubsection*{Question 4}
+Le projectile est est lâché lorsque $\theta=\pi$ et $\phi=0$. On a : 
+\begin{align*}
+    v(M_{/R}) &=b\dot{\theta}(-\sin{0}\vec u_r+\cos{0}\vec u_\phi) + b\dot{\phi}(\sin{0}\vec u_r+\cos{0}\vec u_\phi) + a\dot{\theta}\vec u_\phi\\
+    &= (a\dot{\theta}+b(\dot{\theta}+\dot{\phi}))\vec u_\phi
+\end{align*}
+
+#### Question 5
+
+S’il n’y avait qu’un seul bras rigide de longueur $a + b$, alors le mouvement de $M$ serait circulaire et de vitesse égale à $(a + b)\dot{\theta}$. Le fait qu’il y ait une articulation augment la vitesse de $b\dot{\phi}$.
+
+##### Question 6
+
+On applique le PFD, on obtient : 
+
+$$
+y(x)=-\dfrac{g(\dfrac{x}{v_0}})^2{2}+h_0
+$$
+
+#### Question 7
+
+$$
+y(t_{max})=0\iff t_{max}=\sqrt{\dfrac{2h_0}{g}}
+$$
+
+on a finalement : 
+
+$$
+x_{max}=v_0\sqrt{\dfrac{2h_0}{g}}
+$$
+
 
 
 

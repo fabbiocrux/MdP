@@ -1,8 +1,13 @@
 ---
 title: "Cours Magistraux"
 subtitle: "Mécanique du Point"
-#page-layout: full
-toc: true
+format:
+  html:
+    theme:
+      - litera
+      - assets/custom.scss
+    toc: true
+    number-sections: true
 ---
 
 ## Planning des Séances
