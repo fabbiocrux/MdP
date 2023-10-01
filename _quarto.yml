@@ -85,7 +85,6 @@ website:
   page-navigation: true
   back-to-top-navigation: true
 
-bibliography: references.bib
 
 format:
   html:
@@ -107,12 +106,24 @@ format:
             }
           };
           </script>    
-    #css: assets/styles.css  
-  # pdf:
-  #   documentclass: scrreprt
-
+#      css: assets/styles.css  
+  pdf:
+    documentclass: article
+    fontsize: 12pt
+    number-sections: true
+    keep-tex: false
+    colorlinks: true
+    geometry:
+      - top=20mm
+      - left=15mm
+      - right=15mm
+      - bottom=20mm 
+    include-in-header:
+      - file: "assets/latex.tex"
 
 execute:
-  cache: false
+  cache: true
   echo: false
-#freeze: true
+  #freeze: true
+
+bibliography: references.bib

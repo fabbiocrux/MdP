@@ -1,8 +1,149 @@
 ---
-title: "TD 3: YYYY"
+title: "TD 4: "
 ---
-## But de la Séance
 
-## Lecture obligatoire
 
-## References bibliographiques 
+## Exercice 1 - Arme à l'ancienne
+L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre $AB$ à laquelle est fixée un contrepoids en $A$. 
+En $B$ est attachée une corde au bout de laquelle une poche contient le projectile $M$.
+
+Soit $R(O,x,y,z)$ le repère lié au sol et $R_B(B,x_1,y_1,z_1)$ le repère lié à la poutre. 
+Le mouvement a lieu dans le plan $(Oxy)$. 
+La base polaire $(\vec u_r, \vec u_\varphi)$ est liée à $RB$. On donne $OB = a$ et $BM = b$.
+
+
+
+:::: {.columns}
+::: {.column width="70%"}
+
+### Partie A
+
+1. Quel est le mouvement de $R_b$ par rapport à $R$?.
+
+2. On suppose que la corde $BM$ reste tendue. Donner l'expression de $\vec{BM}$. En déduire l'expression de $\vec v(M_{/R_B})$.
+
+3. Determiner l'expression du vecteur $\vec{OM}$.  En déduire l'expression de $\vec{ v(M_{/R})}$.
+
+
+Le projectile est est lâché lorsque $\theta=\pi$ et $\varphi=0$.
+
+4. Déterminer l'expression de $\vec v(M_{/R})$, en fonction de $a$, $b$, $\dot{\varphi}$, $\dot{\theta}$.
+5.  Montrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur $a+b$.
+
+:::
+
+::: {.column width="30%"}
+![](Figures/TD5im12.jpeg)
+:::
+::::
+
+
+
+### Partie B
+
+On étudie désormais le projectile $M$ laché avec une vitesse horizontale $v_0=200km/h$, depuis la hauteur totale du trébuchet $H=16m$. 
+On se place dans un repère orthonormé ($\vec u_x$, $\vec u_y$). 
+On considère que le projectile a une masse $m=100kg$. Les frottements sont négligés.
+
+
+6. A l'aide du PFD, déterminer l'équation de la trajectoire $y(x)$.
+
+7. En déduire la distance que parcourt horizontalement le projectile avant de s'écraser au sol.
+
+
+
+## Exercice 2 - Association de deux ressorts
+
+On place un bloc $M$ de masse  $m= 700g$ sur un rail horizontal et on le fixe aux extrémités de deux ressorts semblables $R_1$ et $R_2$ de mêmes constantes de raideur $k= 20N/m$. 
+La longueur initiale de chaque ressort est $l_{01} = l_{02} = 18cm$ et à l’équilibre, ils ont même allongement $\Delta l_1 = \Delta l_2 = 2cm$.
+
+On considère que dans cette position, le point $M$ et l'origine du repère $O$ sont confondus.
+
+
+```{r, engine = 'tikz'}
+
+\begin{center}
+\begin{tikzpicture}[black!75,thick,>=Latex,scale=2]
+% Supporting structure
+\fill [pattern = north west lines] (0,-1.5) rectangle ++(-.2,1.5);
+\draw[thick] (0,-1.5) -- ++(0,1.5);
+
+\fill [pattern = north west lines] (6,-1.5) rectangle ++(.2,1.5);
+\draw[thick] (6,-1.5) -- ++(0,1.5);
+% Spring 1
+\draw
+[
+    decoration={
+        coil,
+        aspect=0.3, 
+        segment length=1.6mm, 
+        amplitude=2mm, 
+        pre length=3mm,
+        post length=3mm},
+    decorate
+] (0,-.75) -- ++(3.5,0) 
+    node[midway,above=0.25cm,black]{$k$} node[coordinate](c1){}; 
+% Spring 2
+\draw
+[
+    decoration={
+        coil,
+        aspect=0.3, 
+        segment length=1.2mm, 
+        amplitude=2mm, 
+        pre length=3mm,
+        post length=3mm},
+    decorate
+] (3.5,-.75) -- ++(2.5,0) 
+    node[midway,above=0.25cm,black]{$k$} node[coordinate](c2){}; 
+%% Mass
+%\node[draw,
+%    fill=yellow!60,
+%    minimum width=1cm,
+%    minimum height=0.75cm,
+%    anchor=north,
+%    label=east:$m$] at (0,-3) {};
+
+%Force
+\tkzDefPoint(3.5,-.75){M}
+\tkzLabelPoint[above](M){$M$} ;
+\tkzDrawPoint(M)
+\tkzDefPoint(3,-1.25){O}
+\tkzLabelPoint[below](O){$O$} ;
+\tkzDrawPoint(O)
+\tkzDefPoint(3.5,-1.25){x}
+\tkzLabelPoint[above left](x){$x$} ;
+\tkzDrawPoint(x)
+\tkzDefPoint(0,-1.25){x1}
+\tkzDefPoint(6.5,-1.25){x2}
+\tkzDrawSegment[->](x1,x2);
+\tkzLabelPoint[below](x2){$\vv x$} ;
+\tkzDefPointWith[linear normed](O,x2) \tkzGetPoint{ux}
+\tkzDrawSegment[red,->,thick](O,ux);
+\tkzLabelPoint[below, red](ux){$\vv u_x$} ;
+
+\draw[dashed,gray] (c2) -- ++(0,0.7) coordinate(c12);
+\draw[dashed,gray] (c1) -- ++(0,-.5)coordinate(c22);
+\draw[latex-latex] (c12)-- (c1|-c12)node[midway,above]{\small $l_2$};
+\draw[latex-latex] (0|-c12)-- (c1|-c12)node[midway,above]{\small $l_1$};
+\end{tikzpicture}
+\end{center}
+```
+
+
+On écarte le bloc de sa position d’équilibre de $4cm$ dans le sens des $x$ positifs, puis on le lache sans vitesse initiale, à l’instant $t=0$. On considèrera les frottements comme négligeables.
+
+\begin{enumerate}
+    \item Déterminer les expressions des allongements de $\Delta l_1$ et $\Delta l_2$ pour chaque ressort en fonction de $x$ l’abscisse de $M$.
+    \item Appliquer le PFD sur le système. En déduire l’équation différentielle du mouvement de $M$.
+    \item Résoudre l'équation différentielle du mouvement de $M$. Comment se comporte le bloc $M$ dans le temps?
+\end{enumerate}
+\vspace{3mm}
+On immerge le système dans un liquide. Sachant que la force de frottement appliquée par le liquide sur la plaque au cours du mouvement du bloc est de la forme $\vv F_f=-\alpha \vv v$, avec $\alpha$ une constante positive et $\vv v$ le vecteur vitesse de M.
+\begin{enumerate}
+    \addtocounter{enumi}{2}
+    \item Appliquer le PFD sur le système. En déduire l’équation différentielle du mouvement de $M$.
+    \item Résoudre l'équation différentielle du mouvement de $M$. Comment se comporte le bloc $M$ dans le temps?
+    \item A partir de quel instant $t_1$ les oscillations du système restent-t-elles dans une fourchette de $1cm$ autour du point $O$?
+\end{enumerate}
+
