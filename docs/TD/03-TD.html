@@ -181,6 +181,7 @@ window.MathJax = {
   <ul class="collapse">
   <li><a href="#partie-b" id="toc-partie-b" class="nav-link" data-scroll-target="#partie-b"><span class="header-section-number">1.2</span> Partie B</a></li>
   </ul></li>
+  <li><a href="#exercice-2---association-de-deux-ressorts" id="toc-exercice-2---association-de-deux-ressorts" class="nav-link" data-scroll-target="#exercice-2---association-de-deux-ressorts"><span class="header-section-number">2</span> Exercice 2 - Association de deux ressorts</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="03-TD.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -208,35 +209,60 @@ window.MathJax = {
 <h2 data-number="1" class="anchored" data-anchor-id="exercice-1---arme-à-lancienne"><span class="header-section-number">1</span> Exercice 1 - Arme à l’ancienne</h2>
 <p>L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre <span class="math inline">\(AB\)</span> à laquelle est fixée un contrepoids en <span class="math inline">\(A\)</span>. En <span class="math inline">\(B\)</span> est attachée une corde au bout de laquelle une poche contient le projectile <span class="math inline">\(M\)</span>.</p>
 <p>Soit <span class="math inline">\(R(O,x,y,z)\)</span> le repère lié au sol et <span class="math inline">\(R_B(B,x_1,y_1,z_1)\)</span> le repère lié à la poutre. Le mouvement a lieu dans le plan <span class="math inline">\((Oxy)\)</span>. La base polaire <span class="math inline">\((\vec u_r, \vec u_\varphi)\)</span> est liée à <span class="math inline">\(RB\)</span>. On donne <span class="math inline">\(OB = a\)</span> et <span class="math inline">\(BM = b\)</span>.</p>
-<div class="columns">
-<div class="column" style="width:70%;">
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div id="first-column" class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: center;">
 <section id="partie-a" class="level3" data-number="1.1">
 <h3 data-number="1.1" class="anchored" data-anchor-id="partie-a"><span class="header-section-number">1.1</span> Partie A</h3>
 <ol type="1">
-<li><p>Quel est le mouvement de <span class="math inline">\(R_b\)</span> par rapport à <span class="math inline">\(R\)</span>?.</p></li>
-<li><p>On suppose que la corde <span class="math inline">\(BM\)</span> reste tendue. Donner l’expression de <span class="math inline">\(\vec{BM}\)</span>. En déduire l’expression de <span class="math inline">\(\vec v(M_{/R_B})\)</span>.</p></li>
-<li><p>Determiner l’expression du vecteur <span class="math inline">\(\vec{OM}\)</span>. En déduire l’expression de <span class="math inline">\(\vec{ v(M_{/R})}\)</span>.</p></li>
+<li>Quel est le mouvement de <span class="math inline">\(R_b\)</span> par rapport à <span class="math inline">\(R\)</span>?.</li>
+<li>On suppose que la corde <span class="math inline">\(BM\)</span> reste tendue. Donner l’expression de <span class="math inline">\(\vec{BM}\)</span>. En déduire l’expression de <span class="math inline">\(\vec v(M_{/R_B})\)</span>.</li>
+<li>Determiner l’expression du vecteur <span class="math inline">\(\vec{OM}\)</span>. En déduire l’expression de <span class="math inline">\(\vec{ v(M_{/R})}\)</span>.</li>
 </ol>
 <p>Le projectile est est lâché lorsque <span class="math inline">\(\theta=\pi\)</span> et <span class="math inline">\(\varphi=0\)</span>.</p>
 <ol start="4" type="1">
 <li>Déterminer l’expression de <span class="math inline">\(\vec v(M_{/R})\)</span>, en fonction de <span class="math inline">\(a\)</span>, <span class="math inline">\(b\)</span>, <span class="math inline">\(\dot{\varphi}\)</span>, <span class="math inline">\(\dot{\theta}\)</span>.</li>
-<li>Montrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur <span class="math inline">\(a+b\)</span>. \end{enumerate}</li>
+<li>Montrer que la vitesse obtenue est plus grande que s’il n’y avait qu’un seul bras rigide de longueur <span class="math inline">\(a+b\)</span>.</li>
 </ol>
 </section>
-</div><div class="column" style="width:30%;">
+</div>
+<div id="second-column" class="quarto-layout-cell" style="flex-basis: 30.0%;justify-content: center;">
 <p><img src="Figures/TD5im12.jpeg" class="img-fluid"></p>
+</div>
 </div>
 </div>
 <section id="partie-b" class="level3" data-number="1.2">
 <h3 data-number="1.2" class="anchored" data-anchor-id="partie-b"><span class="header-section-number">1.2</span> Partie B</h3>
 <p>On étudie désormais le projectile <span class="math inline">\(M\)</span> laché avec une vitesse horizontale <span class="math inline">\(v_0=200km/h\)</span>, depuis la hauteur totale du trébuchet <span class="math inline">\(H=16m\)</span>. On se place dans un repère orthonormé (<span class="math inline">\(\vec u_x\)</span>, <span class="math inline">\(\vec u_y\)</span>). On considère que le projectile a une masse <span class="math inline">\(m=100kg\)</span>. Les frottements sont négligés.</p>
+<ol start="6" type="1">
+<li><p>A l’aide du PFD, déterminer l’équation de la trajectoire <span class="math inline">\(y(x)\)</span>.</p></li>
+<li><p>En déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol.</p></li>
+</ol>
+</section>
+</section>
+<section id="exercice-2---association-de-deux-ressorts" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="exercice-2---association-de-deux-ressorts"><span class="header-section-number">2</span> Exercice 2 - Association de deux ressorts</h2>
+<p>On place un bloc <span class="math inline">\(M\)</span> de masse <span class="math inline">\(m= 700g\)</span> sur un rail horizontal et on le fixe aux extrémités de deux ressorts semblables <span class="math inline">\(R_1\)</span> et <span class="math inline">\(R_2\)</span> de mêmes constantes de raideur <span class="math inline">\(k= 20N/m\)</span>. La longueur initiale de chaque ressort est <span class="math inline">\(l_{01} = l_{02} = 18cm\)</span> et à l’équilibre, ils ont même allongement <span class="math inline">\(\Delta l_1 = \Delta l_2 = 2cm\)</span>.</p>
+<p>On considère que dans cette position, le point <span class="math inline">\(M\)</span> et l’origine du repère <span class="math inline">\(O\)</span> sont confondus.</p>
+<div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="03-TD_cache/html/fig_5902e134a02fb9883dce0effd1d29efc">
+<div class="cell-output-display">
+<p><img src="03-TD_files/figure-html/fig-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<p>On écarte le bloc de sa position d’équilibre de <span class="math inline">\(4cm\)</span> dans le sens des <span class="math inline">\(x\)</span> positifs, puis on le lache sans vitesse initiale, à l’instant <span class="math inline">\(t=0\)</span>. On considèrera les frottements comme négligeables.</p>
 <ol type="1">
-<li>A l’aide du PFD, déterminer l’équation de la trajectoire <span class="math inline">\(y(x)\)</span>.</li>
-<li>En déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol.</li>
+<li>Déterminer les expressions des allongements de <span class="math inline">\(\Delta l_1\)</span> et <span class="math inline">\(\Delta l_2\)</span> pour chaque ressort en fonction de <span class="math inline">\(x\)</span> l’abscisse de <span class="math inline">\(M\)</span>.</li>
+<li>Appliquer le PFD sur le système. En déduire l’équation différentielle du mouvement de <span class="math inline">\(M\)</span>.</li>
+<li>Résoudre l’équation différentielle du mouvement de <span class="math inline">\(M\)</span>. Comment se comporte le bloc <span class="math inline">\(M\)</span> dans le temps?</li>
+</ol>
+<p>On immerge le système dans un liquide. Sachant que la force de frottement appliquée par le liquide sur la plaque au cours du mouvement du bloc est de la forme <span class="math inline">\(\vec F_f=-\alpha \vec v\)</span>, avec <span class="math inline">\(\alpha\)</span> une constante positive et <span class="math inline">\(\vec v\)</span> le vecteur vitesse de M.</p>
+<ol start="3" type="1">
+<li>Appliquer le PFD sur le système. En déduire l’équation différentielle du mouvement de <span class="math inline">\(M\)</span>.</li>
+<li>Résoudre l’équation différentielle du mouvement de <span class="math inline">\(M\)</span>. Comment se comporte le bloc <span class="math inline">\(M\)</span> dans le temps?</li>
+<li>A partir de quel instant <span class="math inline">\(t_1\)</span> les oscillations du système restent-t-elles dans une fourchette de <span class="math inline">\(1cm\)</span> autour du point <span class="math inline">\(O\)</span>?</li>
 </ol>
 
 
-</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->

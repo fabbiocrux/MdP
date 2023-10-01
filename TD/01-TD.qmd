@@ -1,27 +1,11 @@
 ---
 title: "TD 1: Referentiel de mouvement"
 subtitle: "Objectif: Comprendre les différences entre les notions de coordonnées de **base de  projection** et de **référentiel**"
-format:
-  # pdf:
-  #   toc: true
-  #   number-sections: true
-  #   colorlinks: true
-  html:
-    number-sections: true
 ---
-
-testing sin tel /git
 
 ::: {.hero-buttons}
 [Telechargez ce TD comme pdf](01-TD.pdf){.btn-action-primary .btn-action .btn .btn-success role="button"}
 ::: 
-
-
-
-# Lecture obligatoire
-
-This is the lecture 
-
 
 
 # Exercise 1: 
