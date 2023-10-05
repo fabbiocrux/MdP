@@ -111,7 +111,9 @@ format:
           </script>    
 #      css: assets/styles.css  
   pdf:
-    documentclass: article
+    documentclass: book
+    classoption: openany
+    filters: [remove_title.lua]
     fontsize: 12pt
     number-sections: true
     keep-tex: false

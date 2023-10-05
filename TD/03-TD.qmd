@@ -1,9 +1,10 @@
 ---
-title: "TD 4: "
+title: "TD 4: Exercice sur le changement de bases"
 ---
 
+\pagestyle{fancy} 
 
-## Exercice 1 - Arme à l'ancienne
+# Exercice 1 - Arme à l'ancienne
 L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre $AB$ à laquelle est fixée un contrepoids en $A$. 
 En $B$ est attachée une corde au bout de laquelle une poche contient le projectile $M$.
 
@@ -16,7 +17,7 @@ La base polaire $(\vec u_r, \vec u_\varphi)$ est liée à $RB$. On donne $OB = a
 :::: {layout="[ 70, 30 ]"}
 ::: {#first-column}
 
-### Partie A
+## Partie A
 1. Quel est le mouvement de $R_b$ par rapport à $R$?.
 2. On suppose que la corde $BM$ reste tendue. Donner l'expression de $\vec{BM}$. En déduire l'expression de $\vec v(M_{/R_B})$.
 3. Determiner l'expression du vecteur $\vec{OM}$.  En déduire l'expression de $\vec{ v(M_{/R})}$.
@@ -35,26 +36,24 @@ Le projectile est est lâché lorsque $\theta=\pi$ et $\varphi=0$.
 
 
 
-### Partie B
+## Partie B
 
 On étudie désormais le projectile $M$ laché avec une vitesse horizontale $v_0=200km/h$, depuis la hauteur totale du trébuchet $H=16m$. 
 On se place dans un repère orthonormé ($\vec u_x$, $\vec u_y$). 
 On considère que le projectile a une masse $m=100kg$. Les frottements sont négligés.
-
 
 6. A l'aide du PFD, déterminer l'équation de la trajectoire $y(x)$.
 
 7. En déduire la distance que parcourt horizontalement le projectile avant de s'écraser au sol.
 
 
-### Solutions: Partie A
+## Solutions: Partie A
 
-
-#### Question 
+### Question 1
 
 Il s'agit d'un mouvement de rotation.
 
-##### Question 2
+### Question 2
 
 $$
     \vec{BM} = b (\cos{\phi} \vec u_r + \sin{\phi} \vec u_\phi)
@@ -66,7 +65,7 @@ $$
     v(M_{/R_B}) = b \dot{\phi} (-\sin{\phi} \vec u_r + \cos{\phi} \vec u_\phi)
 $$
 
-#### Question 3
+### Question 3
 $$
     \vec{OM} = \vec{OB} + \vec{BM}= (a+b \cos{\phi}) \vec u_r + b\sin{\phi} \vec u_\phi
 $$
@@ -79,18 +78,19 @@ Ainsi on peut exprimer la vitesse:
     &=b\dot{\theta}(-\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + b\dot{\phi}(\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + a\dot{\theta}\vec u_\phi
 \end{align*}
 
-\subsubsection*{Question 4}
+### Question 4
+
 Le projectile est est lâché lorsque $\theta=\pi$ et $\phi=0$. On a : 
 \begin{align*}
     v(M_{/R}) &=b\dot{\theta}(-\sin{0}\vec u_r+\cos{0}\vec u_\phi) + b\dot{\phi}(\sin{0}\vec u_r+\cos{0}\vec u_\phi) + a\dot{\theta}\vec u_\phi\\
     &= (a\dot{\theta}+b(\dot{\theta}+\dot{\phi}))\vec u_\phi
 \end{align*}
 
-#### Question 5
+### Question 5
 
 S’il n’y avait qu’un seul bras rigide de longueur $a + b$, alors le mouvement de $M$ serait circulaire et de vitesse égale à $(a + b)\dot{\theta}$. Le fait qu’il y ait une articulation augment la vitesse de $b\dot{\phi}$.
 
-##### Question 6
+#### Question 6
 
 On applique le PFD, on obtient : 
 
@@ -98,7 +98,7 @@ $$
 y(x)=-\dfrac{g(\dfrac{x}{v_0}})^2{2}+h_0
 $$
 
-#### Question 7
+### Question 7
 
 $$
 y(t_{max})=0\iff t_{max}=\sqrt{\dfrac{2h_0}{g}}

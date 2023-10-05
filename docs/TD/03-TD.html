@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Mécanique du Point - TD 4:</title>
+<title>Mécanique du Point - TD 4: Exercice sur le changement de bases</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,7 +131,7 @@ window.MathJax = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../TD/03-TD.html">TD 4:</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../TD/03-TD.html">TD 4: Exercice sur le changement de bases</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -164,7 +164,7 @@ window.MathJax = {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../TD/03-TD.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">TD 4:</span></a>
+ <span class="menu-text">TD 4: Exercice sur le changement de bases</span></a>
   </div>
 </li>
     </ul>
@@ -180,9 +180,17 @@ window.MathJax = {
   <li><a href="#exercice-1---arme-à-lancienne" id="toc-exercice-1---arme-à-lancienne" class="nav-link active" data-scroll-target="#exercice-1---arme-à-lancienne"><span class="header-section-number">1</span> Exercice 1 - Arme à l’ancienne</a>
   <ul class="collapse">
   <li><a href="#partie-b" id="toc-partie-b" class="nav-link" data-scroll-target="#partie-b"><span class="header-section-number">1.2</span> Partie B</a></li>
-  <li><a href="#solutions-partie-a" id="toc-solutions-partie-a" class="nav-link" data-scroll-target="#solutions-partie-a"><span class="header-section-number">1.3</span> Solutions: Partie A</a></li>
+  <li><a href="#solutions-partie-a" id="toc-solutions-partie-a" class="nav-link" data-scroll-target="#solutions-partie-a"><span class="header-section-number">1.3</span> Solutions: Partie A</a>
+  <ul class="collapse">
+  <li><a href="#question-1" id="toc-question-1" class="nav-link" data-scroll-target="#question-1"><span class="header-section-number">1.3.1</span> Question 1</a></li>
+  <li><a href="#question-2" id="toc-question-2" class="nav-link" data-scroll-target="#question-2"><span class="header-section-number">1.3.2</span> Question 2</a></li>
+  <li><a href="#question-3" id="toc-question-3" class="nav-link" data-scroll-target="#question-3"><span class="header-section-number">1.3.3</span> Question 3</a></li>
+  <li><a href="#question-4" id="toc-question-4" class="nav-link" data-scroll-target="#question-4"><span class="header-section-number">1.3.4</span> Question 4</a></li>
+  <li><a href="#question-5" id="toc-question-5" class="nav-link" data-scroll-target="#question-5"><span class="header-section-number">1.3.5</span> Question 5</a></li>
+  <li><a href="#question-7" id="toc-question-7" class="nav-link" data-scroll-target="#question-7"><span class="header-section-number">1.3.6</span> Question 7</a></li>
   </ul></li>
-  <li><a href="#exercice-2---association-de-deux-ressorts" id="toc-exercice-2---association-de-deux-ressorts" class="nav-link" data-scroll-target="#exercice-2---association-de-deux-ressorts"><span class="header-section-number">2</span> Exercice 2 - Association de deux ressorts</a></li>
+  <li><a href="#exercice-2---association-de-deux-ressorts" id="toc-exercice-2---association-de-deux-ressorts" class="nav-link" data-scroll-target="#exercice-2---association-de-deux-ressorts"><span class="header-section-number">1.4</span> Exercice 2 - Association de deux ressorts</a></li>
+  </ul></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="03-TD.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
@@ -191,7 +199,7 @@ window.MathJax = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">TD 4:</h1>
+<h1 class="title">TD 4: Exercice sur le changement de bases</h1>
 </div>
 
 
@@ -206,15 +214,15 @@ window.MathJax = {
 
 </header>
 
-<section id="exercice-1---arme-à-lancienne" class="level2" data-number="1">
-<h2 data-number="1" class="anchored" data-anchor-id="exercice-1---arme-à-lancienne"><span class="header-section-number">1</span> Exercice 1 - Arme à l’ancienne</h2>
+<section id="exercice-1---arme-à-lancienne" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Exercice 1 - Arme à l’ancienne</h1>
 <p>L’une des armes utilisée au Moyen-âge pour envoyer des charges lourdes contre les murailles était ce que l’on appelle “un trébuchet”. Il est composé d’une poutre <span class="math inline">\(AB\)</span> à laquelle est fixée un contrepoids en <span class="math inline">\(A\)</span>. En <span class="math inline">\(B\)</span> est attachée une corde au bout de laquelle une poche contient le projectile <span class="math inline">\(M\)</span>.</p>
 <p>Soit <span class="math inline">\(R(O,x,y,z)\)</span> le repère lié au sol et <span class="math inline">\(R_B(B,x_1,y_1,z_1)\)</span> le repère lié à la poutre. Le mouvement a lieu dans le plan <span class="math inline">\((Oxy)\)</span>. La base polaire <span class="math inline">\((\vec u_r, \vec u_\varphi)\)</span> est liée à <span class="math inline">\(RB\)</span>. On donne <span class="math inline">\(OB = a\)</span> et <span class="math inline">\(BM = b\)</span>.</p>
 <div class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div id="first-column" class="quarto-layout-cell" style="flex-basis: 70.0%;justify-content: center;">
-<section id="partie-a" class="level3" data-number="1.1">
-<h3 data-number="1.1" class="anchored" data-anchor-id="partie-a"><span class="header-section-number">1.1</span> Partie A</h3>
+<section id="partie-a" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="partie-a"><span class="header-section-number">1.1</span> Partie A</h2>
 <ol type="1">
 <li>Quel est le mouvement de <span class="math inline">\(R_b\)</span> par rapport à <span class="math inline">\(R\)</span>?.</li>
 <li>On suppose que la corde <span class="math inline">\(BM\)</span> reste tendue. Donner l’expression de <span class="math inline">\(\vec{BM}\)</span>. En déduire l’expression de <span class="math inline">\(\vec v(M_{/R_B})\)</span>.</li>
@@ -232,21 +240,22 @@ window.MathJax = {
 </div>
 </div>
 </div>
-<section id="partie-b" class="level3" data-number="1.2">
-<h3 data-number="1.2" class="anchored" data-anchor-id="partie-b"><span class="header-section-number">1.2</span> Partie B</h3>
+<section id="partie-b" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="partie-b"><span class="header-section-number">1.2</span> Partie B</h2>
 <p>On étudie désormais le projectile <span class="math inline">\(M\)</span> laché avec une vitesse horizontale <span class="math inline">\(v_0=200km/h\)</span>, depuis la hauteur totale du trébuchet <span class="math inline">\(H=16m\)</span>. On se place dans un repère orthonormé (<span class="math inline">\(\vec u_x\)</span>, <span class="math inline">\(\vec u_y\)</span>). On considère que le projectile a une masse <span class="math inline">\(m=100kg\)</span>. Les frottements sont négligés.</p>
 <ol start="6" type="1">
 <li><p>A l’aide du PFD, déterminer l’équation de la trajectoire <span class="math inline">\(y(x)\)</span>.</p></li>
 <li><p>En déduire la distance que parcourt horizontalement le projectile avant de s’écraser au sol.</p></li>
 </ol>
 </section>
-<section id="solutions-partie-a" class="level3" data-number="1.3">
-<h3 data-number="1.3" class="anchored" data-anchor-id="solutions-partie-a"><span class="header-section-number">1.3</span> Solutions: Partie A</h3>
-<section id="question" class="level4" data-number="1.3.1">
-<h4 data-number="1.3.1" class="anchored" data-anchor-id="question"><span class="header-section-number">1.3.1</span> Question</h4>
+<section id="solutions-partie-a" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="solutions-partie-a"><span class="header-section-number">1.3</span> Solutions: Partie A</h2>
+<section id="question-1" class="level3" data-number="1.3.1">
+<h3 data-number="1.3.1" class="anchored" data-anchor-id="question-1"><span class="header-section-number">1.3.1</span> Question 1</h3>
 <p>Il s’agit d’un mouvement de rotation.</p>
-<section id="question-2" class="level5" data-number="1.3.1.1">
-<h5 data-number="1.3.1.1" class="anchored" data-anchor-id="question-2"><span class="header-section-number">1.3.1.1</span> Question 2</h5>
+</section>
+<section id="question-2" class="level3" data-number="1.3.2">
+<h3 data-number="1.3.2" class="anchored" data-anchor-id="question-2"><span class="header-section-number">1.3.2</span> Question 2</h3>
 <p><span class="math display">\[
     \vec{BM} = b (\cos{\phi} \vec u_r + \sin{\phi} \vec u_\phi)
 \]</span></p>
@@ -255,9 +264,8 @@ window.MathJax = {
     v(M_{/R_B}) = b \dot{\phi} (-\sin{\phi} \vec u_r + \cos{\phi} \vec u_\phi)
 \]</span></p>
 </section>
-</section>
-<section id="question-3" class="level4" data-number="1.3.2">
-<h4 data-number="1.3.2" class="anchored" data-anchor-id="question-3"><span class="header-section-number">1.3.2</span> Question 3</h4>
+<section id="question-3" class="level3" data-number="1.3.3">
+<h3 data-number="1.3.3" class="anchored" data-anchor-id="question-3"><span class="header-section-number">1.3.3</span> Question 3</h3>
 <p><span class="math display">\[
     \vec{OM} = \vec{OB} + \vec{BM}= (a+b \cos{\phi}) \vec u_r + b\sin{\phi} \vec u_\phi
 \]</span></p>
@@ -267,24 +275,27 @@ window.MathJax = {
     &amp;= -b\dot{\phi}\sin{\phi} \vec u_r +(a+b \cos{\phi})\dot{\theta}\vec u_\phi+ b\dot{\phi}\cos{\phi} \vec u_\phi - b \sin{\phi}\dot{\theta}\vec u_r\\
     &amp;=b\dot{\theta}(-\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + b\dot{\phi}(\sin{\phi}\vec u_r+\cos{\phi}\vec u_\phi) + a\dot{\theta}\vec u_\phi
 \end{align*}\]</span></p>
+</section>
+<section id="question-4" class="level3" data-number="1.3.4">
+<h3 data-number="1.3.4" class="anchored" data-anchor-id="question-4"><span class="header-section-number">1.3.4</span> Question 4</h3>
 <p>Le projectile est est lâché lorsque <span class="math inline">\(\theta=\pi\)</span> et <span class="math inline">\(\phi=0\)</span>. On a : <span class="math display">\[\begin{align*}
     v(M_{/R}) &amp;=b\dot{\theta}(-\sin{0}\vec u_r+\cos{0}\vec u_\phi) + b\dot{\phi}(\sin{0}\vec u_r+\cos{0}\vec u_\phi) + a\dot{\theta}\vec u_\phi\\
     &amp;= (a\dot{\theta}+b(\dot{\theta}+\dot{\phi}))\vec u_\phi
 \end{align*}\]</span></p>
 </section>
-<section id="question-5" class="level4" data-number="1.3.3">
-<h4 data-number="1.3.3" class="anchored" data-anchor-id="question-5"><span class="header-section-number">1.3.3</span> Question 5</h4>
+<section id="question-5" class="level3" data-number="1.3.5">
+<h3 data-number="1.3.5" class="anchored" data-anchor-id="question-5"><span class="header-section-number">1.3.5</span> Question 5</h3>
 <p>S’il n’y avait qu’un seul bras rigide de longueur <span class="math inline">\(a + b\)</span>, alors le mouvement de <span class="math inline">\(M\)</span> serait circulaire et de vitesse égale à <span class="math inline">\((a + b)\dot{\theta}\)</span>. Le fait qu’il y ait une articulation augment la vitesse de <span class="math inline">\(b\dot{\phi}\)</span>.</p>
-<section id="question-6" class="level5" data-number="1.3.3.1">
-<h5 data-number="1.3.3.1" class="anchored" data-anchor-id="question-6"><span class="header-section-number">1.3.3.1</span> Question 6</h5>
+<section id="question-6" class="level4" data-number="1.3.5.1">
+<h4 data-number="1.3.5.1" class="anchored" data-anchor-id="question-6"><span class="header-section-number">1.3.5.1</span> Question 6</h4>
 <p>On applique le PFD, on obtient :</p>
 <p><span class="math display">\[
 y(x)=-\dfrac{g(\dfrac{x}{v_0}})^2{2}+h_0
 \]</span></p>
 </section>
 </section>
-<section id="question-7" class="level4" data-number="1.3.4">
-<h4 data-number="1.3.4" class="anchored" data-anchor-id="question-7"><span class="header-section-number">1.3.4</span> Question 7</h4>
+<section id="question-7" class="level3" data-number="1.3.6">
+<h3 data-number="1.3.6" class="anchored" data-anchor-id="question-7"><span class="header-section-number">1.3.6</span> Question 7</h3>
 <p><span class="math display">\[
 y(t_{max})=0\iff t_{max}=\sqrt{\dfrac{2h_0}{g}}
 \]</span></p>
@@ -294,9 +305,8 @@ x_{max}=v_0\sqrt{\dfrac{2h_0}{g}}
 \]</span></p>
 </section>
 </section>
-</section>
-<section id="exercice-2---association-de-deux-ressorts" class="level2" data-number="2">
-<h2 data-number="2" class="anchored" data-anchor-id="exercice-2---association-de-deux-ressorts"><span class="header-section-number">2</span> Exercice 2 - Association de deux ressorts</h2>
+<section id="exercice-2---association-de-deux-ressorts" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="exercice-2---association-de-deux-ressorts"><span class="header-section-number">1.4</span> Exercice 2 - Association de deux ressorts</h2>
 <p>On place un bloc <span class="math inline">\(M\)</span> de masse <span class="math inline">\(m= 700g\)</span> sur un rail horizontal et on le fixe aux extrémités de deux ressorts semblables <span class="math inline">\(R_1\)</span> et <span class="math inline">\(R_2\)</span> de mêmes constantes de raideur <span class="math inline">\(k= 20N/m\)</span>. La longueur initiale de chaque ressort est <span class="math inline">\(l_{01} = l_{02} = 18cm\)</span> et à l’équilibre, ils ont même allongement <span class="math inline">\(\Delta l_1 = \Delta l_2 = 2cm\)</span>.</p>
 <p>On considère que dans cette position, le point <span class="math inline">\(M\)</span> et l’origine du repère <span class="math inline">\(O\)</span> sont confondus.</p>
 <div class="cell" data-engine.opts="{&quot;template&quot;:&quot;../assets/tikz.tex&quot;}" data-hash="03-TD_cache/html/fig_5902e134a02fb9883dce0effd1d29efc">
@@ -318,6 +328,7 @@ x_{max}=v_0\sqrt{\dfrac{2h_0}{g}}
 </ol>
 
 
+</section>
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
